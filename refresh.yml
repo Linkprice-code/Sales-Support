@@ -1,0 +1,47 @@
+name: NAVER market and category refresh
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:40 KST (21:40 UTC previous day)
+    - cron: '40 21 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: linkprice-naver-refresh
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install bcrypt
+      - name: Sync complete Naver Commerce category catalog when authorized
+        env:
+          NAVER_COMMERCE_CLIENT_ID: ${{ secrets.NAVER_COMMERCE_CLIENT_ID }}
+          NAVER_COMMERCE_CLIENT_SECRET: ${{ secrets.NAVER_COMMERCE_CLIENT_SECRET }}
+        run: python scripts/sync_categories.py
+      - name: Sync Naver Shopping Insight click trends
+        env:
+          NAVER_DATALAB_CLIENT_ID: ${{ secrets.NAVER_DATALAB_CLIENT_ID }}
+          NAVER_DATALAB_CLIENT_SECRET: ${{ secrets.NAVER_DATALAB_CLIENT_SECRET }}
+          MAX_TREND_CATEGORIES: '180'
+        run: python scripts/sync_market.py
+      - name: Optional OpenAI analysis
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-6-luna
+          OPENAI_WEB_SEARCH: '0'
+          MAX_AI_CATEGORIES: '12'
+        run: python scripts/sync_ai.py
+      - name: Commit public data files (never credentials)
+        run: |
+          if [ -n "$(git status --porcelain data/categories.json data/market.json data/ai_insights.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/categories.json data/market.json data/ai_insights.json
+            git commit -m "Refresh NAVER market data"
+            git push
+          fi
