@@ -1,84 +1,56 @@
-# Linkprice 영업 지원 시스템 ( NAVER )
+# Linkprice 영업 지원 시스템 (MARKET) — 무료 공개 RSS 수집형
 
-네이버 가격비교 카테고리별 시장현황과 광고 전략을 탐색하는 **GitHub Pages 배포용 정적 웹앱 + 서버 없는 예약 배치**입니다.
+**네이버 API 비용 없음 · OpenAI API 비용 없음 · GitHub Pages + GitHub Actions 사용**
 
-## 현재 버전에서 바로 작동하는 기능
+이 프로젝트는 기존 네이버 전용 시장현황 API 수집을 **전 업종 공개 RSS 뉴스 수집**으로 교체했습니다. 네이버 SA·GFA 퍼널 전략과 카테고리별 수동 콜영업 스크립트는 유지합니다.
 
-- 정식으로 확인된 **네이버 최상위 12개 대분류 코드**와 **초기 탐색용 209개 편집형 중분류 예시** 제공
-- 카테고리명 실시간 검색, 대분류 필터, 페이징, 즐겨찾기
-- 업종/카테고리별 **네이버 SA** 및 **네이버 GFA** 운영 기회와 주의사항, 퍼널 설계
-- GFA 인지도·트래픽 → SA 검색 수요 포착 → GFA 카탈로그 판매 기반 리타겟팅 → 구매완료 성과 개선
-- 콜영업 스크립트는 **비어 있는 입력란**으로 제공하며 카테고리별 직접 작성/브라우저 저장/복사/JSON 백업
-- 시장지표가 없는 경우 임의의 숫자를 표시하지 않음
-- 네이버 커머스 전체 카테고리 CSV/JSON 업로드, CSV 내보내기
+## 사용 방법
 
-> **중요 — 분류 완전성:** 첨부 시점에는 네이버 커머스 API 인증이 없어 **공식 전체 중분류를 실제로 가져오지 못했습니다.** 209개 편집형 중분류는 검색 화면 동작을 위한 **예시**이며, 네이버의 공식 전체 중분류와 일치함을 보증하지 않습니다. `NAVER_COMMERCE_CLIENT_ID`/`SECRET`을 등록하고 자동 업데이트를 실행하면 공식 전체 카테고리 API에서 목록을 받아와 대·중분류를 정리합니다. 데이터가 불완전할 경우 기존 자료를 덮어쓰지 않습니다.
+1. 이 ZIP의 **전체 폴더 구조**를 GitHub 저장소 **루트**에 올립니다. `index.html`과 `data/categories.json`, `data/news.json`, `.github/workflows/market-news.yml`, `scripts/collect_public_news.py`가 모두 필요합니다.
+2. 이전 프로젝트의 `.github/workflows/refresh.yml` **및 기존 NAVER API 수집 워크플로를 삭제**합니다. 구버전 자동 실행이 유지되면 API 호출이 계속 발생할 수 있습니다. (이 ZIP에는 포함되지 않습니다.)
+3. Settings → Pages → **Deploy from a branch** → `main` → `/(root)`.
+4. 저장소 **Actions → FREE Market News RSS Refresh → Run workflow**를 한 번 실행합니다. 정상 수집 시 `data/news.json`이 자동으로 갱신되고 GitHub Pages에도 반영됩니다.
+5. 이후 **한국시간 매일 약 06:40** 실행되도록 예약되어 있습니다. GitHub Actions 일정 실행은 지연되거나 비활성화될 수 있으니 가끔 Actions 로그를 확인하세요.
 
-## 빠른 배포 — GitHub Pages
+### 주의: GitHub 웹 업로드와 ZIP
 
-1. 이 ZIP의 모든 파일 및 숨김 폴더 `.github`를 새 GitHub 저장소 루트에 업로드합니다.
-2. GitHub 저장소 → **Settings → Pages** → `Deploy from a branch`, `main`, `/ (root)`로 설정합니다.
-3. 발급된 `https://계정.github.io/저장소/`로 접속합니다.
-4. 초기 버전은 API 키가 없어도 작동합니다. 브라우저에서 `index.html` 파일을 바로 열어도 예시 카테고리 목록은 표시됩니다.
+ZIP 안의 파일들을 **압축 해제**한 다음 전체 디렉터리를 업로드해야 합니다. `data` 폴더나 `.github` 숨김 폴더가 빠지면 자동 갱신이 되지 않습니다. 단, 스타일·기본 기능은 `index.html` 파일에 포함되어 있어 CSS 파일 누락으로 화면이 깨지는 문제를 피했습니다.
 
-## 공식 API 연동 (선택적이며 API 자격이 있어야 가능)
+## 수집 데이터
 
-GitHub → **Settings → Secrets and variables → Actions** → **New repository secret**에 아래 값을 개별 저장합니다. **HTML/JS/JSON에 API 비밀키를 절대 넣지 마세요.**
+- Google 뉴스 검색 RSS: 카테고리별 최신 기사 **제목, 출처, 발행일, 링크**. 비공식·비문서화된 RSS 검색 주소로 정책 변경 또는 차단 시 작동하지 않을 수 있습니다.
+- 뉴시스, 매일경제, 인더스트리뉴스 등 **공개 RSS**: 기사 제목의 카테고리 관련성을 확인해 보완합니다.
+- KOSIS의 공개 RSS: 최신 통계자료·동향 **공지/제목** 링크를 보완합니다. **실제 시장규모의 수치 통계를 제공하는 연동은 아닙니다.**
+- 언론 기사 **본문은 크롤링·복제하지 않습니다**. 원문 링크를 통해 확인합니다. 정보 제공자의 게시/저작권 정책을 준수해야 합니다.
+- 자동화 서버는 원문 페이지를 대규모 스크래핑하지 않습니다. 무료 RSS도 향후 접근 제한·속도 제한이 발생할 수 있습니다.
 
-| Secret | 용도 | 발급 사이트 |
-|---|---|---|
-| `NAVER_COMMERCE_CLIENT_ID` | 네이버 공식 전체 카테고리 조회 | https://apicenter.commerce.naver.com |
-| `NAVER_COMMERCE_CLIENT_SECRET` | 네이버 커머스 OAuth bcrypt 서명 | 같은 사이트 |
-| `NAVER_DATALAB_CLIENT_ID` | 네이버 쇼핑 클릭 추이 | https://developers.naver.com |
-| `NAVER_DATALAB_CLIENT_SECRET` | 쇼핑인사이트 API 인증 | 같은 사이트 |
-| `OPENAI_API_KEY` | 선택된 업종의 AI 요약 생성 (유료, 선택) | https://platform.openai.com/api-keys |
+## 데이터 해석 원칙
 
-- **Actions → NAVER market and category refresh → Run workflow**를 누르면 즉시 수동 실행됩니다.
-- 이후 GitHub Actions가 **매일 06:40 KST(UTC 21:40)**에 실행하도록 예약되어 있습니다. GitHub Actions 스케줄은 지연될 수 있습니다.
-- 네이버 커머스 API 인증에 대한 이용 권한이 없으면 공식 카테고리 조회가 실패합니다. 해당 권한은 네이버 커머스 API 센터에서 확인하세요.
-- 마켓 트렌드 기본 조회 대상은 **최상위 분류 + 선택된 중분류를 우선**하고, 나머지를 포함해 **최대 180개**입니다. `MAX_TREND_CATEGORIES` 환경변수로 조절할 수 있지만 API 호출 제한과 비용/속도를 고려하세요.
-- 쇼핑인사이트 결과는 **클릭량 상대지수**이고 시장 매출·검색량·실제 광고 전환을 뜻하지 않습니다.
-- OpenAI 분석은 비용 관리를 위해 기본 **12개 업종만** 처리하며 `MAX_AI_CATEGORIES`로 조절합니다. `OPENAI_WEB_SEARCH=1`이면 유료 웹 검색을 켭니다. 웹 검색을 켜지 않으면 시계열 데이터/가설만 사용하며 최신 뉴스라고 표현하지 않습니다.
-- 발급한 API 키를 대화창, 웹 페이지 또는 커밋에 올리지 마세요.
+- **기사 수 ≠ 시장규모/상품 판매량/네이버 검색량/광고 ROAS**. 기사 제목을 바탕으로 나타나는 이슈만 참고하고, 실제 시장 수치가 확인되지 않으면 표시하지 않습니다.
+- 관련 기사 자체가 없거나 수집이 실패할 수 있습니다. 뉴스가 없으면 **없음**으로 표시하며 허위 데이터를 만들지 않습니다.
+- 카테고리별 SA/GFA 운영 제안은 **영업 준비용 가설**이지 실증된 효과나 AI 실시간 분석 결과가 아닙니다.
+- Google News RSS는 구글에서 공개하는 RSS이지만 검색 RSS 구문이 공식 문서화된 API는 아니므로 안정성이 보장되지 않습니다.
+- 카테고리 목록은 **12개 대분류 및 209개 탐색용 중분류**를 유지하며, 네이버 가격비교의 전체 공식 분류라고 주장하지 않습니다. 자체 CSV/JSON 업로드를 통해 확장할 수 있습니다.
 
-**자동화 구성**
+## 데이터 갱신 범위와 빈도
 
+- 매일 대분류 전체 + 중분류 최대 **38개 순환** + `data/focus_categories.txt`에 지정한 우선 업종(최대 16개)을 수집합니다.
+- 예시 209개 중분류가 모두 적어도 한 번씩 갱신되려면 여러 번의 예약 실행이 필요합니다. 일부 업종은 기사 자체가 없을 수 있습니다.
+- 뉴스 결과는 `data/news.json`에 저장합니다. 수집에 전부 실패하면 이전 JSON을 보존합니다.
+- `MAX_CATS_PER_RUN`을 늘리면 더 많은 업종을 조회하지만 RSS 제공자 서버에 부담을 줄 수 있습니다. 기본값은 정중한 속도를 위해 보수적으로 제한했습니다.
+- JSON은 GitHub 저장소에서 공개될 수 있습니다. **고객 개인정보 또는 비공개 보고서/광고 계정 데이터를 넣지 마세요**. 개인 콜 스크립트는 해당 브라우저의 `localStorage`에 보관되며 팀원과 자동으로 공유되지 않습니다.
+
+## 비용
+
+- OpenAI / NAVER API 키는 **사용하지 않습니다**. 별도 유료 API 호출 요금은 없습니다.
+- GitHub Pages와 Actions는 플랜/저장소 유형에 따라 제한·사용량·과금 정책이 있으므로 GitHub 계정의 무료 제공 범위와 설정을 확인하세요.
+- 이 시스템은 ChatGPT 채팅과 실시간 연결된 것이 아닙니다. AI가 매일 자동으로 글을 새로 쓰는 기능은 없습니다. **기사 제목 기반 규칙 분류와 미리 작성된 광고 전략**을 제공합니다.
+
+## 실행 점검
+
+```bash
+python scripts/collect_public_news.py
+python -m unittest discover -s tests -v
 ```
-.github/workflows/refresh.yml
- ├─ scripts/sync_categories.py   # 정식 네이버 커머스 전체 분류 GET /v1/categories
- ├─ scripts/sync_market.py       # 네이버 쇼핑인사이트 POST /shopping/categories
- ├─ scripts/sync_ai.py           # OpenAI Responses API, 옵션
- └─ data/*.json                  # 갱신 결과 정적 사이트에 반영
-```
 
-## 대량 카테고리 관리
-
-- 공식 연동을 하지 않아도 **데이터 센터 → 카테고리 CSV/JSON 불러오기**로 전체 카테고리를 즉시 등록할 수 있습니다.
-- 네이버 커머스 API의 JSON 원본 배열 `[{"id":"...","wholeCategoryName":"대분류>중분류>소분류",...}]` 또는 `{"categories":[...]}` 형태 지원.
-- CSV는 `id,wholeCategoryName` 또는 `대분류,중분류` 형태 지원.
-- 업로드는 **해당 브라우저에만 적용**됩니다. 그룹 전체 공유를 원하면 `data/categories.json`을 갱신해 저장소에 반영해야 합니다.
-- 하위 분류를 많이 읽어 오더라도 UI에서 **대·중분류만 표시**하고 검색·페이지 분할 처리합니다.
-
-## 영업 노트의 저장 방식 및 보안
-
-- 모든 스크립트 입력값은 브라우저의 `localStorage`에 저장됩니다. 다른 사람, 다른 기기나 브라우저로 자동 공유되지 않습니다.
-- JSON 다운로드/복원으로 이동할 수 있으나 **개인정보, 광고주 비밀정보, API 키**는 작성하지 마세요.
-- **GitHub Pages 기본 배포 URL은 일반적으로 공개됩니다.** 내부 전용 시스템으로 쓰려면 인증된 호스팅/접근제어를 추가해야 합니다. HTML에 로그인 폼만 붙이는 것으로는 보호되지 않습니다.
-
-## 다음 고도화 단계
-
-1. 실제 API 발급·권한 확인 후 **공식 중분류 전체 동기화** 성공 테스트
-2. 쇼핑인사이트 API 1,000회/일 등 제한을 고려해 **증분 업데이트 및 대량 배치**
-3. 네이버 광고 성과 보고서/API 데이터와 합산해 업종별 CPC·CVR·ROAS 통계 (광고주 내부 데이터는 인증된 저장소로)
-4. 그룹원 계정·권한·공동 스크립트 관리 (Supabase 또는 보호된 백엔드)
-5. AI 결과 검수/승인·근거 URL·수정 기록·분석 신뢰도 표기
-
-## 데이터 출처
-
-- 네이버 커머스 전체 카테고리 API: https://apicenter.commerce.naver.com/docs/commerce-api/current/get-category-list-product
-- 네이버 공식 쇼핑인사이트: https://developers.naver.com/docs/serviceapi/datalab/shopping/shopping.md
-- 네이버 광고주센터: https://ads.naver.com/
-- 네이버 카탈로그 판매: https://ads.naver.com/help/faq/1379
-- OpenAI Responses API: https://platform.openai.com/docs/api-reference/responses
-
-상단 출처는 **해당 정보를 가져올 공식 연결 경로**입니다. 초기 예시 중분류나 정성적 광고 전략을 네이버가 직접 제공하는 사실 데이터로 오인하지 마세요.
+수집 로그는 GitHub Actions 실행 탭에 남습니다. 최초 배포 전에 `index.html`을 단독으로 열면 일부 브라우저에서 `data/news.json` 읽기가 차단될 수 있으므로 **GitHub Pages URL**에서 확인해 주세요.
