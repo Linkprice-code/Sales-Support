@@ -1,8 +1,10 @@
-# 네이버 시장분석을 우선 업데이트할 중분류 ID 또는 이름을 한 줄에 하나씩 기재하세요.
-# 실제 카테고리는 공식 목록 연동 후 이곳에 공식 중분류 ID로 입력하는 것을 권장합니다.
-건강기능식품
+# High-priority categories to refresh on every run (matching visible category names).
+# You can add or remove names as your sales portfolio changes.
 세탁기
 건조기
-가전렌탈
-침실가구
-거실가구
+냉장고
+소파
+침대
+건강기능식품
+영양제
+화장품
