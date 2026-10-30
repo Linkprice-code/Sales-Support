@@ -1,10 +1,1482 @@
 {
   "metadata": {
     "source": "public_rss",
-    "updated": null,
-    "status": "not_collected",
-    "description": "공개 RSS 기사 제목·링크 자동수집. 뉴스 언급 수는 시장 규모/검색량이 아닙니다.",
-    "errors": []
+    "updated": "2026-10-30T10:02:07+09:00",
+    "description": "RSS 기사 제목·발행일·출처·링크. 네이버/오픈AI/유료 API 미사용. 기사 건수는 실제 시장규모 아님.",
+    "status": "ok",
+    "processed_categories": 57,
+    "google_news_checks": 57,
+    "publisher_feeds_ok": 6,
+    "errors": [],
+    "news_count_newly_matched": 173,
+    "catalog_scope": "starter_preview; not verified full NAVER catalog"
   },
-  "items": {}
+  "items": {
+    "50000000": {
+      "name": "패션의류",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000001": {
+      "name": "패션잡화",
+      "parent": "패션잡화",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "대구신세계, 3층 패션잡화 매장 새 단장…신규 브랜드 입점 - 경북매일",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wTGUwWkpncmdmNEhQZVl5S2oxTXFQejRuMkU4MjNETXRGeXlVVmNMQXI2aUgzZ0ppbGN4MVo5cFFlTDVIb0JXUHQybFVMc195VmJNQUtGdTNvZw?oc=5",
+          "source": "경북매일",
+          "published": "2026-10-28T14:51:00+09:00"
+        },
+        {
+          "title": "대구신세계, 3층 패션잡화 매장 리뉴얼…데우스·스와치 입점 - 경북일보",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UVEtpeEtMRjI5UVE0MmlPX0tUV2xyMUM3eXVodFg3MkxHLVNidXJTMWNmTjRibk9LMnYwOVJ4SDBKQWVzbHdETnZlWnhkVE9LRkpiXzdsNDM1aDJTa1NZcHMzM2JSNHZJM0JqSXRHOA?oc=5",
+          "source": "경북일보",
+          "published": "2026-10-27T18:00:00+09:00"
+        },
+        {
+          "title": "패션잡화 전문브랜드 모어아시아, 남녀공용 방한 넥워머 니트 2.0 PRO 출시 - 피앤피뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE03aHRKX09lTDVLQkU4QnRWZ3pBeDJ2US1SR2l6Y0xaLU1PdjJGY082UFNHMWRWYl9wV1dpQnNlbE4xUDk1UjljRE10NV9hdTZQQmFvUnk0ekFwbGhGdlE?oc=5",
+          "source": "피앤피뉴스",
+          "published": "2026-10-22T14:30:20+09:00"
+        },
+        {
+          "title": "무신사, 청량리에 ‘패션 잡화 성지’ 만든다 - 이뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02RnV1WVRwUjNLR1ZKdmtBSmFMTHZLeXB0eG1oOVFJaU9PZFRibG4zcUVuUkxmZnZLX3BwYlBTY2hoMjZZdm1oYnQtb3RyMTl1VnNwVTJnX19kN0FTMGtCTUg2U3kzTkxwV2ZiVmMxdVLSAXRBVV95cUxQeENWX0xWMkZmYzB2TUNTWnRmcnd4a2pIY29pQkF2VFAyNmtqdmZubkQ4ejQ0ZDlWR25WQXRsRG16M3pPMlhUYmlNajJWU0VnYTNXS24xMXk2b3RKenJ4aEpnUDQzVENNQzY3cEF3b1RxZDI4dw?oc=5",
+          "source": "이뉴스투데이",
+          "published": "2026-10-22T08:55:00+09:00"
+        },
+        {
+          "title": "[패션잡화 트렌드] 메종 마르지엘라, 파리 패션위크서 SS27 컬렉션 ‘HARD and SOFT’ 공개 外 - 베이비뉴스",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xeC1nOHBhUU9PUG80WjNPSjF3VHRGN04zbF9mZVByRS02T3JOWVdWek1jN29ySjJqVkpleDItQ2NqdTRTLXRLbGQ3bVlHaFdlMW1jTUYyRnVVZk9aLWV0akpqN2hSUF9RTUxsUQ?oc=5",
+          "source": "베이비뉴스",
+          "published": "2026-10-08T16:00:00+09:00"
+        },
+        {
+          "title": "'패션 잡화 소매' 이스트엔드, 코넥스 상장 신청 - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lMHg0NUVZcjBXa1ZBT2gxWVR2X01XbnVLQmJtNS1rVEtGb3RudVRETm5Lc2N2UlhJaU9RcjNlZjZET2hNWkNaaXNpVDQwRktDZ0g2SS1vYnd6ckHSAWBBVV95cUxNTzlQTXJoUGNPd01jMllwSFFvOW9jTjFFM0kxMkx3TDlDdThfb1MyclRYU1FWWTRmaVpLaHI0S2YweVVhdS1tTVk0RC1uaGdyUGZ2cWd4NWFITEZkbmExbFU?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-10-01T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000002": {
+      "name": "화장품/미용",
+      "parent": "화장품/미용",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000003": {
+      "name": "디지털/가전",
+      "parent": "디지털/가전",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000004": {
+      "name": "가구/인테리어",
+      "parent": "가구/인테리어",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000005": {
+      "name": "출산/육아",
+      "parent": "출산/육아",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000006": {
+      "name": "식품",
+      "parent": "식품",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "[오늘의 주요일정]농림축산식품부(10월30일금요일)",
+          "url": "https://www.newsis.com/view/NISX20261029_0003845575",
+          "source": "뉴시스 경제",
+          "published": "2026-10-30T06:00:00+09:00"
+        },
+        {
+          "title": "식품진흥원, 제주서 'K-할랄푸드 수출지원 로드쇼' - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Nck9NRWNpbm5NQV94QmpGdkoyU1pRRV91STh5UHF2bmJGZWVWQVVsQTgtWXFkZXRQT0JYSENZb0N3Q0F0b3V6MDg2NDJyM3piVHNZQy1menBKNFXSAWBBVV95cUxPVVVMdkpnaDdqY3dTalJFWFJDYjBtZktWd0FmcUNzTHpsX09teVFiSFYtVW1KWGE1SWJMT1BON1EwV3Q3ZmJrRm1hUHl1eGxjQUZMYldUR1B2c1VxM05ySk4?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-10-29T16:29:37+09:00"
+        },
+        {
+          "title": "서울우유협동조합, ‘저당 유제품’ 포트폴리오 확장 속도…저당 식품 시장 규모 약 40% 증가 - 시사캐스트",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkbVNlbU1sTWx5MTVfR1BFNjNxMkNPTWNGZDJKOVBDdjB4eG9aMmF6b3hkcTdIb3JKYUxpR2NueEQ1YTlPZHJrMDV1TFhJcnJxdHNYTjJ6OUhiMUVBRXRJQmNZTFBkOTVE?oc=5",
+          "source": "시사캐스트",
+          "published": "2026-10-29T16:28:16+09:00"
+        },
+        {
+          "title": "[동향] 인도 즉석식품 시장 - 식품저널 foodnews",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wdDBfX0M5MTY5OUY1d0U2MExUWjVjOWJlQXYyWFhfaWZRS05QVUxGek5GZWZCVzJ5ZWNvUWJ2aFF6Zkk3RkdvZ0xYNHdleGdSdTV5YUJqQUJ4R3BmQ0U3amZTd254SDR0T2lnUk1B?oc=5",
+          "source": "식품저널 foodnews",
+          "published": "2026-10-29T14:36:36+09:00"
+        },
+        {
+          "title": "일본 진출 원하는 쌀 가공식품 기업 모집해요 - 전업농신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wTkdaOHJWWDhOUWV6N3ZsVDRuMXhuVnJ1WnctanJGS2hXaFRVckJYVUN0YzREVUtmVWVGRUZEZ2Q3eVExR3dpeHJoeGM1V0hOci1rVlpFLUhHSW04cVc1NWhMeFJhM1A1ZmJuXw?oc=5",
+          "source": "전업농신문",
+          "published": "2026-10-29T14:15:00+09:00"
+        },
+        {
+          "title": "국내 1호 ‘수산식품수출단지’ 목포에 준공 - 식품저널 foodnews",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RRmo3SlNrVzNsS0xGeUV6MGxHc2d0ZTBEQkptWEFhM0RNNExOZGNSS1VlaUdJYk9XZjhYR2R6YVNMRDZiR0pST211TW5SQmRmSXJENHhkMkU0REw3ZFdNOUpjVkptTzBEcXF6bVd3?oc=5",
+          "source": "식품저널 foodnews",
+          "published": "2026-10-29T13:54:27+09:00"
+        },
+        {
+          "title": "김포 학교 주변 식품판매업소 448곳 관리…어린이 먹거리 안전점검 강화 - 중부일보",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jQWNpUXhOQ2tsb0IyTnllanEtTnlRd19kNEZhemYyT2JGNTFoZVEwS1dzVVVuMHljUGZib0xaX3Zlb185ZmRTVXZ1ZUtNak56VDYzZnJEYVpRYWtXaUh3VTFtTUk0dVhCUEJJbXlWVQ?oc=5",
+          "source": "중부일보",
+          "published": "2026-10-29T13:38:00+09:00"
+        },
+        {
+          "title": "'집중력·키' 광고 직구식품 60개 중 37개 위해 성분…판매 차단 - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fRXZwZVhoSDRwR0I0M3lIYVVtOC1aYVVhNndQN2xYWk5KdVhWMFJJS21iMFFhSkw3SlBtYV9TT0UyWjBkY2xoWlZuc2NuWi1vaTMzQ1IzeVNIM03SAWBBVV95cUxONFY2RHZIdUdjTHFtbE43bDAwSkxuYmpaN1JhRmNDb0JrZTB6TkppNHZTcHdYSW8zWFNzV2JxV1pHZWN3SHNJclkyYTRPMXRkZEZXZ3J6SFhyekN2Vm5vTXE?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-10-29T12:00:08+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000007": {
+      "name": "스포츠/레저",
+      "parent": "스포츠/레저",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000008": {
+      "name": "생활/건강",
+      "parent": "생활/건강",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000009": {
+      "name": "여가/생활편의",
+      "parent": "여가/생활편의",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50000010": {
+      "name": "면세점",
+      "parent": "면세점",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "한국관광공사, 관광기념품 유통 확대…면세점·약국 입점 추진 - 뉴스트래블",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WblJoUFl5RWNQemJFaGZONkppSU0tSExwdGpaVmd5aGthMEtGTEZyZGdRbFB4Ul9XUDAzMl8wNV9CR2ZvRHBCdEFIbTN1dklNbVFvalJSak1YZE0xdUVOc3Z4ZTVJdw?oc=5",
+          "source": "뉴스트래블",
+          "published": "2026-10-30T09:55:44+09:00"
+        },
+        {
+          "title": "한국관광공사, 우수 관광기념품 유통망 확대…면세점부터 약국까지 K-굿즈 판매 강화 - 뷰티트래블뉴스",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOam1IZzJRM2dHZThtOVJNTnZvZ2hCaC1QekYzWkxEMGlHWE96Z1VzZXZEYXNLQm5FSmlJeWdTbDJTc3pIaXFCTXNxWlJ3bTVzU1hRbHNsNFI5YzY2elRraFpwT2I4VkRaNVE0akFydDBuaThJLVpWX0swZXpZQ194MWMyVQ?oc=5",
+          "source": "뷰티트래블뉴스",
+          "published": "2026-10-30T09:26:45+09:00"
+        },
+        {
+          "title": "면세점·약국에 들어선 K-굿즈…관광공사, 관광기념품 판로 확대 - 한국경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qWGVaWnB1RGtmUkxHY2RIX2FQeTE1TzJmUnVjUWVEU3p0YzV4bG5sMEExcVY3MDkyWlExRzVRdWg4eVRpMzRMZUtjOHRST3NOZkpHTldlSFdOQQ?oc=5",
+          "source": "한국경제",
+          "published": "2026-10-30T08:25:49+09:00"
+        },
+        {
+          "title": "지역관광과 함께하는 면세점 할인…'코리아 듀티프리 페스타' 개막 - 뉴시스",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsajVyNEZHWXZwbTJ0TE8wT2pMWG1paFF2OXpJdTlrT0xidmRLaG8zWWFHemtxODVpUzgyOHZmR3R6dEhNYUtRME45UTBEV0Mxa3BFOVBPYmsxNXl6UGNxNkJ2QnpvOXZkSm1VUm1OY1ZEUHJKbFp3NNIBeEFVX3lxTFBsajVyNEZHWXZwbTJ0TE8wT2pMWG1paFF2OXpJdTlrT0xidmRLaG8zWWFHemtxODVpUzgyOHZmR3R6dEhNYUtRME45UTBEV0Mxa3BFOVBPYmsxNXl6UGNxNkJ2QnpvOXZkSm1VUm1OY1ZEUHJKbFp3NA?oc=5",
+          "source": "뉴시스",
+          "published": "2026-10-29T13:26:21+09:00"
+        },
+        {
+          "title": "코리아 듀티프리 페스타 개막…전국 면세점 최대 25% 할인 - 푸드투데이",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTRl80RWFMTEs4Q3IwNWhSTnZzWm9zTklRcmZPcFF6M0pFbEd2b2FCeHZGdlotZDFiYnB3b21SZndsQ0xtazBILWZxNFIxVlh1MEdsbUhaOTVRUjVJbDVPcWJEaG9jZw?oc=5",
+          "source": "푸드투데이",
+          "published": "2026-10-29T10:42:13+09:00"
+        },
+        {
+          "title": "관세청, `26년 면세점 쇼핑 축제 ‘코리아 듀티프리 페스타’ 개막…‘최대 25% 할인’ 혜택 - 세정일보",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HUlFVVG91T0ttT3BNc1RaT2hfQ0VxR0Jic1d4bnVhTjFMM3FRbDFnWktGM282akRCSml6ajhkNFdla3pzYkc0ZzdtQktkUDFxc2tKX2o4c1RYc1Y0cDR0bzdiVjBhSndhYU00MQ?oc=5",
+          "source": "세정일보",
+          "published": "2026-10-29T09:45:06+09:00"
+        },
+        {
+          "title": "면세점 할인 최대 25%…‘코리아 듀티프리 페스타’ 18일간 개최 - 이투데이",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKeF9WQ1doRkNVTHczYmk2YnUzdUVkVEdwWjZ0S2w5Q20zNl9QUDE2Qk5nejZ6TEhIOVM2NlFtM19LeE80cGJNYmZEd0ExZEgzNUs0Wg?oc=5",
+          "source": "이투데이",
+          "published": "2026-10-29T09:38:00+09:00"
+        },
+        {
+          "title": "신세계면세점, 일본인 겨냥 맞춤 마케팅 강화…면세 쇼핑 혜택 확대 - 뉴스퀘스트",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40Tjcxa0Y0cUktVGZZRUlFQTA1Y3RKQUNGdjZxeVNSWjJ3QUUwenZjNU1UX3RjQko5MmwybGVacjBlSnJNQWJGSElETkE3ZzlkdkZjRWFrLVRDMXZLNW1YLTREc3dWUkhxcTI2UzBBYw?oc=5",
+          "source": "뉴스퀘스트",
+          "published": "2026-10-28T14:45:12+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "50005542": {
+      "name": "도서",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "롯데홈쇼핑 시각장애 아동 음성도서 제작사업 '드림보이스'에 배우 권유리 동참 - 비즈니스포스트",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMRmpKcnFIUDFXM3FhUkxONEdmZTFwZnZqS19ad3R0endfakJmQmM4a0I1RHRrODVieHo0MVhJaVB4aG5IMUhNa0pGeWpxWWZGTFdVOVFJcC1TYklfZjZST283REpEckN5Wk1wa0xwd3NJRzA?oc=5",
+          "source": "비즈니스포스트",
+          "published": "2026-10-30T09:11:12+09:00"
+        },
+        {
+          "title": "롯데홈쇼핑 음성도서 제작 사업 '드림보이스'에 권유리 재능기부",
+          "url": "https://www.newsis.com/view/NISX20261030_0003847634",
+          "source": "뉴시스 산업",
+          "published": "2026-10-30T08:37:49+09:00"
+        },
+        {
+          "title": "청소년 도서 컬렉션 출시: 책을 통해 젊은이들의 꿈을 키워나갑니다. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbnJBOEk3X0JwUDhMX1VZcS16ZERCRHZNSkMwcDFCbzZqM2xWTVA4QUE4UjQxcWxNZDQ3dVYyX3lfQmp1ZzBTS2dFMmpfUl94ZnVSUDRZakxsRWw0V1RFak10RnA4ZlMyaUdQeHl3S3dNc00zVmUyeHBIUzlnb2ZLUnFGdDVTMzcwRHZwZ3hjc0UybEZQRjYtZ1BPTWhRMUowOUxV?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-10-29T18:40:19+09:00"
+        },
+        {
+          "title": "종이의 변신, 책이 된 한지…교보문고서 특별한 도서 11종 만난다. - 뉴스탭",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQR2d0OGV0T0dLYjQ2R0ZYcEtvel9pVWh6UGxxcC1BMnB5U2tiV241WG91aFJTTkFNNS1FUEppcnVYMGdKUTRiSDFwZ3RvM2Z2YmQwc2tQcnBxYlRvdXM4WnVuWkU1YkxRVzhZaQ?oc=5",
+          "source": "뉴스탭",
+          "published": "2026-10-29T11:19:52+09:00"
+        },
+        {
+          "title": "일상에서 만나는 한지 ‘2026 한지도서 특별전’ - 우리문화신문",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15S1BqNHJuMXI5NDRzLU9hbjAySzh1RktERmlOZlpmbUttVnVVZzFYeV9ObUVZVGgtbkF2aU0tZ0Z4cGpacFI3Z2w2Wjl0blZTTWZEeGpUWXdqWTgwWTZIU3NPYkZEdmc?oc=5",
+          "source": "우리문화신문",
+          "published": "2026-10-29T10:53:20+09:00"
+        },
+        {
+          "title": "‘2026 한지도서 특별전’, 11월 교보문고 광화문점서 개최 - 브레이크뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9ET1FjUS1PWjJtbE1vYlRjRzdGU0dCV25OR3NCalY5ZTZ2WlZhNDZKMWFGdEktYzRVUkNZRmZybWkyZw?oc=5",
+          "source": "브레이크뉴스",
+          "published": "2026-10-29T10:11:00+09:00"
+        },
+        {
+          "title": "독일 독립 서점들, 신간 도서 사전 판매에 항의 - Foro3D",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdTZ1M3d1Z0tVblk2SFBmTnFkNTBqdDNvNnc4Wkp0OS1UZnFGNlpOMUphZU5uXzJodDhGYUtxVE5QOXVMMm1qRGNmZ1dWenNqbE83LVdHR1EwQnpwMk5kWWpMeFVmeHJ0OVloOXJPV19Ua1VpaDF3REcwZVJOczA1VnpzTG4ydlhlN2R0Tnp6dV9lRXYzTmhlNXZ4bmZDc2xDXy1qUDFSUlRESUhrQ200?oc=5",
+          "source": "Foro3D",
+          "published": "2026-10-29T06:54:52+09:00"
+        },
+        {
+          "title": "슈빌리라뤼에서 어린이 장난감·도서 벼룩시장 열려 - Sortir à Paris",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNHg3cktiRnZzcTBhZlc0VnhsTGxQdTZVY2UtbzBhY0lmbFBoYko2ekduNDBWY25FaTctOFZGVDhXVER4bEFnelIxRkU1dmhHUGQwdW1FWC1JTWpqUWlBOU1YVks0U2RmemgtNmNfTERUbFJVYTJKZ0I3aVBRT0lwbDg3NlA1QjZLTUFJMTBDVG1kWlVRbFM0QlJLMW0wLXVjcUMzdTYyRmcwdG5lVXBiOFpKVEtfVEZmM1JxdHJZS3Z3Y0R0TzJoMDNWR214Y2hQUGt4RjdTVQ?oc=5",
+          "source": "Sortir à Paris",
+          "published": "2026-10-29T02:12:25+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000003-003": {
+      "name": "냉장고",
+      "parent": "디지털/가전",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "김치냉장고도 대형·소형으로 양극화…김장철 앞두고 구매 수요 확대 - 데일리안",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQWXY3cGdtUEZ2LXFkM0xxU3c0TnNrbncyNHRDdDhEd21Qazd2VVUzYzR3dFlLYmlHUGJvZmQtdmFqanA4SGw3OWJIS282QldfT2MzYlpHNVhhSDE0NF9seV9VY21CWC1zVGFFSkhpZ2dzUHNWRTNURng5cGF5ZVBpZC1pMkxtN2NBX0xCMS1qMWtqMk9LalR3UmVEbU5IYjgyU0tRNjZzd2hYREhjbF8zMnc5VWxUb202bWlDYjhVVmtmUlh5WlRpMG9WUlM0VTRGaHEyQm1QRi16TkRMZkpSWG5FSnNDQkZ4am8xaVVIQzZ1SVZOWlE2SmFScGpzeGpfZ0p3MUViandTVmR2a1ZPYnEyWlAwdUo2bm94MlJVZEtpWXc3NXlyZVpva1Zrdw?oc=5",
+          "source": "데일리안",
+          "published": "2026-10-29T16:21:00+09:00"
+        },
+        {
+          "title": "부산 서구 충무동 새벽시장 김창현 이사, ‘나눔냉장고’ 식료품 기부 - 국제신문",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWTZXMnJ0N2owQTZzb21Oc3VDd1J6Rm13bW55TGFzQXV2SnJXNHFXVWNUVlUxdkZUcF9GRVRYSnVpLVlPWUdzYkdRcVVsWnpsd0l6akV5cTdodV9fM3BGMy11VTIxQ2hETndncVBWZzN1VXd6TXBLS1hhb3FhS0FrenZ3Y3luR0I5cXU3WGNlZVVZWTA?oc=5",
+          "source": "국제신문",
+          "published": "2026-10-29T16:03:00+09:00"
+        },
+        {
+          "title": "[가전 트렌드] 쿠쿠, ‘미식컬렉션 고메큐브 미니 김치냉장고’ 출시 外 - 베이비뉴스",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WdVVOMFNHUDM4V0JCRFpVR3Z3NFduQnEySUo2c3JZcUN6bmV4eXhiblhoamcyN1BSYmJMcm91RVpyajZsYTBGeThvOHhXbHROWnphazl3d1RnZTVJU0s4YjZqdjVFeE9yOE9lMw?oc=5",
+          "source": "베이비뉴스",
+          "published": "2026-10-28T00:36:19+09:00"
+        },
+        {
+          "title": "[포커스] 밥솥 대명사의 반란… 쿠쿠는 왜 김치냉장고ㆍ오븐으로 영토를 넓히나 - 산업인뉴스",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rWUQyN2dPbW5kRUVNVjFLb0NLS3B1UUlHN1hXOTdWSnlyUHM2ZmZnMFVwWWR2blNyOHJhWUxxM3ZMYXJQLUFrV2FxV0ItZjNtdXRYakxMYklULUNGeFZ0TnpWMWtTVl9ST05lRVNn?oc=5",
+          "source": "산업인뉴스",
+          "published": "2026-10-27T10:38:04+09:00"
+        },
+        {
+          "title": "LG전자, 서랍형 냉동고 적용한 ‘스템’ 얼음정수 냉장고 출시 - 충청매일",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03SmpCZldQZ2lsZW4xbzZOV0hPZTZHTV9JM0ZQOW9mRHo0Q3hpcW1hWmJsRzM1eGdMUTNXSWJkNFc0dHM0amlqUU90eXFkc2VhZEh3d0xfLXNOcFlzZlBYN2V0N0FRbWxvUEE?oc=5",
+          "source": "충청매일",
+          "published": "2026-10-26T17:40:00+09:00"
+        },
+        {
+          "title": "[기업] LG전자, 'AI 탑재' 서랍형 얼음 정수 냉장고 출시 - YTN",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE11VzRkbVhnemctbk9yVElVVm5GZUMzY283YkZuckZsS2NNbDk5TkdTRjJLaWZMY29BODFob09UWGhQdzlvSE1nNHJPRF8taEZsaWFTa2phNlBXQkZLZEE?oc=5",
+          "source": "YTN",
+          "published": "2026-10-26T17:38:00+09:00"
+        },
+        {
+          "title": "[포토] LG전자, 서랍형 얼음정수 냉장고 '스템' 출시 - 한국경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90WERVZUI1VEYta25HSnNjcUtYdzFMcTRHYS1zMmJsQnI5TjZfYm1UUVJzdkdFYkhUY0FCSkpqNDQyOHFyRjhnOTZOQl9WeVEweTJCd29HQXltdw?oc=5",
+          "source": "한국경제",
+          "published": "2026-10-26T17:25:56+09:00"
+        },
+        {
+          "title": "냉장·냉동 전환에 서랍형 편의성까지…LG, AI 냉장고 출시 - 서울경제",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMUHQyNEh4bnJVcmF0ZG5KSFFpbU51Q3dVSVR1dVZScHpDeG0tOXFoVUtLSTBLQTdrUFU0NXRjeXVJaFBraV9TdXpBcWQyR1FZcnfSAVNBVV95cUxOanA0Y0FOdHYtSlVxX3V0NEtpbUtSOHB5cWN4a2FjeTZlUEhLSEJseHBVdUFhZHp3Q0Q2Z2tIX0tPMFl0ZTRkMWY3TTFRdHBKRlJ0VQ?oc=5",
+          "source": "서울경제",
+          "published": "2026-10-26T15:41:42+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000003-004": {
+      "name": "세탁기",
+      "parent": "디지털/가전",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "삼성전자, 中 본토 이어 홍콩서도 냉장고·세탁기사업 철수 - 엠투데이",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tamRJSlRvTEt2QWplX2gyeWl0eVdNNlJ3WlFVNzgyUHJ6RnN5SUs5ZnVER0JNbFZqQ3UxOHNWZlpVNVlZb1ZfY19YaDlTcjYwVjdqUV9fcHlrY1Z0X0RVV1I4czZucW1BeUQxa2JhMA?oc=5",
+          "source": "엠투데이",
+          "published": "2026-10-28T22:57:07+09:00"
+        },
+        {
+          "title": "LG전자, 인니 드럼세탁기 시장 압도적 1위.. \"소비자 10명 중 4명 사용\" - 파이낸셜뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uMXJGWjZNLUJydW5DbEpDY1lacmg5bUw4M1YtMlNXLTZkcWV3V0lDSllRb0FDOG9SWHhwX05VVmlXS0ZYOFc3T01Xa1I2cE9tcVVJTlhXQmFUQQ?oc=5",
+          "source": "파이낸셜뉴스",
+          "published": "2026-10-28T13:17:29+09:00"
+        },
+        {
+          "title": "오래된 삼성 세탁기도 스마트해질 수 있습니다. 인공지능 기능을 조금만 활용해 보면 되죠. - Samsung Magazine",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MdHprUmtmUVMzZVctVW1LRTlkSlFNZXQyTng0Zk4tdTk1SzlNbUtnMXctZ2RHWElLY1l1Vko3SzJEOU91REtMdGpBbXBoLU5wOWFJQUpjV01xeFpMTnk0OGNBMUhXXzdHUkJiQ1pyb1p0Tm9hZkE?oc=5",
+          "source": "Samsung Magazine",
+          "published": "2026-10-27T21:56:36+09:00"
+        },
+        {
+          "title": "샤오미 신발세탁기 'Mijia Shoe Washer 3kg' 중국 출시 - 디지털포커스",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94QVdpOGVfUGlaaGVWNVE2UXZTdHhlNUluWkxrb2tIdjkwUmZYV2djTGRjUkU4ZTlYdFItZDdobGUyS1RhQ1N2WTBSbkNFRzFDc25wOFpMQnVLSzVCang0WjdxdmF5cnFXbU9zRkZQZVM?oc=5",
+          "source": "디지털포커스",
+          "published": "2026-10-27T17:41:40+09:00"
+        },
+        {
+          "title": "삼성전자, 동남아 '빨래방' 정조준…상업용 세탁기로 B2B 확대 - 전자신문",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JQVpLWTBHUHBycWRDMFBlVE9iWkN5anZZaDFVWlFVYU5fOVFLcjNGeUFZNUhLUTJValRpdkR0VGJBdVlBajdqZzFDUV80QQ?oc=5",
+          "source": "전자신문",
+          "published": "2026-10-27T16:00:00+09:00"
+        },
+        {
+          "title": "LG전자, 상업용 세탁기 사업 영역 확장… 제품 공급에서 운영 관리까지 - 폴리뉴스 Polinews",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfLU1LZXoyeWd6Vy0zTlVWUklhVWRfekgxblpOdE1BYzRfcUt6S0dLTXVWZU83MWlMdmV2c2RfMFY0NTNPZWRqQ0VfSklZakZLTEpfVjhJbmlJOXZHRXJ4NVEyN0tKSjVrYWNpLWZR?oc=5",
+          "source": "폴리뉴스 Polinews",
+          "published": "2026-10-27T15:24:20+09:00"
+        },
+        {
+          "title": "세탁기부터 홈로봇까지… ‘제로 레이버 홈’을 향한 가전 혁신 - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR0hpR2NoSmF4N1hoak9lNnJ1eEZmVHotNjNKUWh4TERZbFRHVkp5UHdKYl82dnExRDJrNUdGS1YxSVJMeHRYM181WlBRLWJoaVdwbUF0VEVqeF81TXZ0cEVSODRTQkJzbEhsTkpvOTJCeHI0RWZzYzc1NG44SzFJR2F3TTlzbFp0MVBxaG9R?oc=5",
+          "source": "조선일보",
+          "published": "2026-10-26T00:36:07+09:00"
+        },
+        {
+          "title": "LG전자, 獨 ‘쉴링’에 대용량 세탁기 공급… 유럽 상업용 B2B 시장 공략 가속 - 인더스트리뉴스",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQdjBMbHVtNkFodDFQVk9iQjE5aXRCbGc4Q2s1M0pMVGthaEFvZV9tSkpiV0V1eUdGWWw2LTREeUF2dUdFUTNKU2pnQjhiYXhib1FIXzJMTTJlZGxHLWttRkdlZExNbHR1NFRPUG5tVzctZw?oc=5",
+          "source": "인더스트리뉴스",
+          "published": "2026-10-25T21:15:54+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000003-005": {
+      "name": "건조기",
+      "parent": "디지털/가전",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "텐션리스 건조기 - 글로벌 시장 점유율 및 순위, 전체 매출 및 수요 전망, 2026~2032｜QYResearch - note",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lTkpJX2hNbmtqZy1tdXVSRF80SjhONGdHN3hsMzA2bDYtenB1anFySG5pVmFVTUprVVVBbUNHR2R2TXRyUXJKNklMTDRrTGhyTDJYa0xDWDdndTczYUdv?oc=5",
+          "source": "note",
+          "published": "2026-10-26T11:00:00+09:00"
+        },
+        {
+          "title": "건조기 얼음 주름 펴기 꿀팁 효과는?…제조사 안내 없고 스팀 코스가 먼저 - 팸타임스 FAM Times",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Ndk9fR2tHQ2RFUEVXZUgyYlhWYTBFQTdPd0o4MVV6MHhCdDFvUTdDMG5kQUJ1UllSQmNOTWU2SFFaMXNLZkRsU2tsTTdyemdvQW5jME0yZjZyWnVEOWstdzNISFdUWWNMUlFSaWhB?oc=5",
+          "source": "팸타임스 FAM Times",
+          "published": "2026-10-25T19:11:20+09:00"
+        },
+        {
+          "title": "수소 탈산 건조기 시장 2035년 전망: 그린수소·연료전지 수요가 성장 견인 - 뉴스 및 통계 - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOa0o1QkNlU0F6eWFhaFFKT0JnVVpKc203VEp1Tm9FRGJUSEdNUDR3T1ZtUV9UamcycDFjUGtyZk1DYjZGbTRNWFVqNm56NVV4YnJBelVxTjRPUFVWM01VOTZlSlBnXzQ5U2NoMmpzejRiSmIydUZ0ZmRHVl8zYTY3b1EzV2N5U3U2RHh4S1dBQ2dQQ2hwSExuZWgxNzlzQkIwQmdiSlZ4NldhMjFPWTI2SVFLWVdZaGtpLXl0YXpjVkJFaEpKbHhka0QxcS1IWUpLclNtaFZXTzZSUQ?oc=5",
+          "source": "IndexBox",
+          "published": "2026-10-23T08:16:03+09:00"
+        },
+        {
+          "title": "세계 실험실용 동결건조기 시장 동향, 연평균 성장률 3.2%로 확대 지속 2026-2032｜QYResearch - note",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CSjdvWG5JaUlaR0RBcmxJWktTdmFGcExMeDBqWXZvcUFKS2xnSHVnaUdYYTJFYmtHbk1MYmRtNDkwUEMxUm8wRlZSck1ub3liWVVua09ROEs4bENucFg0?oc=5",
+          "source": "note",
+          "published": "2026-10-22T10:42:22+09:00"
+        },
+        {
+          "title": "온스테이 건조기시트 스타일러 에어드레서 향기 드라이시트 정보/ LG 스타일러, 삼성 에어드레서 등에 사용하는 겸용 제품 - 판다랭크",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE54ckRDWkNCdFJaTjFwOWNlam5BcG5fcWFnVkFnMmlnWWFCUlV0Sk93bXhJUXp2TEVoRzd4eG1IS2I4MTJkNDdJ?oc=5",
+          "source": "판다랭크",
+          "published": "2026-10-21T18:48:39+09:00"
+        },
+        {
+          "title": "패딩 건조기 테니스공 꿀팁 효과는?…제조사는 권하지만 고무는 화재 주의 - www.famtimes.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0ODR0eDQ1eDZJWjRQdnlnTHl5UnhXdmVEd2hueGVLMEFQcUxfTER6RWZmUGlMOFZ1dkVGVEVTZkprcnRDdklVSncxbnB2N0RpUURCMUZEMGZhTlJZLWZVQXI4c25STDg3UHRVU3dB?oc=5",
+          "source": "www.famtimes.co.kr",
+          "published": "2026-10-21T07:14:00+09:00"
+        },
+        {
+          "title": "거제시, 삼성중공업과 대규모 투자협약…첨단 건조기지 구축 - 뉴시스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pejNjRVdBTmVKY0VwWDlJTEtYRjRNNFVUeXEySm5fYWJDSnBDYnVVQnZIYktibnBhQ2FKMFAzMnROZ2k0elJiSnBuRVVUVldZWlRVOWs0RGlJNHItajNCVNIBeEFVX3lxTFA3WXJlZ3dWR1pJUFExUUtoampaYmE3cnZGUk8xd0xCN29UdnlQYU92ZFpyczhLTEl0WTdLakR5UnQ0RnVPMkp5TllPZHNwRWVkcXJWSW03MEF4QWlmQjRWMmdQT1ktNE15Njl2Q0JGb3Q4RENpcE0xWA?oc=5",
+          "source": "뉴시스",
+          "published": "2026-10-20T16:00:00+09:00"
+        },
+        {
+          "title": "건조기 먼지필터 물로 씻을까…美 건조기 화재 34%는 '청소 소홀' - www.famtimes.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pa2s5SHo5ZWJZT21wZlNxT2pXYjNVRHYySUdhRnl5SGhJdXR4ejJzb1B3MW5xa3NlbF81b0c2OGZIeTdTT0lzb2VKSXpJUnRqRWRVQnhITkQ5Qmw1b2VsRXMtU2lyclRfWUhlQjB3?oc=5",
+          "source": "www.famtimes.co.kr",
+          "published": "2026-10-19T18:15:24+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000004-006": {
+      "name": "소파",
+      "parent": "가구/인테리어",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "한샘, 쌤페스타 2·3주차 특가 확대… 소파 매출 65%·수납 54% 증가 - 로이슈",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LSTlWTHNHTmpSQXdlcEdxYzF4bDh1RVo2MWt3WjR1a2U2TXFIcV9WNEFONElTVnlrMkpUOUszRWQ3S1VPOEVKVy1tMGF1alNIMVBrc0hfQ1I0UlIzMU1JXzVWLWJudUthREk1Y0I4czVwUjU5dTBtOUlR?oc=5",
+          "source": "로이슈",
+          "published": "2026-10-12T16:00:00+09:00"
+        },
+        {
+          "title": "침대·소파부터 이사 청소까지...가구업계, 가을 특수 선점 경쟁 - 스트레이트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fd3dPNUNVVHNib0k4bzFXS2ppV1dKekxVWnRZVFBsbUVWNE52YjhSTGI3MEVDYnYySHdRTVJQWkthaG5mWTduZUR0ZDdqVk1uTHZHdmlYLTk0OTBnQlprMElVbjJHdDM0V09vX29BdTdmb03SAXdBVV95cUxNSWkwSDE4VmxnUkl3WnNnU1lSZHVONTI1UXFmTEJIckNocVJTWVhYS216cF9odGwzXzE1ei0xVHl5UTNnY2Q4VW00VDRId1RtelRSY2VaT1FxQnpETWMxbC1xSC03Z0pZdXBRNkhQLVByNy1EQldYUQ?oc=5",
+          "source": "스트레이트뉴스",
+          "published": "2026-10-11T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000004-007": {
+      "name": "침대",
+      "parent": "가구/인테리어",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "침대·소파부터 이사 청소까지...가구업계, 가을 특수 선점 경쟁 - 스트레이트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fd3dPNUNVVHNib0k4bzFXS2ppV1dKekxVWnRZVFBsbUVWNE52YjhSTGI3MEVDYnYySHdRTVJQWkthaG5mWTduZUR0ZDdqVk1uTHZHdmlYLTk0OTBnQlprMElVbjJHdDM0V09vX29BdTdmb03SAXdBVV95cUxNSWkwSDE4VmxnUkl3WnNnU1lSZHVONTI1UXFmTEJIckNocVJTWVhYS216cF9odGwzXzE1ei0xVHl5UTNnY2Q4VW00VDRId1RtelRSY2VaT1FxQnpETWMxbC1xSC03Z0pZdXBRNkhQLVByNy1EQldYUQ?oc=5",
+          "source": "스트레이트뉴스",
+          "published": "2026-10-11T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000006-019": {
+      "name": "건강기능식품",
+      "parent": "식품",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "제이앤에이치바이오, 비타민 B3·셀레늄 복합 건강기능식품 ‘B3 Prime’ 출시 - 뉴스탭",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OMk1mV3FmVnFLdm1za0dmY1JPTzlwXzdsQ2xVYzBud1I5c1hwTFZiQXlTZXEyUERaa0hqcEJtSFRIYnFhczJMZ2tyR1dSVVlYR01jbzROZDVWMGRReDR6M2FFc0FwODZleFQ5MQ?oc=5",
+          "source": "뉴스탭",
+          "published": "2026-10-29T07:51:50+09:00"
+        },
+        {
+          "title": "건강기능식품 시장, 유산균과 식이섬유 결합 주목… 복합 원료 제품 개발 관심 - 유스연합",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fdTFDVDBtb0hzUW50REdZOGVIUUdWc3hrdVZwNU1waGZ1Y2lWYXR4VGdwTjhXREVrMVA3dUZKcEtZbnpLRTlIQjh2RzVwU1M1cHJB?oc=5",
+          "source": "유스연합",
+          "published": "2026-10-28T23:45:21+09:00"
+        },
+        {
+          "title": "디어유, 건강기능식품 등 사업목적 추가 위한 임시주총 12월 17일 개최 - 디지털투데이",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJcjFhOU5lZ1pBWWU5MnNFY25GOXdXQU42OG1XU1ZMWGs2RzRNQXdrUXlHanFVNXVab0h3UFBQT29ta0dOcFNvaEoyYVNaMC05SFd5eEd4UURRQmxld0tYOU9lX09keDJOc3BGZ280eHVSejNlS0s3Tlp1MA?oc=5",
+          "source": "디지털투데이",
+          "published": "2026-10-28T13:32:03+09:00"
+        },
+        {
+          "title": "KT&G, 건강기능식품 브랜드평판 1위…LG생활건강 11% 상승 - 핀포인트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42NXFIUjNna0NxSklrMlg1Tm5HemoxUkIya010dzhwUW1SV3FsR2dZMHJvSVAxaEFHOVV4UEhOUlgtM3l1SFZhTkVqMFh1d0cyUjhQUjJSb0VFSWFpV0hhZlJrMndObG9OLXdrd1lDMGJ5clHSAXdBVV95cUxQV3pXWTVqbDk0b0RJTEtnV0VDSVNfSmJPaTdnM1poM2hFejJYaGR4cElHSE1CczhNMFdNSW5iZnJ1dGtuckt5Z1FaUEEycEhnYTlMSTFnTUNmRU5JUFR6NC1aZ0VodzdQcUtuWGtRbUhqUnJLSmxTSQ?oc=5",
+          "source": "핀포인트뉴스",
+          "published": "2026-10-28T06:56:27+09:00"
+        },
+        {
+          "title": "[빅데이터로본다] 건강기능식품 상장기업 2026년 10월 브랜드평판... 1위 KT&G, 2위 LG생활건강, 3위 HK이노엔 - 일간투데이",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52NjU5bXdzLU96U0hjTTFNb08tejVyb1NQMG9qQVRNRm5hZ1pubGktLUd4TklzMGRyTVQyX3VTVE1CNUFNeUdDenU3UVVORzVqMkppRnJPSHg2OXlrZWw0NU8teDAyUEZucVQ4?oc=5",
+          "source": "일간투데이",
+          "published": "2026-10-28T04:42:33+09:00"
+        },
+        {
+          "title": "한미약품, ‘체중 관리’ 특화 건강기능식품 ‘에피슬림’ 출시 - 더바이오",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44VDJDWGxxMWFSUU0yZVJ1TV9lanpSUW91TWUtVkNwbF9CbTBfNG1ZR0U0NzViM2RQYzB0NXJPRHUteGJuT0tEOFVqYUxqR1U2cXpIRnpQLWtaYTVNMWl4U01PSGZiZEVBM25IbDM1NjnSAXBBVV95cUxOOFQyQ1hscTFhUlFNMmVSdU1fZWp6UlFvdU1lLVZDcGxfQm0wXzRtWUdFNDc1YjNkUGMwdDVyT0R1LXhibk9LRDhVamFMakdVNnF6SEZ6UC1rWmE1TTFpeFNNT0hmYmRFQTNuSGwzNTY5?oc=5",
+          "source": "더바이오",
+          "published": "2026-10-27T10:58:41+09:00"
+        },
+        {
+          "title": "건강기능식품일반판매업, 건강기능식품이력추적관리등록 해야 하나요? - 식품저널 foodnews",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aM1pIWEtzeGZ5OTVfZVk3eE9NRW1LNS1LT3dpVHV3RldXOGJPdUU0RWV5OWczXzhfcW5hbnZwaWo2RkN0VEprYTRmLVc1WWZ5SGtQenVVYmJGempzVGFZdURIcGFnU05Banp3eER3?oc=5",
+          "source": "식품저널 foodnews",
+          "published": "2026-10-27T10:52:46+09:00"
+        },
+        {
+          "title": "한미약품, 체중 관리 건강기능식품 '에피슬림' 3종 출시...약국 유통 개시 - 팜뉴스",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MX1hhNWRkc1BzeTlVX3YtWkxibEdDNUlEQ0Z1Nnk0Um40WlRqZFI3bmhfRzZFclJmYkFVd2tweGU1U1Z5d1M0QmtwLXFxWEN2Vl9MUVFNRjB1ajdDc3dndzY4X1pGX3FEUEYwaQ?oc=5",
+          "source": "팜뉴스",
+          "published": "2026-10-27T09:29:14+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000006-021": {
+      "name": "영양제",
+      "parent": "식품",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "\"집중력 높여준다더니\"...수험생 노린 '가짜 영양제'의 정체 [자막뉴스] - YTN",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VUTBFSlllMF83dy1LeXpoVVdxN2N1T19uRlZ1LUc2UUhaeFBSWFRfMmtDejNpNTRSMVpoY2JKZnFydHdKS1JibG5fVWt1Y0tzS1dFY1JDVmFPQnAtcGV0VUpVaw?oc=5",
+          "source": "YTN",
+          "published": "2026-10-30T08:12:00+09:00"
+        },
+        {
+          "title": "‘수험생 영양제’ 내세워 71억 판매…대웅제약 등 부당광고 23곳 적발 - 세계비즈",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5QdDRlWFJLQnJqUF9yMmR2bmV1SjlBc0VYVDJNQTNtTlNPUDBMYjdyQzF4VlREYllramhXQXRic3lJT3ZMSHRGVlBYRDluMS1jU3BWV0llZw?oc=5",
+          "source": "세계비즈",
+          "published": "2026-10-29T09:45:01+09:00"
+        },
+        {
+          "title": "사탕·젤리가 '수험생 영양제?'‥23개 업체 적발, 71억 원 어치 판매 - MBC 뉴스",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnTWczNlhIX1R3YTNxWS1ObFpOV0x1NzctMGltZ1RwRVA1a0JZbnJ6Wlp0bFFYQU1zOTlKWkQtVlpFd20yRTdibXFZSmw5OVVoT1ZFTG5zUDNVSXB0NVA5U3A3R0VKUnBWSThWWlJnOHJPM19CYzN30gF3QVVfeXFMUGdNZzM2WEhfVHdhM3FZLU5sWk5XTHU3Ny0waW1nVHBFUDVrQllucnpaWnRsUVhBTXM5OUpaRC1WWkV3bTJFN2JtcVlKbDk5VWhPVkVMbnNQM1VJcHQ1UDlTcDdHRUpScFZJOFZaUmc4ck8zX0JjM3c?oc=5",
+          "source": "MBC 뉴스",
+          "published": "2026-10-28T18:33:28+09:00"
+        },
+        {
+          "title": "수험생 영양제·집중력 향상 허위 광고 23개 업체 적발…식약처, 고발·세무조사 의뢰 - 경기일보",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JZlU2MUd1eFhpOFcxdzlwZEE5U2xzbjhuaTNqS2JjcExaQS13bWc0dkpBcVg3dDgtQng5N1kySXJ0UEFwUFNfcS1uY05xeGJzblpLbl8yUF9ENnc?oc=5",
+          "source": "경기일보",
+          "published": "2026-10-28T16:37:42+09:00"
+        },
+        {
+          "title": "‘수험생 영양제’로 속여 71억원 판매…식약처, 부당광고 23곳 적발 - 베이비뉴스",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1YU1LeVc1ZU9kOHJKTTY2WnN0dnF1YkdUX1B6VjNnQl8yMFo3dU0xZGM4SUQ5aG5pTC1LOEgzTDF1YlF6eUMxZV9hUnJTbktjNDJ2SjF3ajliR2ZLM2J5UkdfNVZEOGd4Nk5aWA?oc=5",
+          "source": "베이비뉴스",
+          "published": "2026-10-28T15:33:42+09:00"
+        },
+        {
+          "title": "'수험생 영양제'라더니 일반식품…23개 업체 적발(종합) - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aSlAzYmxNeUo2N3VaTFlCdTlEdWtXUm1Lbm01YlBORWxia0RhWjU4bVZ2ajFGYk9KVHk0TEpsVDBtdnltb0p6T1BJaWl2eEFPX0pVSW1iRHZJNlnSAWBBVV95cUxQQ2x3YWlxQ0EzOFoxdzNWWDZZYXZGLU5fbHA4c2tScFBkbERrR05ibDVsSnowSEdtaURELWdKR0w3ajh6aV9IWDJBOWQzZE9WN0Fsa0tyaG9rYlFXNEktMHU?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-10-28T15:26:55+09:00"
+        },
+        {
+          "title": "\"수험생 영양제라더니 사탕\"…대웅제약 등 23곳 부당광고 적발 - 바이오북미디어",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04OFJrZWtJdl9leXZSN09ORjY5R2R3QXhsaDVHY1ZwbkphVGIzUzM3eDB1WDZka2t1a1JCSWdydDI2OFhSQ19OcXo3SS0ydk5CcWNOTA?oc=5",
+          "source": "바이오북미디어",
+          "published": "2026-10-28T15:10:00+09:00"
+        },
+        {
+          "title": "영양제에 필로폰 숨겨 들여온 외국인 선원 10명 구속 - 동행미디어 시대",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZOVBZek5aRG1UOWZkTUZ6bjFmYV9HS0I2ZEdBblhqN19hRklhSDNFU0JSc2ZydjhMRWoxVFpORUZtd2RNVkUybWxicm5tSnBaLUNhNmJWTzRpMnhjdUE?oc=5",
+          "source": "동행미디어 시대",
+          "published": "2026-10-28T15:04:57+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000010-006": {
+      "name": "면세 주류",
+      "parent": "면세점",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "신세계면세점, 캡틴따거와 면세 주류 쇼핑 콘텐츠 공개 - 한국면세뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZN2NQQWdRcm85S3JFYUx4Z3VLVHpzX0pHMW1XSTFJUTk1WktORzRBSjQ3QVc3R0o1S2lLR2JzeDFwTUVsNjZzR3pUTEZRV1d4Q1Z5bVh0QVhZNWxwOHl4R21NeGtLRExQS2c?oc=5",
+          "source": "한국면세뉴스",
+          "published": "2026-10-05T11:33:43+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000010-007": {
+      "name": "면세 디지털",
+      "parent": "면세점",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000010-008": {
+      "name": "면세 생활용품",
+      "parent": "면세점",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-001": {
+      "name": "국내도서",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-002": {
+      "name": "해외도서",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-003": {
+      "name": "유아도서",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-004": {
+      "name": "아동도서",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "르 페뢰쉬르마른(94): 크리스마스 전 장난감·아동 도서 바자회 - Sortir à Paris",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOYlJJN1BVMGtkcktwemppODFoVkYwYS1kZ1BKYjB2VzRYRHpJVGIxUXVkUkI1SzJsOVJzeFd0a09NOFhwZDg0MUpfNkl0SHhqNXJudVZmN09qOHE1Zml2RXBpcmN2SGlwUV81YmhuNnRsNldwTGtwWkpYbEVHeUxPTnlwYW81c09ySXBuM0VhVHEzeDZTMUxRdkFyUHQ3MzVDck1Bbm04MFVuNk9LamFFQURYZ2piYzJNTEU4RThzVjV0ZS1MUktTa240YjFQODlxYmd1MkQ4ZEFFUmtjTXhyc0pVcXlzR2hSRW1oMXVjNjg3ZW1vVjl5RzNidGpHWkhM?oc=5",
+          "source": "Sortir à Paris",
+          "published": "2026-10-29T19:51:32+09:00"
+        },
+        {
+          "title": "(주)라스온, 중국 상하이 국제아동도서박람회 주빈부스 입점 확정… 글로벌 시장 공략 본격화 - 더뉴스코리아",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB1OUVjVXhpdDE5S0drOVZsQzlDOTk1SEN2cFhDOVY5akV4LUdJYXhUZTQyVnlycnY4c2VSbzBmZmt0Rk0xRXdKRU9n?oc=5",
+          "source": "더뉴스코리아",
+          "published": "2026-10-26T14:58:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-005": {
+      "name": "학습교재",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-006": {
+      "name": "수험서",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "문형남 교수 공공조달관리사 수험서, 교보문고·알라딘 베스트셀러 1위 ‘2관왕’ - 하이테크정보",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QRlF3amE3eHFWTlEwaE9qWDk1djVQNWdfeGFjWlM2WlVTb3ZrVE42QXRZcUJYMno0NHVEb09DZFE3NUM5MlBaQ1E2a09fYkk1dTVGWDFUMy01SXhhc2FsTFQ5ZGdLVjJW0gFsQVVfeXFMT19acnNuS09xQ2FJb2lJdWVJU2pPUjhYcjJEb3kyVVFPektCTGxSRWN0aGo1WVlickxCM1dMenA5YkhudmhTYk1UV3lmV0FZVzZxM1FyN2pXbHBlRnNzZDJlS1ZrTVAxME1NVlEw?oc=5",
+          "source": "하이테크정보",
+          "published": "2026-10-19T15:44:15+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-007": {
+      "name": "외국어",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "외국어 직원 없이 외국인 손님 응대, 킵코퍼레이션 ‘킵커넥트’ 출시 - 플래텀(Platum)",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9WT1czT1ZHYmtNdkgtNURfaV9sVGFDUGZ5LU80RmVWaE12TEMwa3MxVDdRVkJqQ045YUVfMEFGTlYycDBqdWxfZA?oc=5",
+          "source": "플래텀(Platum)",
+          "published": "2026-10-28T02:13:00+09:00"
+        },
+        {
+          "title": "대교, 디지털 외국어 시험장 ‘강남디지털평가허브’ 오픈 - 인사이트코리아",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yVUROcmdiUVN4Z3VOcm9aTXVkc0h4YWhGRi1YdFBfZmVESExKb2lyeGpfUlpvT05EWXZQWXh3R2hLaTZDTWE5YWVMb1Z3ZjlZc1dOYVhxZkl0NTJveTM5X2FSUVA2Q3Bsc1JDMFZSV1ZMeDjSAXdBVV95cUxPdHdQTnNoQm9KdTNxeGpyWFJyM3VYSzNTa2lpeVRXYjRnLUxUcGFBWF9iMGg4OXFmVVVlV0xqcVBJdTNrdG1JRUxzMXJJazRCWXNrZExzZ0RVUG9yQXJBWHRZeW5ESEx5blRRa3Z1WFkxVDZLbUtzbw?oc=5",
+          "source": "인사이트코리아",
+          "published": "2026-10-22T09:50:54+09:00"
+        },
+        {
+          "title": "‘K-등산’ 인기에도…국가숲길 9곳 외국어 안내 ‘전무’ - 파이낸셜뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wdXNmdjNMQ2tJZjlSUFEzOWllbkxRcmxBaDNtdEJZeEpMZ1RGbzZtOXlkOFJKb0RMTTY5MzV5NVBYQ2s1SzAyTVNHdzRRZHZXVkFGREdkXzFGZw?oc=5",
+          "source": "파이낸셜뉴스",
+          "published": "2026-10-21T13:53:28+09:00"
+        },
+        {
+          "title": "‘K-등산’ 인기에도…국가숲길 9곳 외국어 안내 ‘전무’ - 뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vbzRoSVlSQXZCNjRWLTJZTkZuT2Jzb20yLVFacnJ3STNkZEl5U01KWFY5SDY2MW9zX3RZR0NxZU9nQ3NrUUJ3U2Z2aTBoaG5PYy1SQzU0d3k5aFdpejJj?oc=5",
+          "source": "뉴스1",
+          "published": "2026-10-21T13:52:31+09:00"
+        },
+        {
+          "title": "HSK·토익 등 외국어 자격증 대비…대교랭귀지스퀘어 수업 출시 - 뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kUGdKVVdLMER5OHI0YWpWM3NuZ0RCVkJHTjFQcXZUZFJmNGZtYU1fOTZ2Uk1XVFlYbUlaSHNJUFVOZVlIOWZyQVFSNmYzMDJWTnFHNHdzQVJmUQ?oc=5",
+          "source": "뉴스1",
+          "published": "2026-10-21T08:42:07+09:00"
+        },
+        {
+          "title": "베트남, 대학 외국어 교육 확대…영어 제2언어 정착 추진 - 굿모닝베트남미디어",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjOWpuSWp2NHh0OUZNYklScmN6aTZJMHJzSXJ4REQ3NlVaMlBnMzRib3F5ZXFIbXVaSy1ldzlsR3dzWFJZTzdCUU1TYU5fS1dKYmRvakFwQWNFZXQ4RTUtbFdCM0dWR3A1dmdZeDQyLTg?oc=5",
+          "source": "굿모닝베트남미디어",
+          "published": "2026-10-19T12:48:36+09:00"
+        },
+        {
+          "title": "포레·리버뷰 대신 '윤슬'…아파트 이름 꼭 외국어여야 하나요 [시장톡] - 한국경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfY1FKOU83QzdCbzJLWVNGbkJrdXhEM0tfbHJGc2Rtc1dvVk05QndnRWN1R1loVnNmNVU0VzBDOFBxOXdBRy1GWldNMFp0bXFNTWx6OS1XNmFjQQ?oc=5",
+          "source": "한국경제",
+          "published": "2026-10-09T16:00:00+09:00"
+        },
+        {
+          "title": "[르포] \"여기가 어디?\" 세종대왕 울고 갈 외국어 간판들 - 부산일보",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MdklGcWtfbDhPMUFSM0gxT01CTGwweVJzdEQ4cEM3T1MyOXIzVWJQMTFBRlg4b3gwZmNhQTJfRF9ZQnc4WW5xX2hUQjVNQkZ4d3VhUHhJSndZcUZHUHphOVF2RGUxaFJOVGg4eGp0VVhEMUVwTWpDUg?oc=5",
+          "source": "부산일보",
+          "published": "2026-10-08T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-008": {
+      "name": "경제/경영",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-009": {
+      "name": "자기계발",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "인천 서해구, 청년 취업·자기계발 돕는 11월 맞춤형 프로그램 운영 - 매일일보",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxcXBEVTNmM1lUand1RGFVRmxSZWdLZmNpNkhBMlJGR2pCa1VwQnQ5Q3NZRy1QMlJWNm9vUzdCejJnZEdYR2JZdUVnWDRYYW5haU5KS2lsaGVXVnZkeEt1Qm5BbWk?oc=5",
+          "source": "매일일보",
+          "published": "2026-10-29T12:56:58+09:00"
+        },
+        {
+          "title": "자기 계발 담론의 지형 바꾸기 - 브런치",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wVnhXUHRyLUVQSEQzQklNQTdHWFFUaUNWUTItNFFxZ3lVLU9NX1haVEl1N1hsSzBvVXNEcmZiMTgycDRNQWRvblFraFJPZk9C?oc=5",
+          "source": "브런치",
+          "published": "2026-10-24T11:12:53+09:00"
+        },
+        {
+          "title": "[김형철 박사의 영시니어 자기계발 시리즈 17] 커뮤니티 리더가 되어 영향력과 수익을 동시에 잡는 법: 관계의 플랫폼화와 공유가치 창출(CSV) 전략 - 유스연합",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBXem1wRmsyOGttYjZibG1aamJmcE16N1ozeUlWaXFWclJYcmRleHJlSF9ZRklhQUVremZzQUMxVTBBOVlSYTdxNHBzc1BwUDJObTJJ?oc=5",
+          "source": "유스연합",
+          "published": "2026-10-23T09:04:41+09:00"
+        },
+        {
+          "title": "퇴근 후 1시간 직장인 자기계발 루틴과 추천 툴 : 교양 - 재경일보",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1RZzdoTHhRRldQT04zRlUwNGFGNzRJWFg0YU9mdHRWNFF1RUtwZnNGcDJqdmpRZm5oUXoyNXpFTmpsd1Rrck5OWWQxRQ?oc=5",
+          "source": "재경일보",
+          "published": "2026-10-22T09:51:28+09:00"
+        },
+        {
+          "title": "#자기계발 : 베이비스피킹 : 네이버 프리미엄 콘텐츠 - 네이버 프리미엄콘텐츠",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTU9ydExaZVFMWElhZ2xJSG1TWmV4S3o2blJDakNWRjhHLTBRQjZDWFpDaWp5NWFFaXd4Q09VUkk0bV9wQ0laWW4xYjhqNW4yQ3RvUTdZTWNoQUNENjh4dnFTUGpqYkpWNUdwYWozMGtjMWZRTlJNMmg1RmVyalNDQ3ppeEMzdk5MR2ZUcDJ0X3hGM2llMnlwYzFWUFpNUWZLcG9NUldEc3c?oc=5",
+          "source": "네이버 프리미엄콘텐츠",
+          "published": "2026-10-20T06:32:17+09:00"
+        },
+        {
+          "title": "‘밥심’ 대신 자기계발·유튜브···청년 식사 시간 10년 새 7분 감소 - 경향신문",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1T3ZsWjFVM20ybzUwcDRLVUpUQmJIZTBBMmVrdHVwdVlrUWQ0X1lBOTgtT1RNLVpLbjFIT3h2QnRXQnAtOWVXQnV4WVpkRTB4TUhocWs2VElNUdIBX0FVX3lxTE41TVozTjA4OGQxMkRWZ2JHVW11cFprQW42cXIyOUk2SElNRkJHZUl1S2p0RkxVN0NKWWQxNFplcXlYUlNOQVZqcEV1NFoweWVOM25WNEdGWDJqWmtyaURR?oc=5",
+          "source": "경향신문",
+          "published": "2026-10-19T16:00:00+09:00"
+        },
+        {
+          "title": "[김형철 박사의 영시니어 자기계발 시리즈 16] 돈 버는 뇌 만들기: 부의 흐름을 읽는 시니어 경제 공부: 인플레이션의 파고를 넘는 자산 지능과 지적 포트폴리오의 재설계 - 유스연합",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfY1V4dHh1X0dzZGNVZGhLUkZQdVRfcTBuNHhFcjJMbDBtSkxoRUR2OU9VU3BGWWFQckRQM1VOX0U4eE9mTzA3SnRtajFieXJvT2JN?oc=5",
+          "source": "유스연합",
+          "published": "2026-10-15T16:00:00+09:00"
+        },
+        {
+          "title": "강북구, 미취업청년에 자기계발비·면접준비비 최대 30만원 - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOa2M5akZLN0plMkRFQTY4aE8xSVMwQlVPLVhoY2E2S0xwZnltMlI2RUNDR2JJTllQelB1RG96aVpyUUVpcTF4X0JZYkhPa3Q5NkU3YXZqMFF6NE0?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-10-01T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-010": {
+      "name": "문학",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "10여년간 책과 사람을 잇고 지역 문학 꽃 피우는 - 울산신문",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxbmlVS012SmROeXh3TkEzcWlZaXQxT0Y0cm5ZNEp1ZHR0a1dIMU1EbzlIbmgyNkN0RTZOUW84U2NMTEIzRE9LcWNyd2VWSE9PQnpNV1lNdC02cGxHcUZaLXJBTHlaMG4zbEJJTXZn0gFyQVVfeXFMUGpSdWJ5eE51THk2X0JzMFBGekxVQ2NfXzI1aUdzMkdsWm9US0pMb3J6VFp2YVVfcGZTYTNxaTdJd2hWa0EwWDRfU0hFalZHSkprbVp6YmhCLWNabzNjNHBLVTlha05fQUxJZVFhQk1tTVFR?oc=5",
+          "source": "울산신문",
+          "published": "2026-10-29T20:16:00+09:00"
+        },
+        {
+          "title": "K문학 세계화, AI로 뚫릴까…풀리지 않는 '감성 번역' 숙제 - 지디넷코리아",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtbkVfSkNUZVp5REtCbk9RenVFSjZlQTV0aXpaeS0zUlQtNm5EdFdMQTBVZmlFN0lfSUR1T19yeEFHd3ZRQlJ2cURITGhPN1RXaUxHNWJn?oc=5",
+          "source": "지디넷코리아",
+          "published": "2026-10-27T11:06:10+09:00"
+        },
+        {
+          "title": "도서출판 문학공원, 김우성 시인 첫 시집 ‘돌 스무 가마니와 바꾼 쌀 반 가마니’ 펴내 - https://press.theleader.kr/",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YbHhmMlBKVl9qdmFPaXR6NHhDNVhETmpjc1RfRDNGWG1TMzFUaVkySTlSMzJMRzFBUkZodjZ4ZEY2OTl0THRIRkMzbjJia1V2ekY3UlgtUlhNWFhvMG1j?oc=5",
+          "source": "https://press.theleader.kr/",
+          "published": "2026-10-27T08:37:00+09:00"
+        },
+        {
+          "title": "[인천동네책방]㉓ \"대형서점 안 가도 돼요\" 화수동 문학서점 '진실된 환상' - 인천투데이",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02VFh6TUllQ1pCUVFneXhDVHltWkxXbEF0MWxqU0pTWnkyU3pLS0tERS1sakVkbEJsT2cxZGcybENhYm9mY3NIeWphbFlmckM1c3ZLajUzZUJxY3M1NFpkaHMxUG5MT3RrRml4ODZOeFQ?oc=5",
+          "source": "인천투데이",
+          "published": "2026-10-25T13:00:00+09:00"
+        },
+        {
+          "title": "정보는 AI에 묻고, 감동은 문학에서 찾다 - 교수신문",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TbDZrRG5TRDlzTENNRTFsZmdVTE9KNVVfU3dsaUVnN1I0cnlZUkU0cF80UWI1UXRtd3o5bFpyR29qSjJrMEVFVXIxQWFlUkNibWlpMXBfanIwSkluZkMySlBwQjdJOEk?oc=5",
+          "source": "교수신문",
+          "published": "2026-10-23T16:00:00+09:00"
+        },
+        {
+          "title": "런던서 확인된 K-콘텐츠 저력…드라마·문학·음식까지 현지 관심 확산 - 코리아포스트 한글판",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82MlF1RDdlMF9TNkRRMGE1U2xTMFFjdjAzblgyenA1RkRfTFpKS2JZTGxCMFNPeU41Y2Z4YU1kRXF6ZS0wVk5UZjZIZFQ5cVVOaGpiOXBYR21vTk5uQ3NQdDJ6UHEzYUljUGlxelZR?oc=5",
+          "source": "코리아포스트 한글판",
+          "published": "2026-10-22T08:49:19+09:00"
+        },
+        {
+          "title": "영국 런던 달군 K-컬처…드라마는 매진, 문학은 베스트셀러 - 재외동포신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MWEVjUTFBaE1LWVBUcVNTcEFZM3REMEhXOXY1MTVoNlhPcFpGTTViOF9BVzVFTGo2bmFGbGZHOHhuSnJoR2VfT1FHSjhzMFNpVGRob0NZbmtlLU9FV2JDSXdkMkNWUFRqWGtIWQ?oc=5",
+          "source": "재외동포신문",
+          "published": "2026-10-22T06:52:45+09:00"
+        },
+        {
+          "title": "문화예술패스로 입증된 청년들의 ‘문학’ 사랑… 아쉬운 족쇄는 풀어야 - 데일리안",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNREFnX1RBeDFYc19pcHV5VEl2N09WTGtEdEZob1NwMkpTM1NRNFhOQWl6ajJmVVA1S1RLQXhxeGZiZmFkOHlDWVJoaktlSUhTNDlkRlVORVJFTVJZeC1ieUg1NHZ3MWZ4TnRUTzZSRVVSb01PQm1RUmw1dG00d3ZCcF9oek93V2xkWDg2RG52alNXYkVkeEpkMUN5Mi1kUk5vTU8xQmpHNE1JWk9xblpKYjZyR3pkOWVRbTBiT2Y1NUVvYnl0clFPdHdVRm5FelZTQU4tWkdVNm02R1RwV3pMQVBzVnZWS2JHMkZrRmpMeWRfZkRJRUF0MHY4NEhydFJnRDR1ZmRHUGswbkI1MFJES0FGRm9BQVRyOUowNXJNZ0w1Qk5Uc0d4T1h1anB4dw?oc=5",
+          "source": "데일리안",
+          "published": "2026-10-21T14:01:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-011": {
+      "name": "인문/사회",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-012": {
+      "name": "과학/기술",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-013": {
+      "name": "예술",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "\"반포의 역사·예술 담았다\"…현대건설, '반포124' 브랜드 공간 공개",
+          "url": "https://www.newsis.com/view/NISX20261029_0003847037",
+          "source": "뉴시스 경제",
+          "published": "2026-10-29T16:37:21+09:00"
+        },
+        {
+          "title": "춘천문화재단–예술의전당 협약…공연 재제작·전국 유통 협력 추진 - 클래시안",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hSlltcjBBUjhrOURVWVFhLTBsRU9TM2JQZE5XdWRkcGh4V0RITE8wMjZISTBORjduczRGb3hhdDdJU3Z0dDNuSjVsLU9Pa2I1akdSelV3?oc=5",
+          "source": "클래시안",
+          "published": "2026-10-29T15:46:17+09:00"
+        },
+        {
+          "title": "줄리언 호바 등 해외 공연예술 관계자 15인 서울로…국제 유통 플랫폼 신설 - 클래시안",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nSlpBMXMweFJrY2RuZ0RFVjlpZmE1NjBYY19sRjNJd0dwOVRTTnpOOWJRb05PQmItMnFHS2huTDVBcUNYVXIwSXd2aDAxSzVXbTBVZXR3?oc=5",
+          "source": "클래시안",
+          "published": "2026-10-28T11:38:41+09:00"
+        },
+        {
+          "title": "미국 미디어, 영화, 예술 일자리 20만 개 감소, 얼마나 AI 때문일까? - GeekNews",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1iLVR5aHJNVXQ0eGs4aUVPZ1pZYTZhWFZHVHlLT0I2czRWYWstY2VkeFVjdUJ3WmZwa0t0Z3dfVGtZb1RYc0c2NzE0UQ?oc=5",
+          "source": "GeekNews",
+          "published": "2026-10-25T11:33:45+09:00"
+        },
+        {
+          "title": "\"안 쓰면 자동 소멸\"…청년문화예술패스, 12월 31일 마감 - 뉴시스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45WmQ4OUdlN25YMENFR3p5YVBLYzlBenNWcFhvdlZ2SUFhb21kVUZUcFpvZ2Y0Q29KOXB6TklmM0lManJreloza1NXVlhacHRNRlozVWRMUzZOY09GYzJpYdIBeEFVX3lxTE1RNEtGVklET3l2NDRKS3E2Qy10b0ZIMENXRVdQTHRhaVV0Z0VWSHlCQUZwaUdFUl9kaDg3TGdhX21oSWV5WVFrQTYyaUlVUzBoazhfWV9aRVNkNHY0UGZpTXYxSFNsMURpRUpwRWhUNmtHUW56LUYxMA?oc=5",
+          "source": "뉴시스",
+          "published": "2026-10-22T17:41:17+09:00"
+        },
+        {
+          "title": "문화생활 비용 아끼는 청년문화예술패스… 올해 지원금 사용 기한 임박 - 뉴스컬처",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Ka3lMS3h2NjZBTGdIUEwtTXBsTUhnZFRfQVZpSEdQVFlIaV9uOU0xMm0xbGdoV2lxU0tBRnFaUWFPT21uVDNuU2NtM1dHcnRhbTZxWHE5and4QVkyRjNtekx2b1dnQQ?oc=5",
+          "source": "뉴스컬처",
+          "published": "2026-10-22T17:30:04+09:00"
+        },
+        {
+          "title": "청년문화예술패스, 12월 31일까지 사용하세요 - 아주경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jdDNyanNodmZnc01nUDlyZUkzYXUtTUFIdVE5RmFvVFVZNXR1bnR5ckp5a2VCSUR0Q3JxWnp4bzIwOWJNUllYTDdZWl9ldWgyb1c1eU5fdnVFUdIBWEFVX3lxTE1mcjNReElsamV3cGc3a2NabUhNZFhVMGo0QVY2MHg5ZUVxTklGTkNnYWxrX2w5V2FXOU11ZVRtNEVneThBUW9vVjdXamNHNE02emMtU3lOenQ?oc=5",
+          "source": "아주경제",
+          "published": "2026-10-22T15:34:54+09:00"
+        },
+        {
+          "title": "문화예술패스로 입증된 청년들의 ‘문학’ 사랑… 아쉬운 족쇄는 풀어야 - 데일리안",
+          "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNREFnX1RBeDFYc19pcHV5VEl2N09WTGtEdEZob1NwMkpTM1NRNFhOQWl6ajJmVVA1S1RLQXhxeGZiZmFkOHlDWVJoaktlSUhTNDlkRlVORVJFTVJZeC1ieUg1NHZ3MWZ4TnRUTzZSRVVSb01PQm1RUmw1dG00d3ZCcF9oek93V2xkWDg2RG52alNXYkVkeEpkMUN5Mi1kUk5vTU8xQmpHNE1JWk9xblpKYjZyR3pkOWVRbTBiT2Y1NUVvYnl0clFPdHdVRm5FelZTQU4tWkdVNm02R1RwV3pMQVBzVnZWS2JHMkZrRmpMeWRfZkRJRUF0MHY4NEhydFJnRDR1ZmRHUGswbkI1MFJES0FGRm9BQVRyOUowNXJNZ0w1Qk5Uc0d4T1h1anB4dw?oc=5",
+          "source": "데일리안",
+          "published": "2026-10-21T14:01:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-014": {
+      "name": "만화/웹툰",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-015": {
+      "name": "전자책",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "OLED 아이패드 미니가 전자책 리더기의 시대를 끝낼까요? | 폰그램 - آي-فون إسلام",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWldFWXFLTDFXVC1uRG5Ic1hoaWh5bHFpSWJZQUN6LTNRd0pZRC1LVGZBQTRoM2M1VS0wRDRNSkZYWFBHU2MzM3dYcFdEeUM2X18wcG9sUUM5RjlVQktSLWw0MkhTNnY4ZXpwTGtiTDViSkt1ZTdWeV9ON0VXQ0lRUlhGc3RKQjUzNWVFcWttemtwOGtVdzJjeWFjS1JRbVE4dlhv?oc=5",
+          "source": "آي-فون إسلام",
+          "published": "2026-10-28T15:42:45+09:00"
+        },
+        {
+          "title": "강화된 저작권 보호: 전자책 성장의 기회. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMjNvUTg4WFMya3M5MEgySUJ0Tmc2dmdmVjZpOU5OX2hOS2Y5Wl84eGExRG1ER3k4MWwwZzRwN1J1c2tfQ3JXOXlvZnFpSEthN21VeFdTeFpnc0RkX2M0NlpCMzEwN2xtS3pZdVUtdHVNblNueE1sQTVNNTB0X1FPTElCb3VtSU0?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-10-28T15:21:50+09:00"
+        },
+        {
+          "title": "\"전자책 시대라더니\"…밀리의서재, 종이책에 꽂힌 뜻밖의 이유 - 한국경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MS2JsQXN5MHAxbXRWaDlxZVFOSk9EY3F0cmRQT0F3Wm5hekNLNVNMbkExVU5mOWxqdGxQVUpDakFCQVFPSGFuckhvTFV5ZHhrb0FVNFhHM1ctQQ?oc=5",
+          "source": "한국경제",
+          "published": "2026-10-27T14:10:42+09:00"
+        },
+        {
+          "title": "도서출판 매직북스, 신간 전자책 《꿈은 하나가 아니어도 괜찮아》 11월 초 출간! - https://www.didimkorea.net/",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBeHZmY0lhT29JYU93TEQyRWhrRUppdFJmbG82UEZrVjFvV0pnM2owQk9peHRsallqTGoyai1ua1F0b2F0b09nWjZvSnBueWs?oc=5",
+          "source": "https://www.didimkorea.net/",
+          "published": "2026-10-27T13:57:12+09:00"
+        },
+        {
+          "title": "마우저와 마이크로칩, 사이버 복원력법 관련 새로운 전자책 발간 - 올포칩",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RY0VpLVFDSHctWXlzdTk5N2duNGVqb3NTRFM1UkdkWXdPQWlrRDdLc2lCZG9PWGFmbUd3NjBuTV9jYnE3aXB2ZExicFkyMnNra0pXejlQNURQc0hWUzE2ag?oc=5",
+          "source": "올포칩",
+          "published": "2026-10-27T04:42:39+09:00"
+        },
+        {
+          "title": "마우저-마이크로칩, 사이버 복원력법 관련 새로운 전자책 발간 - 뉴스와이어",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UUGlLMTJLekp6OXdacmdtbElzcXZjeGFiMVRhRGVUNEFDNmhkMEhuaHFwNTlSOWQtdHhONWdvRUtUVlpjeFdSbFdHa0Q3d0xyeW1CeUVpLTJlS3I1UGFF?oc=5",
+          "source": "뉴스와이어",
+          "published": "2026-10-26T11:40:30+09:00"
+        },
+        {
+          "title": "전자책부터 커피·영화까지…LGU+, 월 9900원 구독팩 선봬 - 서울경제",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SZkN5a21iU2l2dm0yOGMyZGR3eFpYR1VGdXdzWlpVSXREOExsNFRtU3Bka1l6Zmp5ZHhnQk5PY0RhbEpxSWkxYUhSVGdpY09aVXfSAVNBVV95cUxQeVRKZGRxd0R6MFhva3FSaDZyWWxRa2NwNHpvakl3NGVLUlFXSms1U1UzbndrTVk3WThLQ3RGYjlmMVM2WXZrcEtEVllXSHhONGhNNA?oc=5",
+          "source": "서울경제",
+          "published": "2026-10-26T06:05:00+09:00"
+        },
+        {
+          "title": "전자책에 커피·영화까지…LG유플러스, ‘유독’ 구독팩 6종 출시 - 매일경제",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB3VHZKS0dFWk1PUWpxY3JsQ3QyREhPSFRnYTJnbnRoZ0NnaFZzMHdOZGVKaW1rRWZNLTRXd2xsT09ZZVVaY1E?oc=5",
+          "source": "매일경제",
+          "published": "2026-10-25T15:05:38+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50005542-016": {
+      "name": "오디오북",
+      "parent": "도서",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "[금서, 오디오북 356] 베른슈타인, 사회주의의 전제와 사민당의 과제 ⑨ - 이로운넷",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NaFFSTWMzWENqaDdtUzhTMzlNLVI1d3FRQVYtc3ZUbEx1QmtOYzV2WWE3NHNCT09nYjV1YUlFNDNrWHV3S2psXzZtSWdJd1F2TENfdHhIbGxTS0FYaDlodFkwZnNqUQ?oc=5",
+          "source": "이로운넷",
+          "published": "2026-10-30T08:50:00+09:00"
+        },
+        {
+          "title": "인천항만공사, 다문화 아동 위한 오디오북 목소리 기부 - 웹이코노미",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94VnJVbDdSb0txZ3BvZUkzaEYtN2h4OUw2SEZJVExVZFZOMTZ1YTU1YnZid1R4czJKQmpTdVp2NVFxcDIxODJzVHh0VHgyNlp6clBTMWtyanJxN3RTaDg5bVRvZTNPU0R0N1lSVS0yZGplQQ?oc=5",
+          "source": "웹이코노미",
+          "published": "2026-10-29T19:34:09+09:00"
+        },
+        {
+          "title": "인천항만공사, 다문화가정 위한 ‘목소리 기부’ 오디오북 녹음 봉사 진행 - 경기도민일보 미디어",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vU3EyeFlUUXN6WGpMaUhFN2hoZXpOdUN2dVU1YjV5UHNfZnlTZVp0dlNwVWJmeHJ5SXpPaEo5RGEzdjNuTkdpaThScWN2eVgxS2FxaHlKUW9VdmNKNHFEZmtoX0cxbVdzWlE?oc=5",
+          "source": "경기도민일보 미디어",
+          "published": "2026-10-29T17:41:31+09:00"
+        },
+        {
+          "title": "인천항만공사 등 6개 기관, 다문화 아동 위한 오디오북 제작 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fYVFnUG9PdjdBSGVZTVdxQXZMczZtZEM0R0RoSC02TVZ6bmRKNHhTdXM4TklhT21uWEdpUXVWUVdjU2Qwdlpqc3E5aXpNVkpYSDRLN1pIVWRablEwY21rOUxXX2tpRm50SkJ2MtIBb0FVX3lxTE1Ec2RMWEpMLTNmbzJOTDVodTdJYUxDOUo1eDRyLWRuLVVtU0M1cTNFeG44WlZsdWdfb3h2TTBpLWhvcmg0UlJ6RVpOZ0dZbUFoNV9Ib0ZDOWl6WHhTTUl5Y3BfV1dQaDhuVnE0Y0JEaw?oc=5",
+          "source": "한스경제",
+          "published": "2026-10-29T17:27:00+09:00"
+        },
+        {
+          "title": "박정민 출판사 무제, 시각장애인에 신작 소설 오디오북 기증 : 연예 - 재경일보",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5DZlRYcmZXdGZ3UXhLZkRhaVpBYnBVVGVKMndhYm11cC1nRzdrdjlramFpRV9idEJKUm96MGVvSTZHQVNSSjZFbG5QZw?oc=5",
+          "source": "재경일보",
+          "published": "2026-10-29T15:43:47+09:00"
+        },
+        {
+          "title": "인천항만공사, 다문화가정 위한 ‘목소리 기부’ 오디오북 봉사 - 경기도민일보 미디어",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zUzdOTlpjd2FmbmhuaGNrbjVHN2VwY2tkLXYtTGxWbjk5bWwtX0FablhzT1Juc1lJbEJIWkZuREJVX2w3SVYtOEtZaDJIaWx4ZmdZRDFwUVFkdUppR242TzBjQjRhZjRJOEE?oc=5",
+          "source": "경기도민일보 미디어",
+          "published": "2026-10-29T12:42:53+09:00"
+        },
+        {
+          "title": "[금서, 오디오북 355] 베른슈타인, 사회주의의 전제와 사민당의 과제 ⑧ - 이로운넷",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0VE1MZFRsNzVnQ3pHaXNHSzhvRnUyM2dNbGRONnpYd0p5cE1Ic3ZrQ1N5QmNMbmx1REhkY2tFMW5XYVliTXYtc092bXNOVm5wMmVSeHAxdHVZNFFiZEVvUmtta0NXQQ?oc=5",
+          "source": "이로운넷",
+          "published": "2026-10-29T08:50:00+09:00"
+        },
+        {
+          "title": "‘출판사 대표’ 박정민이 또…시각장애인 위한 오디오북 기증 - 한겨레",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZ0pTX2VPRGxCclZfOTBQN1Y5QWctRHpURlJGX1cyR2IyM3N0WnUwQk5VdC1PTDEwTDZiOFNRajNyeFNiVUp5M1A0c3BEQ3ZrUHBzMXVVck5fSlZUVko1aGxLaWh4MExSY25aRlFyMmJWQQ?oc=5",
+          "source": "한겨레",
+          "published": "2026-10-29T00:30:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-001": {
+      "name": "여성의류",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "라포랩스 “4050 여성 의류 구매 시 소재·관리 편의성 고려” - 데일리한국",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1XMFJqb0hHLXRnVFF0OUlWaUJsd2FHcW4tc2xlcEtDQlVhcERTNE1qbENGcmE2bFlhQjRwUjBvWXNBVjNsR1czRTdvZC1iVHM4aUtySnVDYWtFc3JnaU9BOEs2al9FU3Bub2lPWEsyTdIBc0FVX3lxTE93dDFOZUl2c0ZMZENwRU1fR040UDFIWTdwcHp0akNDTFJMRnA2cHJYTkxwalN0R05yaDF1QjcxNFNEZXY3NlEwYk1HZUMxZkxYRUdXNkpVRFBMSlBWR2VuMmhMb3llRVFIQVhJWnpDeHJ2QU0?oc=5",
+          "source": "데일리한국",
+          "published": "2026-10-19T16:10:58+09:00"
+        },
+        {
+          "title": "라포랩스, 4050 여성 의류 구매 기준 연구…소재·관리 경험이 선택 좌우 - 로이슈",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoTXJDeWdUWXlrSUJtaXNZdnBHVmpIeWJ2Q0pTd0Izemp0ZmVISDFjOWxWQVZWYnR0b1A4MnNOUC1lMGtnUk1rRkxFRDBSaVdQdlhBNEtIZWlrcXNrdHhhazA2ajlidnJCdG10eVRZLW01dlhkZ2Jmdkt3?oc=5",
+          "source": "로이슈",
+          "published": "2026-10-19T09:22:42+09:00"
+        },
+        {
+          "title": "“하객룩·출근룩 질문으로 상품 탐색”…주군컴퍼니, 여성의류 AI 광고 지원 - 뉴스퀘스트",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UeXR1QVNtc3pxU2tfdXhUeHRRak96ZU92bnpDQzZ2bENzcG1jOFdPSzdsZG9jS3Bock5XREZUTm54TWVib3gtN0ZLdnd5OG5JRG1BT3lmaXgyRUxZNVFSVk9vM2RuQW44RHJHWVpDcw?oc=5",
+          "source": "뉴스퀘스트",
+          "published": "2026-10-15T16:00:00+09:00"
+        },
+        {
+          "title": "LF '히스헤지스' 여성 의류 비중 40%까지 확대, 여성 라인 별도 성장축으로 - 비즈니스포스트",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RV3l3VlppZ2lSRzRDNnQ3aGFNUXZvSlBrd3pfODNjZVRfZnMxaG4zdlRnQWxhcXlaZ0xKZ0xJQkxqWTNJOW1DYzY0aHFPRUJHb1k2S0ZuYlc0STB5VXZKSDJtUGk5WVZ1TzJTVkg2SENKcE0?oc=5",
+          "source": "비즈니스포스트",
+          "published": "2026-09-30T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-002": {
+      "name": "남성의류",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-003": {
+      "name": "여성언더웨어/잠옷",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-004": {
+      "name": "남성언더웨어/잠옷",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-005": {
+      "name": "원피스",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "익숙한 카이로풍 경영, 원피스가 첨가되니 맛이 다르다 - 게임메카",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0zNnpKdGpTZVB2MEtpSjR5QnhlVXdGUWFuQUZ3WnhGOHRldGJoYmdzd1g0RWF4SUdRbGh5T1hWSmo2Yk5BTE9nWHBEV3JjOHZPM2pBcERiZjnSAVtBVV95cUxQNkwzbE82VFhsWEx2Y0ZETGgwOFFHUlZudTlzbnZWRXhrZTExTHI0S0pJS0hmUC1lYTBUeWYteUdBYjhLVWdwR0NJUjdBT1A3ZjBSTm5wRjViTkZR?oc=5",
+          "source": "게임메카",
+          "published": "2026-10-28T12:35:44+09:00"
+        },
+        {
+          "title": "장원영부터 공효진까지 입었다…'100만원대' 中 브랜드 원피스 - 한국경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xTmMxZnh3OU5IYl90YnV4WXhKRGx2dEtjUEQyeUZLMkdpcHNMT3JYcG5sVG5FXzRMY3hwYk9BdGJqcHNjQTBvX1ZnaUpmZUkzTUs4SW9lRFpfdw?oc=5",
+          "source": "한국경제",
+          "published": "2026-10-25T22:05:24+09:00"
+        },
+        {
+          "title": "[르포]\"원피스 한정판 카드까지…층마다 눈 돌아가네\" '300명 오픈런' 무슨 일이? - 아시아경제",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xNmxpbHA5VXNEN0d4blFjY3lld1NTNTNndV9ZQ3c3SzRmMm5lT2I1djIyS2hha2dMajdiWnN3SUduTTRkc0ZkY0I1NU9iME9BVDBTdzNjcl9OTVE1Nzl6eA?oc=5",
+          "source": "아시아경제",
+          "published": "2026-10-24T08:40:00+09:00"
+        },
+        {
+          "title": "[책마을] '원피스 ONE PIECE 115'…오다 에이치로의 만화 2위 - 한국경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBydEpiUkFvNzhWVnJRYjBlLXNZaFB5R0hpem8wOUlpck5wQ3JkRkFrWi0zOTdOSjlObUFoQ01RbnB1RW5XODZrbl9aNWxJQXEta1ZrWEdMVmZnUQ?oc=5",
+          "source": "한국경제",
+          "published": "2026-10-23T17:29:35+09:00"
+        },
+        {
+          "title": "원피스 그랜드 레스토랑 - 인벤",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FRmlyc0NoOWdGQmRSbkVrSXZNakkzREpuYlJxZjB1MUxpOFp6YUxUVE5tNFd2S0NOdWw2a2twbWhvaFpJNDNiOGxvMXdROXlDY292YU8ybGtKallIVzdfdg?oc=5",
+          "source": "인벤",
+          "published": "2026-10-23T16:00:00+09:00"
+        },
+        {
+          "title": "닌텐도 스위치용 원피스 그랜드 레스토랑, 10월 22일 출시 - 인벤",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yODl6RlJWNFNqRVE5Nndad1d0SFN1cEFfRFM0OURnd0oxWmdCVnNBeTU3OW5GMTBZcmFLWmg2RHV5NXlLQ09qZldnNFBsaVpzM0R5NC16cy1XamRBcWc?oc=5",
+          "source": "인벤",
+          "published": "2026-10-23T09:56:23+09:00"
+        },
+        {
+          "title": "카이로소프트 원피스 게임 '그랜드 레스토랑' 출시 - 게임메카",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5SUczc1dyTkFJYnlnZ2x2Yk9jdUlZN0ZnWU5TYXBVSkpzNVpIQnpHOURzQnZJVWY2bWxYMTFTNkxhOFAwLW9PMDQ3c2p2TlVoNzlkN0R6MGjSAVtBVV95cUxNeWFYbjFyY0JUR3l2Y1loNUFzOFRqeTlOWDVTR190NTUyWG11ZDF1c19uUllvd3FPblp2VmVkSTI5Y2lTS1hHYTJqUlhTUGNZSWlwQVliLWpzSmw4?oc=5",
+          "source": "게임메카",
+          "published": "2026-10-22T18:05:01+09:00"
+        },
+        {
+          "title": "[영상] 원피스 그랜드 레스토랑, 출시 트레일러 공개 - 게임뷰",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wWVNrYnBLWkFhWUV4MGlmOVAxRkRwOUdIVkMwdG5vZ01qZGdYbUM2dWRFVlRLRkF5M25hZHZrX3cwWEhpZXU4aExjdng5TEM4RUFrd1ZKQlFLdU54Y3UtbWQ4YksxZUhYZGc?oc=5",
+          "source": "게임뷰",
+          "published": "2026-10-22T17:59:39+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-006": {
+      "name": "아우터",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "'2조원 쓱데이' 개막…W컨셉 아우터 할인·스타벅스 한정 굿즈 - 조세일보",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oLXhlYThoUUUzVi1wTndNQUVNRjg0MWZnMUdMd1huYlVlS3RPY05uNDNyMi1MVnpzdUZGdlpsd0EtSUo3NFN2NGloeW1oODl0S1NuMGdGVFNNYUoxM0RQdEVJS2ZRa0RsemRudTQwVQ?oc=5",
+          "source": "조세일보",
+          "published": "2026-10-30T09:37:35+09:00"
+        },
+        {
+          "title": "W컨셉, '쓱데이' 맞아 겨울 아우터 대규모 할인 행사 - 뉴시스",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96dWFwd3hYTEhFZ0lmVUc4cnRKZ2N1T2Vma0tpZFQ1RmdvdC1kWHBjLWh1eUExV2Nzd05nU0EyOHJoTzVpMFA1T0NuT3hJU2xTckdEOVJIdmZaQ1NhTWVRX001blczNlBtT3dlQkVoNDlpckFMZTAxU9IBeEFVX3lxTE96dWFwd3hYTEhFZ0lmVUc4cnRKZ2N1T2Vma0tpZFQ1RmdvdC1kWHBjLWh1eUExV2Nzd05nU0EyOHJoTzVpMFA1T0NuT3hJU2xTckdEOVJIdmZaQ1NhTWVRX001blczNlBtT3dlQkVoNDlpckFMZTAxUw?oc=5",
+          "source": "뉴시스",
+          "published": "2026-10-30T08:45:26+09:00"
+        },
+        {
+          "title": "W컨셉, '쓱데이' 맞아 겨울 아우터 대규모 할인 행사",
+          "url": "https://www.newsis.com/view/NISX20261030_0003847669",
+          "source": "뉴시스 산업",
+          "published": "2026-10-30T08:45:26+09:00"
+        },
+        {
+          "title": "W컨셉, 쓱데이 맞아 겨울 아우터 최대 50% 할인 - 뉴스핌",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04SmRrNjRkTV9aWUt1VzlHY1A3Q1BJV0lkMjh3MlE2dEV0ZzFwbmpvTFhSVm5TYzk2RndpdFFoN1BxS2lMVG4tbkV6RkdJYnhjQm9xQTJ3YWdyZFFp?oc=5",
+          "source": "뉴스핌",
+          "published": "2026-10-30T07:47:00+09:00"
+        },
+        {
+          "title": "마뗑킴, 2026년 셀럽 앰버서더 5인 기용… 유니섹스·겨울 아우터 집중 - 피앤피뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XRDFHZkJOWklza1MzVFdDWWNWa3MzdEhiTEhHWS1wRUk5b0hGMzlJUktmS1NJMmU5REhRcjlpZjd3aWExUTRHVHlldmFhZkdzNmpIaE1UMlRKSDZMYVE?oc=5",
+          "source": "피앤피뉴스",
+          "published": "2026-10-29T16:48:29+09:00"
+        },
+        {
+          "title": "덥지도 춥지도 않은 계절을 위한 아우터, '케이프' 뜬다 - 어패럴뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRWQ4Mm1LLWVoNUZqV3pjUl9tdUZJcDlUUk9jd0tYMHBaT3hlYWdnRjNkWDlzR1V3VnZGV0lLdDZrdV93TW9TVENkcXgxYkdMT1Ztd1NRVGVOWS1iaWR1SUxQZHMtNGVOdDA4QmMtWFpRVmkyWDNwa29GSm0ySk5jNGlB?oc=5",
+          "source": "어패럴뉴스",
+          "published": "2026-10-27T23:03:40+09:00"
+        },
+        {
+          "title": "노르디스크, 경량 아우터 판매 호조...보온성·활용도 주목 - ABC뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SQXo2QlFneVM0Y3lzc1ZhdDdPeHNSRHhRMzlid0xRdV9UWU5LMUliY2hCdjFNY25KY3BGOHJQYVhva2xCdFBDNVUwSG95djlqeHh2NU1ZSGNHc004dkZsN1gyVm0wTEXSAWdBVV95cUxNUkF6NkJRZ3lTNGN5c3NWYXQ3T3hzUkR4UTM5YndMUXVfVFlOSzFJYmNoQnYxTWNuSmNwRjhyUGFYb2tsQnRQQzVVMEhveXY5anh4djVNWUhjR3NNOHZGbDdYMlZtMExF?oc=5",
+          "source": "ABC뉴스",
+          "published": "2026-10-27T17:59:14+09:00"
+        },
+        {
+          "title": "노르디스크, 경량 아우터 판매 호조… 가벼운 착용감으로 인기 - 피앤피뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52UWJKbDdXZm15Z2pFZ1FPb2N2dHVtWGZQNHRSUXZoZVJxTHZpOVRzZmp4Z2s4REFJY1pIR3VCU0xDaERMWkRJdUREamJyUnJ5UHhuT2dHZGhkei1md0E?oc=5",
+          "source": "피앤피뉴스",
+          "published": "2026-10-27T16:55:52+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-007": {
+      "name": "니트/스웨터",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-008": {
+      "name": "트레이닝복",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "울로 만든 트레이닝복? 질 샌더와 푸마가 함께 넘긴 세 번째 페이지 - 마리끌레르 코리아",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTQS1UQXU4c2ctSW9OeXRlWWxnS3JXbV9OTzVqY2pVaTFFQmJqNHVnU0UyeHVoVGItUHBFWWN6anZGZENXclk5SUhCdUhhYlQ4VzdDelBYblplZ0pWVF9LOGxISHluMVN3RzExVDNlVzZQakU?oc=5",
+          "source": "마리끌레르 코리아",
+          "published": "2026-10-23T23:03:29+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-009": {
+      "name": "청바지",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "(재)이천시자원봉사센터, 폐청바지로 새활용 물품 200여 점 전달 - 경기연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RzBNbVdrd010VW0yajM1OEo5LTBRMU1XN0tCX0tGNVpBaEc5c1RDNU5xZzFRcThfRlJXWW1iR2Q0ZWNET2VCclRPTTBFQnpXRV9hUF81LVdyUTVBWjgxWklYT2NLVkHSAWdBVV95cUxQdEcwTW1Xa3dNdFVtMmozNThKOS0wUTFNVzdLQl9LRjVaQWhHOXNUQzVOcWcxUXE4X0ZSV1ltYkdkNGVjRE9lQnJUT00wRUJ6V0VfYVBfNS1XclE1QVo4MVpJWE9jS1ZB?oc=5",
+          "source": "경기연합뉴스",
+          "published": "2026-10-26T20:37:00+09:00"
+        },
+        {
+          "title": "청바지에 검정 니트만 입기엔 겨울이 깁니다, 컬러 니트 5 - Vogue korea",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOQV9sY0FLVXFTNVFfY0p4Y091YXd0MzdIQVBlMnZHQVFSMWtFTkV1NTVsUnpRSHpMajlhNmpxY1c2Y0thNDVuZ0pkWkdDczYtbmpMSUV1LUlxOXlOckgzYjBTTnBfNlZkaXZwejVnYzBYUkk3SGN4TV9jb2xITHh1ZDNmaWlEbkh0SWlHVERGN0ZPbmJnNE1fdmhYaUpNTlM4RWhOblFsZERNN1Vib093OGI0a2hGd0YxLUNHeGxJSDREMmhFNjdJeVJnQkl2WnpRdE5IcVRZcC1BMndQczBDdEdNbVlnQWJFS3lRUkdxSlZoMGRKdlZhQ3BFRDBaUGJ1czJVdjQ5aWlEUDhvMDg5S1JYSUh2UG9LZXdQNWNvQkxyVFhISk9CMlQyT3FWd2lybDlhYXdRbkN1c0ZMX3R4UWxOMDV4RzdwUTh6OTlGeEc4UQ?oc=5",
+          "source": "Vogue korea",
+          "published": "2026-10-26T15:22:19+09:00"
+        },
+        {
+          "title": "청바지 냉동 세탁 꿀팁 효과는?…앨버타대 논문 '냉동 후 세균 다시 늘어' - www.famtimes.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kMmJlempWZlk5cXJzUzRyaThlc1htc0RKc191ODRpdld3UjJzOWhzaEd3UG83Um9xYlRyWXpHa1pJRlBPaGpMYXpfZG1HZEp5Z3RvVGVCRmE1TUg0RkZGcVNqY2dBYndzVk14c3VB?oc=5",
+          "source": "www.famtimes.co.kr",
+          "published": "2026-10-25T07:12:00+09:00"
+        },
+        {
+          "title": "엄마 신발에 아빠 청바지…00년대 소환하는 00년대생[백투더 레트로②] - 뉴시스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CdVFBSzRTSFZKWFNJQ1RtVGl6ZzlBcGY0bVdLRFRQZWdvOFg0XzYwQUR0QWhjUDBoajB3V25NeE5pVHJoTG1WamRtMEZ1TlhGb3BlZUI1NWlCNGo2engtS9IBeEFVX3lxTFBkbnctZVk4eFdaQWtDZC1pcV9ZSHMxUWNiY203RnBBT0pQbFp0a2hpclFYTkROOVBZbU5WTjl3eW1CT3FZa0VJMWZJU3dWX3BLSUxER19Wc3dKVnRmTmk5VXdXWHdyM0wyVm5PYVRER3FmMGFqVkhuMQ?oc=5",
+          "source": "뉴시스",
+          "published": "2026-10-24T10:00:00+09:00"
+        },
+        {
+          "title": "갑자기 추워진 날, 케이트 모스가 청바지에 꺼내 입는 ‘이 재킷’ - Vogue korea",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPcXhoYlBkUGtwTkxRQWRDVkRidWNwYXUwd2pKd2JKd0tnZWdJRzY0bTVlOXVQUFFFOFN1MFZuaVVsY1d3dnJZMTZ5RkMyODF0OU9vV0lINjAzX1hDbjhEakV6cEc4TFBWSjhXVGY1R3ZLck5TT3hJU2k5YWtuS1F4QklTa3lza0pwakNNdWFFNTZQS04xZEJjM3lqTUVjeWFGSDl6alVHUS1PVkVaSVJoeV9FaDdaRVJ3RTZEZTRJWlBPeHFieGtucGhBSkNaYmlvWVIxdzVHNGl5cjRRSk92U0p6aGVXMHJZSzhkRG82alVWeW1XbkhMYzdOTHVTdjMzRGRBamhxbDE3cDNlV1RaZll0MFRXQm9FcU5ZN29odExPS3U5SVlvcWRZZEowaW1RdERhSEEydnVnNjZVSUFERlNsV0RsN2RLNkNmdXQ3cHJYUQ?oc=5",
+          "source": "Vogue korea",
+          "published": "2026-10-22T12:00:13+09:00"
+        },
+        {
+          "title": "불황에 날개 돋친듯 팔리는 3만원 청바지…주식을 사볼까 - 머니투데이 - 머니투데이",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5bVB1UmJzcFBIRFllTkZSNFlVRWFuLVB1ajVEOGlydDhvNXQ4aWkzb1BUSldER0gzZVVVOGR2VmhYYzJmTzlHSC1zUGNyZ0dSWjlNcTltMERZMWRZQzhtNkdJVTRSWXo30gFuQVVfeXFMTnRNRHB2WG43aGNDNDJVQ3ROTVVQQWxlMVRSNmVxc0FtNnR2M1FXRFBSMmhZVmFwck5DWHdCMUtYTGcxSk5fT21fZlBPWEpCVF9YUlZGcHZ4eFZpWldaNlBzdUUxVTh6TG5aX2F5Rmc?oc=5",
+          "source": "머니투데이",
+          "published": "2026-10-18T16:00:00+09:00"
+        },
+        {
+          "title": "지금이 제철! 가죽 재킷에 청바지는 이렇게 입어야 합니다 - Vogue korea",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNQmxBYU9TYkpVWU9NSDdiWHRETEx0WXY0WVYzamhpZEo3SWd3YzAydTNhZnlYN2FUelptUEZDWnZpbWloMmctaFk1NHo2ZGVoa3JNTzdla0xpNWNmLWp0clc5czZfUG9BcndaVUZ1ZGxYbHZfSmgzVUFUQnQ1VFpaU1E5anJHa0hpVFhyQXdoamphWXczWHRWV2REZnh3d216N2pab21YSlZSX1pLV1NwWnZyZzJQSUwxYkQ5cXpNV3BQZm1IRU1ERTBiQjlzMXJ2SG1Nb00xclp0M2ZOcWZPVWxkUjg3ajNmZVJuVVJQY1ZCM1RmeW1MeklTUlFvWElzRG5OcEtmMnFwNTVBTnF2Qnd2eW9UbWgzQ0REOG1kNVQtZ2cxdVFuUUI3b3JUdHpiVi1kRXdlRjFPaFRuNWloWHlpUkNhT3ZiWlFLZTczWFBpZw?oc=5",
+          "source": "Vogue korea",
+          "published": "2026-10-08T16:00:00+09:00"
+        },
+        {
+          "title": "김희애, 봄버 재킷과 청바지 굿조합! 60세 나이를 거스른 비주얼 스타일리시한 출국길 - 패션엔",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTU0x5RkNiMnZtUWhROHJiTGZXaFdBRHdNb1lmb1pPRXNQV0pIVkFZbjM2SGRhbWw2Z05UeEp5b01TSE9UbV9rUEhoWEwxcmExVGhoZGtZWHlsWnF5b1V2MHBrUlVSd000ZHp0NFpWZw?oc=5",
+          "source": "패션엔",
+          "published": "2026-10-07T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-010": {
+      "name": "블라우스/셔츠",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-011": {
+      "name": "유니폼/단체복",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-012": {
+      "name": "스포츠웨어",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "[2026 마켓나우 : 스포츠웨어] 경험 중심 재편 4.6% UP, 11조 돌파 - 패션비즈",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nbmRfRi1Ja1ZQcTZBM0xwQW0wanUxN1dsRzBkZGMyc1d0bC1xUU9oeGtEejFmWU5FOGxPb29qTllJWm83TFhYbzNhWnZfdmhk?oc=5",
+          "source": "패션비즈",
+          "published": "2026-10-30T07:00:52+09:00"
+        },
+        {
+          "title": "컬럼비아 스포츠웨어, 3분기 영업이익 1억 961만 달러…전년비 62.7% 증가 - 데이터투자",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aUUpFZ0lyT0M5VGR0QzJQLWtuVmlNdDEtLWtlRmxmWVRoVVhzZ0h2dHA1RGtFUVJuYzlMSWI3bTl0UVVURkU1QkF1bUZFZ0kxclFBQS1kY1FteUVaZUVjdnhCM0NPU25VMEVMR1FtdGFpQ0k?oc=5",
+          "source": "데이터투자",
+          "published": "2026-10-30T05:20:00+09:00"
+        },
+        {
+          "title": "“AI가 온도 추천하고 스마트폰으로 조절”… 다이나핏, 발열 스포츠웨어 출시 - 천지일보",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oUXBWSTZfYmd6N3U5NnRoanVuN2txeW9oM3h3UWVYM3FOUzRPZURGc2o2Nzd3bi0tNmhEWHJnOWZRaUZXRUd6ZXZGMUNRVi1lWlZXdlF0V3JfOEs4Y0dfOGx6ZVFHa1JhV3c?oc=5",
+          "source": "천지일보",
+          "published": "2026-10-28T14:40:13+09:00"
+        },
+        {
+          "title": "카파, 빈티지 워싱 입힌 26FW 컬렉션 공개…일상형 스포츠웨어 공략 - TENANT news",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wcEFNOG56dXdlUFNBZm54ZGt4QVl1QWZWUWZSYjdJZmlvcnlNeVhFTW9qQmRCeXFJbFZHZXV4c1RMZS1OMlExWUFCQXA?oc=5",
+          "source": "TENANT news",
+          "published": "2026-10-28T08:45:49+09:00"
+        },
+        {
+          "title": "칼하트 WIP, 나이키 스포츠웨어 및 서플라이와 손잡고 SURPLUS 2026 컬렉션 재출시 - Hypebeast.KR",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU05mVS1OUldTNGJuYnhKcDR1SXlxNG9FVWcwR0xwSW9fZTRuSWExRWcxVmUzVE50cVBabXcwUmU4UERoWUlhVGEydjNZNUNtWDVPNkxCMFluLWtuNkExQVRGYlpCZ1cyOEdjNGNfQjlJb2xVTVNnWHllYkhzR045YU9hOFJfWjZsSVlHM2NCSl9OdDhzd093?oc=5",
+          "source": "Hypebeast.KR",
+          "published": "2026-10-19T16:00:00+09:00"
+        },
+        {
+          "title": "러셀 애슬레틱, 120년 스포츠웨어 헤리티지 앞세워 한국 진출 - 한국섬유신문",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsc2syWWtiazRzUWJJZ3lNS2FzRkI1TmNkU2VpZnREOW5KOWkwSXZZVmN0TGdKT2hZMUdzMnFRaTJRYmx6Rnc4ZXJKcmNlcWk4d2g3YTdib2lNRFZwQ0ljbm1oSjBOTXJL?oc=5",
+          "source": "한국섬유신문",
+          "published": "2026-10-12T16:00:00+09:00"
+        },
+        {
+          "title": "스포츠웨어 온(On), 축구에 이어 ‘골프’ 시장 진출로 한 단계 더 도약 - 레저신문",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Cck53Q1hyVmttZ3k1YzBKZF92d05mTjlKeUV4dXg4NXZMaEJyMDR4NU41NlEzbjNIVjdjaXE1c1NuSXhuXzhHRl80NkVhLXluMFZZVnljc004NkRUVFJmcGgwczlHQl85UXFRRHFvcw?oc=5",
+          "source": "레저신문",
+          "published": "2026-10-09T16:00:00+09:00"
+        },
+        {
+          "title": "印 스포츠웨어 연 10% 성장…글로벌 브랜드 각축전 - 국제섬유신문",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51alV4VWNYZ0hLS0JQMzFSYS1vdW1zX1I0RzhubkZ2WVBPTmFYQ1NuOFEtbmpxZnhCaDhYWF9LQS1hSmRPcDB6R2UwekZyQ2xEYTV5aWlHcE5EellpT0FiUEMyeTRzUVU?oc=5",
+          "source": "국제섬유신문",
+          "published": "2026-10-07T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-013": {
+      "name": "레깅스",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "김희선, 레깅스=등산룩이라니! 50세에도 완벽한 핏 “자기 관리 정말 잘해” - Chosunbiz",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVZNbVQwQXVmRm05VzhoSEJzRjA5N2ZFclcwaFdIbzJEaGdqTkR4ODdRYmg2Y2w2MEY5ZHN1ZlRXRjRScFlJTmNueW53bk5DanVoOGV2alRsZ3hXUlZHRVRObnNNbVJXNldjampWVUhiNEVIZE5DdUpsOERsVERWZHF1WkNxNlp1YnUzV1RQbUxIWDDSAacBQVVfeXFMTlcyZmsweG9RMjA2S0l5M0JoaVpQeWZXNmc0Rmg4WFFqVnd3QWp2akhUbzFRMXdXT2dwWGhJcW5FWTBoLWNuREtodEs2NHpuQ2FHcVpTcXZTZ2x1SktyY3E3RDlRU0xXUEdQYkVsQmNOdTM3NGFOR1FqUWJzWWRzZVZOU0Y1QVBaSllkbzNyeHR1RHQ3MDUyc3JndWVjdjRSbXZ1N0ZfRU0?oc=5",
+          "source": "Chosunbiz",
+          "published": "2026-10-27T23:39:00+09:00"
+        },
+        {
+          "title": "신지, 탄탄 레깅스핏으로 건강 우려 종결 \"목이 아픈 거지 몸은 괜찮\" - 조선비즈 - Chosunbiz",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObDFWaTVTRWVLR0hBQUZ2VTVUT2NOcExJRDZicXVmWC1OSGRGM3hoVnJJNUQ4UW9TRUcwWnBmNU5TRnNwek9ETGZHWGE3V3l3WGdSZ2xoOFVubHcyck9KNXRmX0ZyUURmRU54bjlHX2dDQlV5VFNfTEpBdzdiUU40eHI1YUVNOExoTE9kUFp4bXVTUWvSAacBQVVfeXFMTVgwbjRLelp4aTJET3dtTHFNeFg1NXFvTU9qa1R1TV9GWGk0YmM4RGNETGFjcWw1X1dIbVpyUDBZRmEteDQyQ1U3MTBoY0hyNnByZ0hsaGw3cnJicmYtVlVUc3FNaS0tdmViODQyLTNzYVk5ZGlvbmFJVEJQTEhZMURCVF82WVJUZ0ZxODg4OGtHWmYyQUlrXzdPcWVZVGUwdV9Yck9WcEE?oc=5",
+          "source": "Chosunbiz",
+          "published": "2026-10-26T18:11:00+09:00"
+        },
+        {
+          "title": "“속옷 다비쳐” 레깅스계 샤넬 룰루레몬 직원7명 해고 - 문화일보",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HY1FqZmJpMmppNkF4dzFFT3Yyd2RpZUQ2a05mRXlIYVQzNXROUGRBbkFCUUVEWGJpTXB6UF8tUUdtdDllM0wwNjQ0UFZHSDNY?oc=5",
+          "source": "문화일보",
+          "published": "2026-10-18T16:00:00+09:00"
+        },
+        {
+          "title": "한소희, 금발에 레깅스 입고 힙한 모습…몸매 비결은 \"모든 것은 운동\" - 뉴시스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90TEVTYzNnMlBfa1o0d2s5V3N0VlhrV2dZdXJjYkJjTF9OazUxVzFiYzVpWjY3UkppdmRSeHkwcnFUek80dGJUZ0dvcFY3MmViQ2NrMWx6U2dnX2NVNnEyT9IBeEFVX3lxTE96dGJMY0hxWFA4cUEwVEJWUDVBRVlWWUdYTkZmTWhSaG5WNzl5QkZnS045V3NzSFlHRWFPenZjNkVfZUVLdDRlVmRYS2tyWFRfWmJOT3RPUEU4dFoxV3dnWldXa2ZkSHNOTHliLWZkMUJNSm80YTJSZw?oc=5",
+          "source": "뉴시스",
+          "published": "2026-10-18T16:00:00+09:00"
+        },
+        {
+          "title": "'속옷 비친 15만원 레깅스' 불만 폭주하더니…'7명' 잘렸다 - 한국경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16MWpQS3huRUVfSDBjR2ZNRVlOQWVUZzZfUTBqQlBPeVBlYTE1dC02Y1NQRDBCcTdVRTloSVhVcXhoaFk0TlZ5MEpLdERUcVM2RHhGT1JwWlU0UQ?oc=5",
+          "source": "한국경제",
+          "published": "2026-10-16T16:00:00+09:00"
+        },
+        {
+          "title": "“레깅스 다 비친다“ 품질 논란…’요가복 샤넬’ 룰루레몬, 7명 해고 - 연합뉴스TV",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00Zkpuc2xUaDByb0xkOE0waWpjUEVoWnlSckJiVXNiOERBMHZFU2lJVEFkV0lYbjd5aEVncUJfTm1PcXhOYmJjMzJzT3BLOGtZX3lCdnQ1QlJpMUtaUC1pVUk3dkduS1E?oc=5",
+          "source": "연합뉴스TV",
+          "published": "2026-10-16T16:00:00+09:00"
+        },
+        {
+          "title": "“민망한 부위 또 비쳤다” 발칵 뒤집혀…명품 레깅스 업체에 무슨일이 - www.dt.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9QR1NzTnZwWVdsQkt0am1LSWQxXzBneFg0SDZxMzFyTDl6Y0lrX3BGODRzLW54bVBGUXUwZlJjdE9WTVZnSmNqMW9kMDhXZw?oc=5",
+          "source": "www.dt.co.kr",
+          "published": "2026-10-16T16:00:00+09:00"
+        },
+        {
+          "title": "“민망한 부위 다 비쳐”…‘명품 레깅스’ 심각한 품질 논란에 결국 [라이프+] - 나우뉴스",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lUFdNbnlaWnQ5em04T1BVWEIxZk9wOEpRSDh5dVBVZ0ZMNU1zWlN4UUVLRlFDR055QzNqYWplbkMxM0h4aUtWSGFqSmNtd3VsanVGNzdzdjNpQWVkV2h6eDBWUWgzbXNHVEl0QUNYUDI?oc=5",
+          "source": "나우뉴스",
+          "published": "2026-10-16T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000000-014": {
+      "name": "잠옷/홈웨어",
+      "parent": "패션의류",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000001-001": {
+      "name": "여성신발",
+      "parent": "패션잡화",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000001-002": {
+      "name": "남성신발",
+      "parent": "패션잡화",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000001-003": {
+      "name": "여성가방",
+      "parent": "패션잡화",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "올가을 여성 가방 트렌드, 자연스러운 슬라우치백 급부상 - https://www.2news.co.kr/",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wNGc0aHh6SjRhbXBsZzQwaFQ2Y3c2czFib2ZtOVg3eGxiOGc0LWxfdS1kaUxSNTQzYWVtWnl5OFdFblprN0g5eUt0MUQzZzMzSFpJWWo4NW40YWlOeWtQaHVVODJfSmdL?oc=5",
+          "source": "https://www.2news.co.kr/",
+          "published": "2026-10-17T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000001-004": {
+      "name": "남성가방",
+      "parent": "패션잡화",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
+    },
+    "preview-50000001-005": {
+      "name": "지갑",
+      "parent": "패션잡화",
+      "checked_at": "2026-10-30T10:02:07+09:00",
+      "articles": [
+        {
+          "title": "뷰티 할인에 지갑 열었다…신세계免, 첫 ‘신면세일’ 온라인 매출 20%↑ - 지디넷코리아",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OdW5jVHhsN1h5Z2NZSTdZSHVQY0dMTFNJQlhhQ3k1emVtV3pTaUhlQlVvUU43SV9renZJY2NJUllaRDdteXR0eWpDdjE1bnd0XzZsdnh3?oc=5",
+          "source": "지디넷코리아",
+          "published": "2026-10-14T16:00:00+09:00"
+        },
+        {
+          "title": "인천공항 면세점, 역대급 여객속 '지갑 닫힌 호황' - 경기신문",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IVDRJQjBNMmJhZnpWLUU4ZnVXU0RtcVV0eTl0Zm1jcU5IeDNkcjNleW9lTDFKZmg1Nmg0azR1QzdIQkdpZ1MxUUZZT01BdUxEaWhWYWoxUXBhdFZsdE1LOUx3?oc=5",
+          "source": "경기신문",
+          "published": "2026-10-05T16:00:00+09:00"
+        }
+      ],
+      "coverage": "google_news_rss+publisher_rss"
+    }
+  }
 }
