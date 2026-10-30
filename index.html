@@ -5,6 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="#0c1628" name="theme-color"/>
+<meta name="application-version" content="market-brief-nav-fixed-20261030"/>
 <title>Linkprice 영업 지원 시스템 | ALL MARKET</title>
 <meta content="전 업종 시장 뉴스 레이더 · 네이버 SA/GFA 광고 전략 · 콜영업 스크립트 · API 없는 자동 수집" name="description"/>
 <style>
@@ -39,6 +40,16 @@
 .source-disclaimer{margin:14px 0 22px;border:1px solid #cfe7e1;border-radius:11px;padding:13px 17px;background:#e9f9f4;color:#265e58;font-size:11px;line-height:1.65}.source-disclaimer a{color:#007e69;text-decoration:underline;font-weight:800}
 .metric-tabs{display:flex;gap:7px;margin:17px 0 5px;flex-wrap:wrap}.metric-tab{border:1px solid #dce7eb;background:#fff;color:#5c7282;padding:8px 13px;border-radius:8px;font-size:11px;font-weight:800}.metric-tab:hover{border-color:#08b38c}.metric-tab.active{border-color:#0aa985;background:#e8faf3;color:#07846f}.segment-card{margin-top:18px}.segment-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.segment-box{border:1px solid #e8eef2;border-radius:10px;background:#fbfdfe;padding:18px}.segment-box h4{font-size:12px;color:#284058;margin:0 0 13px}.segment-row{display:flex;align-items:center;justify-content:space-between;font-size:11px;margin:7px 0 4px}.segment-track{height:6px;border-radius:20px;background:#e5eeef;overflow:hidden}.segment-fill{height:100%;background:#00b98e;border-radius:20px}.segment-muted{border:1px dashed #d5e1e7;border-radius:9px;padding:17px;font-size:12px;color:#8498a4}.metric-strong{font-size:11px;color:#396379;font-weight:700}.source-caption{font-size:10px;color:#7890a0;margin-top:12px}.trend-impact{border-left:3px solid #19b58e;padding:8px 10px;margin:14px 0;color:#30596a;font-size:12px;background:#f0fbf7}
 @media(max-width:950px){.segment-grid{grid-template-columns:1fr}}@media(max-width:600px){.metric-tabs{flex-direction:column}}
+
+/* Navigation repair: surface all five modules and move to the selected panel */
+.quicknav{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:19px 0 4px;padding:12px;background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow)}
+.quicknav-title{font-size:10px;letter-spacing:1.1px;font-weight:800;color:#92a0b0;margin:0 7px}
+.quicktab{border:1px solid #e2e9ee;border-radius:9px;background:#f9fbfd;color:#4b5d70;padding:9px 12px;white-space:nowrap;font-size:12px;font-weight:750;transition:background .15s,border-color .15s}
+.quicktab:hover{border-color:#78cdb9;background:#f1faf7;color:#087e65}
+.quicktab.active{background:#e9fbf5;border-color:#b2ebd9;color:#077d62}
+.tab-view{scroll-margin-top:18px;min-height:200px}
+@media(max-width:990px){.quicknav{flex-wrap:nowrap;overflow:auto;scrollbar-width:thin}.quicknav-title{display:none}.quicktab{font-size:11px;padding:9px 11px;flex-shrink:0}}
+@media(max-width:680px){.quicknav{margin:13px 0 5px;padding:8px}.quicktab{font-size:11px}}
 </style>
 </head>
 <body>
@@ -63,7 +74,15 @@
 <main class="main">
 <header class="topbar"><div class="breadcrumb">LINKPRICE <span>/</span> MARKET <span>/</span> <b id="crumbPage">전략 대시보드</b></div><div class="topright"><span class="top-date" id="todayLabel"></span><span class="internal-label">INTERNAL WORKSPACE</span></div></header>
 <div class="content">
-<section class="hero"><div><div class="eyebrow"><span class="mini-dot"></span> SALES ENABLEMENT PLATFORM</div><h1>Linkprice 영업 지원 시스템 <em>( MARKET )</em></h1><p>업종별 공개 뉴스와 시장 이슈를 확인하고, SA·GFA 전략을 설계하고, 영업 준비까지 한 화면에서.</p></div><div aria-hidden="true" class="hero-symbol"><div class="ring r1"></div><div class="ring r2"></div><b>LP</b></div></section>
+<section class="hero"><div><div class="eyebrow"><span class="mini-dot"></span> SALES ENABLEMENT PLATFORM</div><h1>Linkprice 영업 지원 시스템 <em>( MARKET )</em></h1><p>업종별 공개 뉴스와 시장 이슈를 확인하고, SA·GFA 전략을 설계하고, 영업 준비까지 한 화면에서. 상단 빠른 메뉴 또는 왼쪽 메뉴로 각 화면에 바로 이동할 수 있습니다.</p></div><div aria-hidden="true" class="hero-symbol"><div class="ring r1"></div><div class="ring r2"></div><b>LP</b></div></section>
+<nav class="quicknav" aria-label="업무 화면 바로가기">
+  <span class="quicknav-title">WORKSPACE</span>
+  <button type="button" class="quicktab active" data-tab="overview">◈ 전략 대시보드</button>
+  <button type="button" class="quicktab" data-tab="market">▤ 시장 뉴스 분석</button>
+  <button type="button" class="quicktab" data-tab="strategy">◎ SA · GFA 퍼널</button>
+  <button type="button" class="quicktab" data-tab="notes">✎ 콜영업 스크립트</button>
+  <button type="button" class="quicktab" data-tab="data">▣ 데이터 센터</button>
+</nav>
 <div class="notice" id="banner"><span class="notice-icon">ⓘ</span><span id="bannerText">유료 API 없이 공개 RSS 뉴스의 제목·출처·발행일을 수집합니다. 전체 공식 쇼핑 카테고리와 시장 규모 수치는 제공하지 않습니다.</span><button id="bannerGo">수집 안내 ↗</button></div>
 <div class="source-disclaimer"><b>무료 공개자료 안내</b> · 유료 OpenAI/네이버 API를 사용하지 않습니다. 최신 뉴스가 없는 업종은 <b>2026.10.30 작성 ChatGPT 참고 브리핑</b>과 출처를 표시합니다. 이는 매일 자동 재분석된 내용이 아니며, 품목별 매출·광고 효과를 뜻하지 않습니다.</div>
 <section class="stats" id="stats"></section>
@@ -137,11 +156,11 @@ function normalize(data){let v=Array.isArray(data)?data:(data&&Array.isArray(dat
  }
  const a=v.filter(x=>x&&typeof x.name==='string'&&(x.level===1||x.level===2)).map(x=>({id:String(x.id),name:x.name,parent_id:x.parent_id?String(x.parent_id):null,level:Number(x.level),source:x.source||'import'}));if(!a.length)throw Error('유효한 분류가 없습니다');return a;
 }
-async function init(){let [catalog,news]=await Promise.all([getJSON('data/categories.json',window.__STARTER_CATALOG||null),getJSON('data/news.json',{items:{},metadata:{source:'public_rss',updated:null}})]);
+async function init(){bind();let [catalog,news]=await Promise.all([getJSON('data/categories.json',window.__STARTER_CATALOG||null),getJSON('data/news.json',{items:{},metadata:{source:'public_rss',updated:null}})]);
  if(!catalog){$('bannerText').textContent='카테고리 파일을 읽지 못했습니다. GitHub Pages 또는 로컬 웹서버에서 실행하세요.';$('catalogStatus').textContent='데이터 로드 실패';return}
  DB=normalize(catalog);META=catalog.metadata||{};let ov=LS.get('lpnav:catalogOverride',null);if(ov&&Array.isArray(ov.categories)){try{DB=normalize(ov);META={...ov.metadata,source:'local_import',verified_full_catalog:!!ov.metadata?.verified_full_catalog}}catch(e){}}
  NEWS=news||{items:{},metadata:{}};roots=DB.filter(x=>x.level===1);S.selected=LS.get('lpnav:selected',null)||((DB.find(x=>x.level===2)||roots[0])?.id||'');if(!DB.some(x=>x.id===S.selected))S.selected=(DB.find(x=>x.level===2)||roots[0]).id;
- $('todayLabel').textContent=new Intl.DateTimeFormat('ko-KR',{year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());bind();draw();}
+ $('todayLabel').textContent=new Intl.DateTimeFormat('ko-KR',{year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());draw();}
 function bind(){document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tab)));
  $('categorySearch').addEventListener('input',e=>{S.search=e.target.value;$('mainSearch').value=S.search;S.page=1;renderChoices()});
  $('mainSearch').addEventListener('input',e=>{S.search=e.target.value;$('categorySearch').value=S.search;S.page=1;renderChoices()});
@@ -171,7 +190,23 @@ function parseCatCSV(raw){let lines=raw.replace(/^\ufeff/,'').split(/\r?\n/).fil
 function splitCsv(str){let out=[],s='',quoted=false;for(let i=0;i<str.length;i++){let c=str[i];if(c==='"'){if(quoted&&str[i+1]==='"'){s+='"';i++}else quoted=!quoted}else if(c===','&&!quoted){out.push(s.trim());s=''}else s+=c}out.push(s.trim());return out}
 function csvQuote(s){return '"'+String(s??'').replace(/"/g,'""')+'"'}
 function download(name,body,type){let u=URL.createObjectURL(new Blob([body],{type}));let a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)}
-function switchTab(t){S.tab=t;document.querySelectorAll('.navitem').forEach(el=>el.classList.toggle('active',el.dataset.tab===t));document.querySelectorAll('.tab-view').forEach(el=>el.classList.add('hidden'));$('view-'+t).classList.remove('hidden');const titles={overview:'전략 대시보드',market:'시장현황 분석',strategy:'SA · GFA 퍼널',notes:'콜영업 스크립트',data:'데이터 센터'};$('crumbPage').textContent=titles[t];if(t==='data')renderData();window.scrollTo({top:0,behavior:'smooth'})}
+function switchTab(t){
+ const target=$('view-'+t);
+ if(!target)return;
+ S.tab=t;
+ document.querySelectorAll('.navitem,.quicktab').forEach(el=>{
+  const active=el.dataset.tab===t;
+  el.classList.toggle('active',active);
+  el.setAttribute('aria-current',active?'page':'false');
+ });
+ document.querySelectorAll('.tab-view').forEach(el=>el.classList.toggle('hidden',el!==target));
+ const titles={overview:'전략 대시보드',market:'시장현황 분석',strategy:'SA · GFA 퍼널',notes:'콜영업 스크립트',data:'데이터 센터'};
+ $('crumbPage').textContent=titles[t]||'';
+ if(t==='data'&&DB.length)renderData();
+ // Previously scrolled to page top, leaving the selected tab below the fold.
+ // Always bring the requested view into the viewport instead.
+ requestAnimationFrame(()=>target.scrollIntoView({behavior:'smooth',block:'start'}));
+}
 function saveSelection(){LS.put('lpnav:selected',S.selected)}
 function draw(){renderChoices();renderStats();renderInsights();renderNews();renderStrategy();renderNotes();renderData();let status=META.verified_full_catalog?'확인된 분류 목록':META.source==='local_import'||META.source==='manual_upload'?'사용자 업로드 분류':'탐색용 중분류 (공식 전체 아님)';$('catalogStatus').textContent=status;
  $('bannerText').textContent='무료 뉴스 RSS 수집 + 뉴스 없을 때 참고 시장 브리핑 표시. 기사 수는 시장 규모가 아니며 참고 브리핑은 2026-10-30 기준 정적 요약입니다.';}
