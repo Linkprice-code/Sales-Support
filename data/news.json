@@ -1,29 +1,21 @@
 {
   "metadata": {
     "source": "public_rss",
-    "updated": "2026-11-24T14:30:28+09:00",
+    "updated": "2026-11-25T13:34:43+09:00",
     "description": "RSS 기사 제목·발행일·출처·링크. 네이버/오픈AI/유료 API 미사용. 기사 건수는 실제 시장규모 아님.",
-    "status": "partial_success",
-    "processed_categories": 55,
-    "google_news_checks": 48,
+    "status": "ok",
+    "processed_categories": 57,
+    "google_news_checks": 57,
     "publisher_feeds_ok": 6,
-    "errors": [
-      "출산준비물 구글 뉴스: HTTPError: HTTP Error 429: Too Many Requests",
-      "아동가방 구글 뉴스: HTTPError: HTTP Error 429: Too Many Requests",
-      "목욕용품 구글 뉴스: HTTPError: HTTP Error 429: Too Many Requests",
-      "농산물 구글 뉴스: HTTPError: HTTP Error 429: Too Many Requests",
-      "과일 구글 뉴스: HTTPError: HTTP Error 429: Too Many Requests",
-      "계란 구글 뉴스: HTTPError: HTTP Error 429: Too Many Requests",
-      "반찬 구글 뉴스: HTTPError: HTTP Error 429: Too Many Requests"
-    ],
-    "news_count_newly_matched": 198,
+    "errors": [],
+    "news_count_newly_matched": 190,
     "catalog_scope": "starter_preview; not verified full NAVER catalog"
   },
   "items": {
     "50000000": {
       "name": "패션의류",
       "parent": "패션의류",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "2035년 패스트 패션 의류 시장 규모 보고서 - Business Research Insights",
@@ -37,19 +29,13 @@
     "50000001": {
       "name": "패션잡화",
       "parent": "패션잡화",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "패션 잡화, 기능 넘어 취향 저격 나섰다 [최기자의 패션 털기] - 시장경제신문",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2Wk5MSGhqcjc1eTVTZ09IenFtblQ2eUliY0tQRElwTjJ3eWhyeTB4bTVCc3RWNjlBRkZ0VjBWNXExNXFRd3Z2a290Z0l3MjZIR1JialhvWkZmR0NEMzY0SzFmOGJtT2EtekFOTmhRVlo?oc=5",
           "source": "시장경제신문",
           "published": "2026-11-22T08:37:45+09:00"
-        },
-        {
-          "title": "롯데백화점 대구점, 겨울 패션 잡화 선보여 - 경북매일",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SN2NaS3M5SUVzZlpzbTVNQWp6UlBoYXB3NHUxeGYwLUVsa3Zxcl9DWnlCRExBdEcyOFRRcGU1aUczaXdLQW5MdFFCd0gwLWZ4bzF0TTBUTkNVdw?oc=5",
-          "source": "경북매일",
-          "published": "2026-11-01T16:00:00+09:00"
         },
         {
           "title": "대구신세계, 3층 패션잡화 매장 새 단장…신규 브랜드 입점 - 경북매일",
@@ -69,83 +55,83 @@
     "50000002": {
       "name": "화장품/미용",
       "parent": "화장품/미용",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "50000003": {
       "name": "디지털/가전",
       "parent": "디지털/가전",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "50000004": {
       "name": "가구/인테리어",
       "parent": "가구/인테리어",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "50000005": {
       "name": "출산/육아",
       "parent": "출산/육아",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "50000006": {
       "name": "식품",
       "parent": "식품",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "식품클러스터, 의약품생산 열리나…\"업종 넓히길\"",
-          "url": "https://www.newsis.com/view/NISX20261124_0003880935",
+          "title": "'익숙하지만, 새롭게'…식품업계, 기존 제품 재해석 경쟁 뜨겁다 - 파이낸셜포스트",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pMWhPc0VNdmZxcldnZmxQYk43RnFBVXB0SlVVUkFYTFFUM1o5dnlOYjhQT0hlRDR3UXdxYVpmVzI5VUtSWWVRa19MNk96dUFiYWV6Si1ucm9XWERheWo0MlJsZjV1WnBua0s5WHFRWTJ2Qm10?oc=5",
+          "source": "파이낸셜포스트",
+          "published": "2026-11-25T12:05:45+09:00"
+        },
+        {
+          "title": "태백시, 학교 주변 어린이 기호식품 판매업소 30곳 위생점검 - 강원도민일보",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fMzVmQTFaa2xfbFU4R3ZpMW5DTXljSUxsUHlycTF2QnpoUFYyM1k3SWdrLTNEdGlKTmNzbzhnRG9TeV9HZllhRTBkbVQwQWdrR3M0VUtnY1B2NlJHRVU4UmdBQUEtZk0?oc=5",
+          "source": "강원도민일보",
+          "published": "2026-11-25T10:40:58+09:00"
+        },
+        {
+          "title": "동서식품, 제18회 삶의향기 동서문학상 시상식…대상·금상 등단 특전",
+          "url": "https://www.newsis.com/view/NISX20261125_0003882123",
           "source": "뉴시스 산업",
-          "published": "2026-11-24T14:00:00+09:00"
+          "published": "2026-11-25T10:04:29+09:00"
         },
         {
-          "title": "소비심리 두 달째 뒷걸음…연말 대목 앞둔 외식·식품업계 '먹구름' - 뉴스토마토",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RSlBBZTlfS1NlYUZ3VFBfMWkwY04yN3FhUDc1V1dXQXdpTUhENm50NFJuRFNENW9oSjhoZllTMHlNNFlkZ3F6SEZfVWRSYzZhb2E3VXdxQzlIVEdaRnBlLQ?oc=5",
-          "source": "뉴스토마토",
-          "published": "2026-11-24T13:48:11+09:00"
+          "title": "[단독] 삼양식품, 캐나다 판매법인 세우고 토론토 인력 채용 … ‘불닭’ 북미 공략 확대 - 뉴데일리 경제",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FTnhoQm04RWdBWWtEaUFhNVlsejA0UVpIdmxGUlJlVkJSNkpUZWotbFJxTkcxcl80bW5NeVhZNmt6WDFxZUxwcFBwSVRXR1NtMmhYY1h4VGlnWlNZb1Z4Z2gtSExNTDZLdjBBTXBUTjM3eGZWNjRPN3ZkY9IBgAFBVV95cUxQVGVsX1NSdUJVZnZDN2hVOXExbl9XamVNUm1NeWpPczZRNUVpN2xLbVNvYUVpOGdMWGtmS21DQ0JKLWc2OEZ5UU1VdldUVENhdXBVWXYxVzlWUGRNd1k2aFhNNVlZMklUUU9JWFNkMkV4Q0Yxb3ROb0diZDFNb0R0ZQ?oc=5",
+          "source": "뉴데일리 경제",
+          "published": "2026-11-25T10:01:00+09:00"
         },
         {
-          "title": "경북도, 식품한류산업국 출범 100일…K-푸드 전주기 체계 닻 올려 - 시사통신",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5aVRlR2VzTlVBZzc5elRYdC11bTJiT1loV3N4bDctZEM5dWtiMkluVUw3SmtxNV9LZ0hmYWswaDBxd252TERid1NhTTdaZlRWWWZ0dXZWcmRZNDhMdGRJTktzbHJldDJz0gFrQVVfeXFMUHZOM3Vod1pXY0I0NVIzbDcwM3pZZzZzRTBtOFdNeGwtYzZyRjV6TUJzR0NGa2dsUEp4X29HdkpaUktfTmkxSFdfLWVCWWpNMVBtcVR6QmRDcWRmb25SWGNyeElSX0RGWHJSbm8?oc=5",
-          "source": "시사통신",
-          "published": "2026-11-24T13:21:00+09:00"
+          "title": "[똑똑한한끼] 정식품, 웅진식품, CJ제일제당, 동서식품, 롯데웰푸드, 국순당, 한솥도시락, 파리바게뜨, 굽네, 본우리집밥 - 에너지경제신문",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1sb3gxSUs3UU9RM244WHU1aGEtMnV3TC1kbzVQbElRQ0t3Mlc3S3g0R0VBeU1aampGYkhsX2E5TmgzTllPdXBqMnY3Y1hPRGdnMEdiZ0ZtWkhFR2VmNlBJcWVRSQ?oc=5",
+          "source": "에너지경제신문",
+          "published": "2026-11-25T10:00:00+09:00"
         },
         {
-          "title": "면사랑 “식품업계, 실온 간편식 영역 확장” - 한스경제",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzaEFNeE1QRV9tUWpfeE1yY1A5WS10SXBrYmF3Q09JTnNHS05GeUhUclpkY1o2VFRfQ3AtbldSOW90TmdSS2RfTHdhZmNCc2lFUEo5M0V6eWxrZ0ZSUlMyVHdtTDZhLU8tZldtcA?oc=5",
-          "source": "한스경제",
-          "published": "2026-11-24T10:47:12+09:00"
+          "title": "유통·식품업계, 연말 나눔 활동 확대...김장부터 화재 예방·아동 지원까지 - 팝콘뉴스",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBicWRXeG1iTGpoTGdMV2tjNjF4RDN3MzA1dEZybGI5UXBoM0Y2YUEzbGZCSVBtS3dhRmhENHBCZFg4MzJFbTZ1MjdhQW5rVVo0TWpPWGZlcmY5T0JGLVpsdV9uVTN5Q0I3b2pQM3Zuc9IBckFVX3lxTE1XN3RtbHZVTkVBR1ZJcFpOLWdvbmZlckwwc29jbEtCSXBqeGFMMnF0VHFxWGYwQll2WVFhRWFkc3VGUEtMNmlMZzVraGNyOVdhVDhxQTZfTkxsN2JRa3NLeTNsRGpqRkxYUnNkdWhiRDNtUQ?oc=5",
+          "source": "팝콘뉴스",
+          "published": "2026-11-25T09:52:43+09:00"
         },
         {
-          "title": "홈플러스, 신선식품 공급 급감에 26일부터 온라인 배송 중단 - 산경투데이",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5NHhMOGJwWFJkV1hiVkJRTjFfRWhfSGh2Vk5YLV9vbnlvcWdCd04tZ1R3NkY5NXF1MThXRElSUzJzc05hWVNtVzBJOG9ocDdLcXZBMTdoUjFxMU5hMVU0RlJHZ3hMSGUyXy05QzUyWVHSAXRBVV95cUxOT2NQNWNqdjZyVU9qVVl2b25wOHdTVEl2UndVVTRVTkxnYXVwLXFFdHl3RTcyZndoMzV4NmxDenRTVVpKYXB6VHd1VmE1eG9SWHExLXhYWjd2YXBuT1pGdWEtN002emNpTG95eEIzakhRNHAyZQ?oc=5",
-          "source": "산경투데이",
-          "published": "2026-11-24T10:42:25+09:00"
+          "title": "뉴온, 잇몸 건강기능식품 '잇몸탄탄' 출시… 26일 롯데홈쇼핑 첫 방송 - 머니투데이 - 머니투데이",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wX3JkMER3TjhyX19MTVg1Sm81blh4S2tLSHhlek94RGZ4OEdWS0ptdm9pdkxnNk4xM2xraTZHSVg5U01fdW95MDNlb1NzY3gyNXZDTDZXU0tIR1YtNDM3OFlXOFQ4TnBaeVgwY0xhY05SOWFYUXfSAXtBVV95cUxQTWltWDdtbWEyR0VSbVRUYk5IQjlvNlJyZDBXUzZEU3pKc3g2alUtVC14M3c2aDNlajhwM2dWT3dXZTM1YmhmZG10ME5wRW11NHFRemZobmpTS2tyaXNzel83SXhfVmh6VDVQNE5qNVc2SzNFODg0bVFsVzQ?oc=5",
+          "source": "머니투데이",
+          "published": "2026-11-25T09:52:13+09:00"
         },
         {
-          "title": "농협식품, 우리 농산물 활용한 간식·간편식 신제품 3종 출시 - 일간대한뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IR0pwYzkzbTVfT1FVaFA2SEREYnYtei10dUM4ZVVBN05Tal9tZk1ENkNmSnJiTFNjR2p3Z2tpQ25IaFNUQ0RHSGVPWE53aGlWcEc2cm92aDRVcjl5OGp1RlFySGp1cFk?oc=5",
-          "source": "일간대한뉴스",
-          "published": "2026-11-24T10:41:25+09:00"
-        },
-        {
-          "title": "식품업계 ‘2026 블랙프라이데이’ 개최·‘참깨라면’ 크리스마스 한정판 출시 - 여성소비자신문",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxaHdjU3lxN2FkWG9Nd3JaU2d6akxYYWJGWTEwZTJTNmZFTHFOSkFISFFNX1MwelNTQ2RaRkZtdDdYZmh1Zk5qTHRjNnllWW9yZGxaRU5RRENzNnZVbnZnNC1SUDZlUQ?oc=5",
-          "source": "여성소비자신문",
-          "published": "2026-11-24T10:40:11+09:00"
-        },
-        {
-          "title": "NS홈쇼핑, 건강식품 PB 키운다…'아침엔 닥터윤 저당생식' 출시",
-          "url": "https://www.newsis.com/view/NISX20261124_0003880447",
-          "source": "뉴시스 산업",
-          "published": "2026-11-24T10:37:52+09:00"
+          "title": "뉴온, 잇몸 건강기능식품 '잇몸탄탄' 출시 - 뉴스핌",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fZHVPcXZxVGRlbThHdTFHRmJlQmVQa1pkaTlrRWlCTjNUdnUwUzlFQzdzV3phWVJaVVJjT0xGYWg2QjRxbmJRd25WdXI4aklmeHQ0ZlV5cTNyVWln?oc=5",
+          "source": "뉴스핌",
+          "published": "2026-11-25T09:30:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -153,76 +139,76 @@
     "50000007": {
       "name": "스포츠/레저",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "50000008": {
       "name": "생활/건강",
       "parent": "생활/건강",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "50000009": {
       "name": "여가/생활편의",
       "parent": "여가/생활편의",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "50000010": {
       "name": "면세점",
       "parent": "면세점",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
+          "title": "면세점 내국인 결제액 신세계 1위···롯데·현대 결제액 급증 - 서울파이낸스",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3b0pnTmFlVXhvclQ4ckNQNTF3Z09PdkNNOGlqSThGSS1uV1MxT2dNTDA0SUlPS3NPcHlKWUFLVU1wazRxRkMxbHVlYUR3QXdMQkpzUEU1NkNZdFJURUFLUnQ1b0RUckVqeWc?oc=5",
+          "source": "서울파이낸스",
+          "published": "2026-11-25T10:55:27+09:00"
+        },
+        {
+          "title": "[Weekly 백화점·면세점] 현대백화점·면세점·롯데백화점·신세계백화점 - 오늘경제",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54ZTdLSUU1ajdiSlFjZ0tieE8yU2R2el9QVEVab1I2anc5REd6eVVPbFh5SUZYeTY4aDJCQnlWQktBRENoYnVTTjVrQzRPWU1kQ2gxOV9maXhzZTFxejhmQ09KVW96TWstWVRYLWxRWnRhMUk?oc=5",
+          "source": "오늘경제",
+          "published": "2026-11-25T10:52:02+09:00"
+        },
+        {
+          "title": "\"디올 크리스마스 트리 인천공항에\" 현대면세점, '홀리데이 팝업' - SR타임스",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44Y3Zaak5NUENueXZsTklmYTlXalctNTdFeXBPVFV2NzE1TkdKdXpoLVRWSHZLRWFTbzF5TUpNdTZaazFyQ1J6bmFwVUd4dXN1ZURHN0xwbFdLQ1pRNHkyeVYtSmcyYms?oc=5",
+          "source": "SR타임스",
+          "published": "2026-11-25T10:02:42+09:00"
+        },
+        {
+          "title": "현대면세점, 인천공항널서 '디올 홀리데이 팝업스토어' 운영 - 뉴스드림",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JcGhYMXFZTGJSdW9OWDNTMk9UMG9oel8zVHJBNVZCUXpaNGx5QnFoMXh1bnNZcGVxZExvZVdrYjVTdzNZaHJfOUxYbFJjUDFUaTlGSkRYNElIWVFLNWhWbUFSUExydGQ1TW5N0gFuQVVfeXFMT3B3VHVvSWdqNmxRRFE3YjhsdURXTHhIalFibDhvaXNlYVZKR00ybUZ3dG1JTjl0SGlNVkk5VWg4U3c2eTgtelhBRkdGYkJObjJMYlRXbmg4ZThKa21RdlBzV3NwUHdNUGVIRUx5X2c?oc=5",
+          "source": "뉴스드림",
+          "published": "2026-11-25T10:00:13+09:00"
+        },
+        {
+          "title": "한국인 면세점 쇼핑 '큰손' 신세계로 향했다…1인당 결제액 1위",
+          "url": "https://www.newsis.com/view/NISX20261125_0003882135",
+          "source": "뉴시스 산업",
+          "published": "2026-11-25T09:44:26+09:00"
+        },
+        {
+          "title": "현대면세점, 인천공항서 디올 홀리데이 팝업스토어 운영 - 뉴스인사이드",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RYzVJcnNIQ0FpOVJ4UUcwMzJ3T0FlUmJFTmVPWXVLVWlyWGY5cmQyb1dua0R0c25LM2NlNkhIMF9aNW5jNTZtbUkyR3ZTOGlONzFWaUVtZENvd1RLM2IxTkV1OTkxZVQtYWpkbVVB?oc=5",
+          "source": "뉴스인사이드",
+          "published": "2026-11-25T09:38:42+09:00"
+        },
+        {
+          "title": "한한령 풀리면 면세점도 웃을까 - 지디넷코리아",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ER0V4ckQ0YVlYN1NwTUtGX0t4eUMtSGxEb3QweklGd1lIcV93U0J5VEpkMWdNM1k2bHRKcFhEMTdldXlTbHZkUkNOQkxBVHNkYVg3cHFn?oc=5",
+          "source": "지디넷코리아",
+          "published": "2026-11-24T16:42:03+09:00"
+        },
+        {
           "title": "[똑똑한소비] 레고그룹, 신세계면세점, NS홈쇼핑, CU, 세븐일레븐, 브랜즈컴퍼니 SKY, 현대백화점, 코웨이, 파라다이스, 그랜드 하얏트 - 에너지경제신문",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56MnVjUGRzWFBQRWRnd3pUWndfekN1RkdqWWtKWXUtYWVJdW1LSTFiRjNLbGVBNFZjcFZIN21kZk5UZFNfekh1NWs2dzRYQnEzc0QyeUs5Uy14UnRXZ1lCb3l3NA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TdlA5bDdhdl9wQVpNM1RSRkUzbU81VkpvUnhlVFRUZ2lzZDQwTHNHQXlFYVdtS3BIVHY1YWNneEFlbFZQZHhXeW1UUzFyZDVJa21hRTlEQ3dPUEU?oc=5",
           "source": "에너지경제신문",
           "published": "2026-11-24T12:00:00+09:00"
-        },
-        {
-          "title": "신세계면세점, VIP 고객 초청 프라이빗 ‘남산 콘서트’ 개최 - SR타임스",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oaGQyM0hFS2V2OTVlZGVudFVRVXNWTWZJSWJMR1FaS3Y0OHpPLURseHl5X2ZicHpXWGk2WnFzeTJCbjZfTXJRNUQxc1RxaXNWQkw1TW0zNGdCNjZwbGpPbXQtM2QwRTTSAWtBVV95cUxQZzBtVXBhZFBTekppUWhLbVZtVGc3X1EtX1pXd3AxSVJQeENOaWtVbkpOTm9oOG1ORHRiVXl4cjNheG5NeWpvZkZQeGZGZkhiZk5SSnBsWVNUT0w1ZVd5Q0dCSl85S291Nklzaw?oc=5",
-          "source": "SR타임스",
-          "published": "2026-11-24T09:09:26+09:00"
-        },
-        {
-          "title": "유커 돌아와도 특수는 미지수…면세점의 복잡한 셈법 [한한령 새국면 ②] - 디지털데일리",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wbGFMYkRXZHBzQTA0QzBHaW9oUGNoOUpRR2JlVWxrV05PWFV4dTBNdUFjZ1dvWTNQaENqeGVXV0k3V25zZXNQdDhwZXFIeGRQS1JtODJqS0xfSms1aWZteVM0WGk?oc=5",
-          "source": "디지털데일리",
-          "published": "2026-11-24T06:15:00+09:00"
-        },
-        {
-          "title": "공항철도, '공항철도 전용 신세계면세점 티머니 교통카드' 판매 - 머니투데이 - 머니투데이",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Tb0FJY0FDOHYzQkpIWXM1QUs5dlNWU2VxSFFMZmtPczB2ZWhNaDlBZ3lrMzl1MF9LRFRjNk1lZmpzLXdjX1Z4b2pfSHA2blJTNnNMQndrbzE2QUFhUl9YMG1jY2p4NVlxTEHSAW9BVV95cUxNblVQbFcxUXlXVjlDWjlDMG5yYXAwUDM4SmU1ZDIxSV9mRE5qSjEyQkFLTWo3VjlfSm1aY3NTWEV5aXd5S3FqaEFTRExZOFFyS2xwaUZiNmVrT3k2MHRxaFFuODZMcUJneTJaRnhmRmc?oc=5",
-          "source": "머니투데이",
-          "published": "2026-11-23T18:16:39+09:00"
-        },
-        {
-          "title": "공항철도, 외국인 전용신세계면세점·티머니 교통카드 출시 - 한국철도일보",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CYVhqMGlJbU1XTlpGeElEeExPT0JfVmdtT1gyZkFYTExBbDkxUDZFbkJGZFFVZDdFbG14ZmczYldQVWt0SU9uWDRLM0lhdEhRYVpSWGpzYVdaQ1IxNHR4SzdQU1BwN210c0lCSVJKZnE?oc=5",
-          "source": "한국철도일보",
-          "published": "2026-11-23T15:54:12+09:00"
-        },
-        {
-          "title": "티머니, 신세계면세점·공항철도 제휴 외국인 전용 카드 출시 - BBS 불교방송",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kQjJlOG5LLVcyMlowd040Zi1IY25vdEREZ3lkSGlXdmg3ZUw3Ym1qQTJtaFhDSS1ULXpfTmd5Z0l2cmdBYV85YXc2c2JNeTUxcXNRSUZaSS1yXzJTLUJTUWtnOXVwM0JmQjZF?oc=5",
-          "source": "BBS 불교방송",
-          "published": "2026-11-23T15:33:00+09:00"
-        },
-        {
-          "title": "티머니·신세계면세점·공항철도, 방한 외국인 전용 교통카드 출시 - 통신일보",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04WkhzcDV1VzBpbmpiQ0h3ZmlfWGZzeVU3Skc3OHIzME9WRXdsMW1YVXZaVERLM3VqNjgxVjVSV3cxOXFNSERSVVRqWXpzWFlDTzQteU4yam11b3c3UHhtMVFqTUFxTnRreUE?oc=5",
-          "source": "통신일보",
-          "published": "2026-11-23T14:10:27+09:00"
-        },
-        {
-          "title": "티머니, 공항철도 전용 신세계면세점 카드 출시…외국인 관광객 혜택 강화 - 뉴스핌",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkWWlKaE1lYnlSRGgtT052a3J6a3NVUUlaU0lFbjF0YWpLNkloSEpLMmRtVHE1NzVDLXJsSzRsa3IwMVlGNkJXOU1NRUhSaTJTYnR2a1VWNHZMbGtH?oc=5",
-          "source": "뉴스핌",
-          "published": "2026-11-23T09:53:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -230,8 +216,32 @@
     "50005542": {
       "name": "도서",
       "parent": "도서",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "[유통갤러리] CJ제일제당 ‘퀴진케이’, 경상도서 일곱 번째 마스터 클래스 성료 外 - 뷰어스",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mX1R6QkpQcFk3QzhzVmY2UHdHanZRb0hWaEZtTHZZX0RCR0hnaS1yQmtCbjliZEVBMnU3NnJmaVhhbXNIQ01BR2tsd3EyNURrWjFaZzB5R0o?oc=5",
+          "source": "뷰어스",
+          "published": "2026-11-25T10:08:08+09:00"
+        },
+        {
+          "title": "독자의 도서 선택에 있어 메타데이터의 영향력. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNWFKRU9pYUdqVVNGVmdURV9HMU5VZGY2c25waE1GUXNmR29wOXhJSENZcGliUUhYbnkyZXMwQkdEc29jN3RXRk1rYUVScG9wN1lyWkdTYkd4dl9wU3F0YWpDTWR2Z3ItSjdUaTN0bldmNnNycTRFWExCN1pBNENuZWhsalotam5Q?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-11-24T22:38:25+09:00"
+        },
+        {
+          "title": "베트남 아동 도서, 통합의 여정을 담다. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3VlBRT0ozYm5qYkE2OHVYSlpqX2Y2V1NMLThURC1kZUlmV3QtQWpxd1dwR0xQZEVCV3Rxam9Hdm9aTkFWZm9tOGF2RGZsRzJRd1Vrd2xDLUN2YTlFLU5GSHZYTGRlalpYSHN1TWZkNjFTSHVoVjJMUHZJQ0NRRE0?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-11-24T15:12:37+09:00"
+        },
+        {
+          "title": "시너지코리아, 송도서 아시아 회원 6500명과 성장 비전 공유…‘루네아’ 출시 - 서울경제TV",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoSzFZRWNZSlJsVXVrOUtaTWtRWm9fUTNVUGUtLVJ5Y0xHZjhwMWQzTV9oaEE2VGlKX2tpaUc2UkRaUzBBejA1Q3U3UWFneG10V1VULUFhVEFRWVZOQnVhVUdlUkc?oc=5",
+          "source": "서울경제TV",
+          "published": "2026-11-24T09:39:01+09:00"
+        },
         {
           "title": "해운대구 좌2동 새마을문고, ‘도서바자회’ 개최 - 부산일보",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zMjduTVpuNDVFYTZ3ZjgwMmRSNGU3MzFFRGQwZ01qS0FmU2N5T01tb3Q4U1N6cllGZGNrSmR4TWhmVVlmRVpxLUc2Q1lhUlRKV0lVWURnS3ZaZmFoVjhsbDJsMmtybEFUckgzUjNLVkU4ak14TnNz?oc=5",
@@ -239,10 +249,10 @@
           "published": "2026-11-23T17:42:36+09:00"
         },
         {
-          "title": "새마을문고무안군지부 “알뜰도서교환시장 운영” - 무안신안뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OMEFzc3ZBOEJMcFBPVkFoajE5S0VjSkk5UFd2YlYweFpHTFNCTS1zOFJ3VmtXX1Nad3VaWm13amhvN0N0d2JBck1lcGhXRk85VzNQUWdqZDBiRE1JWlhpMVZVcnB2aWphQUE?oc=5",
-          "source": "무안신안뉴스",
-          "published": "2026-11-23T16:30:11+09:00"
+          "title": "새마을문고 무안군지부, 알뜰도서교환시장 운영 - 무안신문",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91YVNEVTZ5NExreHFCdmdDSU0xWjNrX3JkbVdUaVpzZTJGRUhkN192aHpLdlZTcUNOZWxzOVlURGIybU8yMkxOUlppTmdHQWhXc01oRWZGVEhRSjBYRnh4Q3g1cGZUQ0JOWkHSAW5BVV95cUxQbXREOWtEMFJ1dmZWZk1OLS0yLXlZSmhPdUN4QVI1U2ZZa1YwYllVU1U2bExDWlc4WG1LZm04WEZBUW5rRGJVVDVFc1otWHdrYnpWSnptaWxKZFRSbWpCX2l5MWM0SHQwR2l1SnRfUQ?oc=5",
+          "source": "무안신문",
+          "published": "2026-11-23T16:38:32+09:00"
         },
         {
           "title": "해운대구 좌2동 새마을문고, 이웃사랑 실천을 위한 ‘도서바자회’ 개최 - 국제신문",
@@ -251,34 +261,10 @@
           "published": "2026-11-23T15:35:00+09:00"
         },
         {
-          "title": "세종시, 1인당 도서대출 전국 1위 - 세종시민일보",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YeXZKRXgwSDhmNzlzd2xqLTNOZHp1NC1tcGJoRW5YbEhUaHFaVnZXMmFCelNuSFg0ZUdnYUd2RFhYc21LYi1Da19pM0x0Y0VXNGNiSDNZbVZ4cGxIdlhwSHlZTGFrdF9fQ3pnTEl0bWJrZWc?oc=5",
-          "source": "세종시민일보",
-          "published": "2026-11-22T13:55:32+09:00"
-        },
-        {
           "title": "세종시, 인구 1인당 연평균 도서 대출량 전국 1위 기록...'책 읽는 도시' 위상 입증 - 뉴스티앤티",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UR3VTd0ZvSlo2NUl3Qm1aM2gtWUduTDdxbjRkV3pwMkRvaE5TUUFIZTBmd1VRSWx5bkNLNXVsRDJYMGJlRVVDYVVia0I1Q3gxV0dkU3d3ZUY1Q1dQN2dDSm5rSG5xaEFnR3c?oc=5",
           "source": "뉴스티앤티",
           "published": "2026-11-22T12:26:37+09:00"
-        },
-        {
-          "title": "영풍문고, AI타임스와 맞손…“AI 도서 큐레이션 강화” - 마이데일리",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mMF8yWU9tNWR0dFJOWW1CZ1ItRDFqTnVIOXkza1NMQVpGNVUyeV92UVFTTDVtal9KMzlhWkN0MGZkQzMtT0dac2pCTDd4U3VkWUpPYlJoSXFwNzRTV0Uyeg?oc=5",
-          "source": "마이데일리",
-          "published": "2026-11-19T17:18:20+09:00"
-        },
-        {
-          "title": "[이커머스 PRO] 도서 판매 한계 넘은 '아카몰', 드랍쉬핑으로 종합몰 도약 - 전자신문",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NZlhKaUZXcUc4bi1DQ3gyWHBFdjNENlRhRDMzRTVFdC1xY2FyZ0FTQUdzZzJ4OXM5QjhtR1FiakktU0o3X0x0RzVxenBfQQ?oc=5",
-          "source": "전자신문",
-          "published": "2026-11-19T11:00:00+09:00"
-        },
-        {
-          "title": "시리즈 도서 구매, 한 권만 비닐 포장…\"누가 봤던 책인가\" 의문 - 컨슈머치",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6Wnl4bm1lOUFhMXJSeU1HcDdjejV1VjZjUmJya25DVDZhNC0xaUNhWHo5OUQ3Q1lkYXFGT2x1TEx4N2NvcjJLVE9tNERGY1VUVHpaQllab1NIY0g5anBVSkZSVnBKWFdqNUl3?oc=5",
-          "source": "컨슈머치",
-          "published": "2026-11-18T19:27:26+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -286,7 +272,7 @@
     "preview-50000003-003": {
       "name": "냉장고",
       "parent": "디지털/가전",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "하이얼, 338L 3도어 김치냉장고 공식 네이버 스토어 출시 - 공감신문",
@@ -331,10 +317,10 @@
           "published": "2026-11-19T10:28:17+09:00"
         },
         {
-          "title": "이재준 시장, ‘2026 수원공유냉장고 성과보고회’ 개최 - 환경일보",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BZlI0UFNWSzN6MTlBLXdiSGdNeEFndzVGRkoySXlURHZ0UVRvSlBfUDBsU19semNCMVE4QU1VWi03V3JsSTBuSFZ2MjBHZkhGelpSd2kyejNuSktLMjZyWmI4aXFISXhM?oc=5",
-          "source": "환경일보",
-          "published": "2026-11-18T20:06:18+09:00"
+          "title": "삼성전자, ‘지펠 푸드쇼케이스 스파클링’ 냉장고 출시 - 데일리인베스트",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IcWVTNS03a0JPVmVGbDRXYWlIeXAyMGt4ZW8xWm1RUHBEZFQxdEtPS0dwZTNXSmZJSFlhRnJYRG1BSEVBNzRJNXhlSkJxVmRhOVdvN0N3aDAtNHlHMzVHUHpvdDhTTzZF0gFsQVVfeXFMTmpQaGdOTGtzRjBIYVdOOXFUOXJUUjVGMWhTRll0cW9WUVk5Y0VJcjZaZDI3dHhjb0NEMXZ1MFItZG5CSVNEdnhKQ0NRTWR2NGxBWWlVbG0zTDQwODBncTliYS1mUmFIUHRnanpv?oc=5",
+          "source": "데일리인베스트",
+          "published": "2026-11-17T17:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -342,7 +328,7 @@
     "preview-50000003-004": {
       "name": "세탁기",
       "parent": "디지털/가전",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "물도 건조기도 필요 없다… ‘기후 주범’ 이산화탄소의 세탁기 변신 - ESG비즈니스리뷰",
@@ -398,13 +384,19 @@
     "preview-50000003-005": {
       "name": "건조기",
       "parent": "디지털/가전",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "물도 건조기도 필요 없다… ‘기후 주범’ 이산화탄소의 세탁기 변신 - ESG비즈니스리뷰",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrMXc5WU42SkhGOFgxdUtWcWJnM0dSR1V5aTNERWYtaDVZVHdsUHkwNHhCLUJkMjEyU21QUWFXZzZLSkdscFpwTXJfaldXRy1WQzZIM2p4YzFJWFFEREQ3TVNDSkIxVWU1Y0pVR3pCQ2t5VEU?oc=5",
           "source": "ESG비즈니스리뷰",
           "published": "2026-11-23T22:27:09+09:00"
+        },
+        {
+          "title": "LG 트롬 세탁기 건조기 세트, F12WVR-10WB, 화이트, 12+10kg, 방문설치, 1등급 - toss.im",
+          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5uTl9xcDBLaHJvTE4wLWhGbEloeXNLcmE5ZzhxWnZTZ3F6czY3U092U19qYUhhSTBHSjdnSTUxaTE?oc=5",
+          "source": "toss.im",
+          "published": "2026-11-23T20:07:54+09:00"
         },
         {
           "title": "인썸 식품건조기, IFD-1, 5단, 1개 - toss.im",
@@ -431,21 +423,15 @@
           "published": "2026-11-20T13:08:00+09:00"
         },
         {
-          "title": "Xiaomi, 3개의 분리 드럼을 갖춘 Mijia 세탁건조기 공개 - Mezha.net",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWHprRXJXLWRpMjU0MmNOd3E2R2hMeFM5d211UHkzeWVRanlaTHlPTGM0SEZmRi1iUk5XeUd5NXNfOGdpUkJJcGt1cVhjMnZGZTA1WFpneUY4cjRQajZIZWtMaTNoYUNBSnRIZXZseEh1RWxlYk9QalpiY1FqeEU5ekxxTGNLN0V1WVN5SC1VRUs2c1pyRzNGYUxGNHo?oc=5",
-          "source": "Mezha.net",
-          "published": "2026-11-19T13:52:00+09:00"
-        },
-        {
-          "title": "분무 건조기 시장 2035년 전망: 식품·분유 분말 수요가 성장 견인 - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSGlpUFJCRnM1TF9kYVNHWjJSWTM2N0xsMkpVSHRzN1Nrc0ZaX1JITWhlRTUyVlpWTUFnUzlBSXNjSG02Wm5kUzZaMGpEa3NuX3ZFc3RTU0cxSEVQUFJfSWFrMVdreFpIUWI1aUpuamlTWFNaQl9XZ09SMVdoLW5TbjRnQUVISzAtNzQ3dWtGLS1oRWZOVkU5M0dzeWtadkstVGhQdnFQUmZqM0V0NzBhUXZ3TE9Rdw?oc=5",
-          "source": "IndexBox",
-          "published": "2026-11-18T20:06:04+09:00"
-        },
-        {
           "title": "LG전자 美 세탁기·건조기 점유율 1위⋯테네시공장 생산 1천만대 돌파 - 엠투데이",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1USUdhNWdKa056aktPcmoyZ1FCTDUtaWEwcTd5azdVV1MwRVo3LV9UclZWZEpCTWNHdjhqMVFhZ292em5PREh6Rk9LMFhxdjJPU29MeHFRbFlJRVpTVzI5UDlnOXJZbmRPTWtlRi1vUQ?oc=5",
           "source": "엠투데이",
+          "published": "2026-11-15T17:00:00+09:00"
+        },
+        {
+          "title": "LG전자 테네시 공장, 누적 생산 1000만 대 돌파…美 세탁기·건조기 1위 거점 - 동아일보",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mSnFja0ExcDJIclFQYTFNUkhjbU1neDlnRTVxRUpsT0NzLWI5aDY1X2lYbzVHbjBlUmZ6amo2SUJQdGxiR0QxNF9xYlp3dS01cGdnTE00NkJaeE84S1ZJMnhUV2NhX0tza2h6YnlOV0JtNmNzSVHSAWZBVV95cUxNSXI1NHRIX0JTbHFtcHp4STU4b3pkZE5zY1NDUFY1MnZEMkt4T2RUY2VZcGw4WE5aTEZwelBNTm9qaS1BUkg4bDF6MUFkdDhBcEZ0SmJ0ZXRvallhMXNVdE90WjRQNEE?oc=5",
+          "source": "동아일보",
           "published": "2026-11-15T17:00:00+09:00"
         }
       ],
@@ -454,7 +440,7 @@
     "preview-50000004-006": {
       "name": "소파",
       "parent": "가구/인테리어",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "책상부터 침대·소파까지 한곳에… 데스커, 논현 가구거리에 통합 쇼룸 오픈 - 뉴스탭",
@@ -468,7 +454,7 @@
     "preview-50000004-007": {
       "name": "침대",
       "parent": "가구/인테리어",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "책상부터 침대·소파까지 한곳에… 데스커, 논현 가구거리에 통합 쇼룸 오픈 - 뉴스탭",
@@ -482,19 +468,43 @@
     "preview-50000006-019": {
       "name": "건강기능식품",
       "parent": "식품",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "제로원바이오, 광주시 취약계층에 2억 300만 원 상당 건강기능식품 후원 - 동방일보",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14UU1KOC1Nbjkzb0cyYXF1LTQxZUotMFZkUzlTN242UVBPZ3VFZUdaN1F5Mm40SGtVRkNTSm5pS0F5dk1XTkxISm5ad00tUDByUkM0c01KVVVmRjh5TGV5cUFiaEN2aTREM3dkdUI4WW9PVkE?oc=5",
-          "source": "동방일보",
-          "published": "2026-11-24T12:38:51+09:00"
+          "title": "뉴온, 잇몸 건강기능식품 '잇몸탄탄' 출시… 26일 롯데홈쇼핑 첫 방송 - 머니투데이 - 머니투데이",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wX3JkMER3TjhyX19MTVg1Sm81blh4S2tLSHhlek94RGZ4OEdWS0ptdm9pdkxnNk4xM2xraTZHSVg5U01fdW95MDNlb1NzY3gyNXZDTDZXU0tIR1YtNDM3OFlXOFQ4TnBaeVgwY0xhY05SOWFYUXfSAXtBVV95cUxQTWltWDdtbWEyR0VSbVRUYk5IQjlvNlJyZDBXUzZEU3pKc3g2alUtVC14M3c2aDNlajhwM2dWT3dXZTM1YmhmZG10ME5wRW11NHFRemZobmpTS2tyaXNzel83SXhfVmh6VDVQNE5qNVc2SzNFODg0bVFsVzQ?oc=5",
+          "source": "머니투데이",
+          "published": "2026-11-25T09:52:13+09:00"
+        },
+        {
+          "title": "뉴온, 잇몸 건강기능식품 '잇몸탄탄' 출시 - 뉴스핌",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fZHVPcXZxVGRlbThHdTFHRmJlQmVQa1pkaTlrRWlCTjNUdnUwUzlFQzdzV3phWVJaVVJjT0xGYWg2QjRxbmJRd25WdXI4aklmeHQ0ZlV5cTNyVWln?oc=5",
+          "source": "뉴스핌",
+          "published": "2026-11-25T09:30:00+09:00"
+        },
+        {
+          "title": "[빅데이터로본다] 건강기능식품 상장기업 2026년 11월 브랜드평판... 1위 KT&G, 2위 LG생활건강, 3위 대원제약 - 일간투데이",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xZkpBXzJxcHdScHdNSGdlQ3VCUk5Fem1GckQtRUFYM1VQeVdoakpwMUl0R0xvczcxajRCTnpod0ZKQ19ZZF9JYm1majhjMldfWWtfdFNlQWNZOGE4bm94Q0RwX0ltWm9QeUNv?oc=5",
+          "source": "일간투데이",
+          "published": "2026-11-25T07:03:00+09:00"
+        },
+        {
+          "title": "KT&G 건강기능식품 브랜드평판 1위…대원제약은 22% 급등하며 3위 - 핀포인트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FMlBPa1RFRU82cXNxUDgxVTZaLXRmbUg2OG1wV3h5MFpLQ0hxWnk4VUx4eWM3OFlSZFlsWnU5aGktbC1aU2g0WUFEYzNUd1VCWUx4RGZDbFFPdUhVMGtJM0VnMi1tV1dyOWp2aFVwcG5aSHfSAXdBVV95cUxOcE1RZVBwNG9ab3NYV0U0SnhfdHdwQ2FLa0ROTFdOY1kyak1Rd182eDZsVkwxUUt4Sl9sTFJRLTRKN1VUUHgxd21JaGRuR3A1T0g1algzeWttajVLZlp3SkF3VmhGaUNTUGZxZVFIcXhlWUphekNiUQ?oc=5",
+          "source": "핀포인트뉴스",
+          "published": "2026-11-25T06:52:34+09:00"
+        },
+        {
+          "title": "㈜제로원바이오, 광주시 취약계층에 2억 300만 원 상당 건강기능식품 후원 - 미디어투데이",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kQ3dsY1MzOXR3NmJhQmtpZW5GWjZzbzVpVExYa1BBZVVTNFhZN3YxcWg3MWl5Z0lfLWtzRS0wNm1tMXd5aTh0dGRB?oc=5",
+          "source": "미디어투데이",
+          "published": "2026-11-24T14:33:00+09:00"
         },
         {
           "title": "비오팜, 건강기능식품 '오스타민D' 회수…비타민K 함량 기준 부적합 - CEO저널",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSUGdCd0tjcjB0dVJTS0U1a0VqNXhRaDhlWWpHSXBOSW1rNWlmejdRNVJJVEU4LUdSV18yYzJiT0JicEduNnpVRW81OWc4UUVNeFhCZGN2YWtEUGYzQkVkcHNRbkVjV193UEtR0gFrQVVfeXFMUFJQZ0J3S2NyMHR1UlNLRTVrRWo1eFFoOGVZakdJcE5JbWs1aWZ6N1E1UklURTgtR1JXXzJjMmJPQmJwR242elVFbzU5ZzhRRU14WEJkY3Zha0RQZjNCRWRwc1FuRWNXX3dQS1E?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iRmwwdkRBMkVPOERIdEF2Z183ZlJ6TWRveDZDc2hqVk84bXdhNHJyLTJhMC04SGV5cG0zaHEyZThIYUJXeFBjY0tMWHZmelktSk9hYUpWR1ZjLWRYcmo2STVUdHp3dDjSAWtBVV95cUxQUlBnQndLY3IwdHVSU0tFNWtFajV4UWg4ZVlqR0lwTkltazVpZno3UTVSSVRFOC1HUldfMmMyYk9CYnBHbjZ6VUVvNTlnOFFFTXhYQmRjdmFrRFBmM0JFZHBzUW5FY1dfd1BLUQ?oc=5",
           "source": "CEO저널",
-          "published": "2026-11-24T10:20:00+09:00"
+          "published": "2026-11-24T10:17:47+09:00"
         },
         {
           "title": "식약처, 비오팜 제조 건강기능식품 ‘오스타민D’ 회수…비타민K 함량 부적합 - 푸드투데이",
@@ -507,30 +517,6 @@
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiODBzRHZKM0xLaHZLSy1lUWpKVFFscmVLYjZDdEhjcjZKRXFQYklWREJWVUR4OVdTRkNsTE51aGRyakhqUWJlQUhlYUl1WE9vQWVKVGxZbW13MkFOVS1SRDZyeGxudw?oc=5",
           "source": "푸드투데이",
           "published": "2026-11-23T18:13:31+09:00"
-        },
-        {
-          "title": "aT, 중국 유통시장 공략… 프리미엄 한식·건강기능식품 홍보 - 포인트데일리",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QQVo0ak16NmN4R1NVcjlVMGdaRUwxMUozbWxLMzZ0Wl8yLTdSUnBPb2dDZkVyT0lza2ZoYmlkbWphWTZ5QmZ5YVhlZWNzaHJwSk1XN3psY09lbWZabk1NbUVVNnY1d0hFZWREb2pLNFXSAXRBVV95cUxQVV96UzhGMmttVXBtWW4wT0NwZlZlMGI5VmRITVM4eDNBMVVINTVNMEpMYllZbVRCbnBzekxSYmRIdk9qTE1CbHNXUU1oQUJ4Y1pWdEw3RVZqVF9fZVZGRWRUc05FTnhnMXFPMWhyUnRGQU5aSg?oc=5",
-          "source": "포인트데일리",
-          "published": "2026-11-23T17:49:53+09:00"
-        },
-        {
-          "title": "aT, 건강기능식품과 프리미엄 한식재료 등 ‘NEXT K-푸드’로 중국 유통시장 공략 - 내외뉴스통신",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tUGdDYnRydF82emZIVmxNS3RUbHBDSVZxVFBzTHRyZTNuYzZOMWZCTjZiUFdra25Nb1VyX2dWUlQ1ekotYTZLWkF5VDM0eTU5ZUNOd0NsMnFvNFdLT3Bodzh3eWN4djJyZWJfUdIBcEFVX3lxTE4tZ3FnMVU4MGltOE5YTXk1NDk2cnc5ak5tM0NLR0o5MVhUeXdmYldkc2lKMnExSm1HbnV1SlFVSWZrQm9iVS1VR092QmgtVUtPdFE4S0J2ZWEzQzlwYVpVOWFHalhZeEtzOG41c2U5bTQ?oc=5",
-          "source": "내외뉴스통신",
-          "published": "2026-11-23T17:44:14+09:00"
-        },
-        {
-          "title": "aT, 건강기능식품·프리미엄 한식재료 앞세워 중국 유통시장 공략 - 푸드아이콘",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Sb0E0NWV0TzEyM1EyU3ZhOElLWHpBb0hZVG1udzBfeHJUR1pacDVlb1kzT0hsMmZDY2EySlhvRlVJTHNwTEFUd3pEMjBDRHFlaTR5S2pxZV9sbW5Nbm1xLXVlTVJ2VjlQSUR0OQ?oc=5",
-          "source": "푸드아이콘",
-          "published": "2026-11-23T16:51:00+09:00"
-        },
-        {
-          "title": "[동향] 프랑스 건강기능식품 시장 - 식품저널 foodnews",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45UHRRT20xeEdVOG5Ubi1rVkQyLWdwUEVBSHJKSnJzcm84SDlidW55NG51RUFpSWpVd19PYmRHU2h1aEFWZFI3dXdoRTYtLWJUaVd5UVVEMVFrY09IVEdLd3VDMVFCVnBtVENWNnRn?oc=5",
-          "source": "식품저널 foodnews",
-          "published": "2026-11-23T15:16:14+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -538,37 +524,25 @@
     "preview-50000006-021": {
       "name": "영양제",
       "parent": "식품",
-      "checked_at": "2026-11-24T14:30:28+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "오산시약사회, 오산시 지체장애인 위한 영양제 기탁 - 뉴스피크",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIekQxTV9ab0tWQkdrUExUc1J5UVJCdmFWMU12OTBZcXdnWm9yZE05azRxTnZrYmYwLUFlQVliZDJ2M1JYUFZNRFFYNUZhSlF4dnp4U0YzWGdFUUl5RWNsVTUwdFRTb2Nh?oc=5",
-          "source": "뉴스피크",
-          "published": "2026-11-24T11:33:35+09:00"
+          "title": "미생물 기반 친환경 농작물 영양제 농가 경영 도움 - 농축유통신문",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TdW5VWVpNQldLTExIZ2VxWDVrZ3p6Qzg1TUVMLUNsMlJ2aU1CNFR3cjh6bVByckg4MUctNFg2TzRtOXF0a2Z3UXRqV1hwQmNZU2dpN2lJQlVHZjV6ZlVLRGFqRS1iRUVD?oc=5",
+          "source": "농축유통신문",
+          "published": "2026-11-25T09:32:49+09:00"
         },
         {
-          "title": "농심, 반려동물 영양제 ‘반려다움’ 사업 종료…정식 사업화 무산 - 디지털데일리",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42UXp6X3NJRmlZcDFHVlRzS1V6UlN1ank5LVpkaHVidWZfNWo4X1l5WS1FSnY0V2JSUHUzOEt3ZWI2ZFJIajA1b2ZuVzhhcUQzVXlDWWJJcTFyZUZGNUlCX3ljZnA?oc=5",
-          "source": "디지털데일리",
-          "published": "2026-11-23T18:02:36+09:00"
+          "title": "식품업계 펫푸드, 간식·영양제 접고 '주사료' 몰린다 - 매일일보",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QRVBWeGZTSTRtWGo0TktGM0RWRFVLb0FwVWlWMlFWV09sd1hVdW1iYk1DQlJIaHRYY0xMeXNHd2ZROHhVRzdTbThXNXY5SF9oMW5icHNsbFFoQlY3dzZCMWI1U1U?oc=5",
+          "source": "매일일보",
+          "published": "2026-11-24T14:57:59+09:00"
         },
         {
           "title": "농심, 반려동물 영양제 ‘반려다움’ 접는다…정식 사업 전환 불발 - 이데일리",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQzdJcnhFc3JpN1VPVmJLMGtXM3M0eVg4ZVVBYzlEZXNvSU9Ca0htNFU3Z3RnUjlqc0FzaWFTUmtvbDZwVjBTV3RfWE5SSUdaNXhSY0xJeEMyNE9RcVdid25OS2tNZVZPdTFjeGZTcnVJSm5vSVVMM0lrcTh2Y1hMdQ?oc=5",
           "source": "이데일리",
           "published": "2026-11-23T17:37:32+09:00"
-        },
-        {
-          "title": "농심, 반려동물 영양제사업 '반려다움' 접는다…출범 2년 4개월만 - 뉴스핌",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aMkJvMllkcHZNdUtpeU9JVFVDT2RzTXNJYVBvVmY4NXFGU0tOTENoaTF1WW1oR0dqdWxqbmZkYzc0OWg1MGUyYmF5ZHNfTlZuWm1hTDNfOV95NC1y?oc=5",
-          "source": "뉴스핌",
-          "published": "2026-11-23T17:30:00+09:00"
-        },
-        {
-          "title": "농심, 반려동물 영양제 사업 2년 4개월 만에 종료 - 주간한국",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jY2sweHVlbWdEZV9nN00wekN2RW5XaWZxdHJ4TTIyckNTLTdKLWY3OEYzVmdQUHRLQ0NNeHl6ZnN2Sm1rZkFCeFB0YlBBZ1hkek5XRk9DS3kzVk1YNXRwUjlNck5TSmd1alJvODA2UlLSAXRBVV95cUxOd2JMTVdIS3g1cnVEMlRYM3VNTFdub2pmQVBRdU5QQS1lS0tPZ2FjMDBDWGhZb2o1V3dnYWNsaURNRlJYSzY5SUJYVTUyWjY0OU1lbTk1LUpKNkd3ZEdtRHd5TlpwZE81amFqRUN4VFUzcUQyQw?oc=5",
-          "source": "주간한국",
-          "published": "2026-11-23T17:00:37+09:00"
         },
         {
           "title": "농심, 반려동물 영양제·간식 사업 철수...'반려다움' 운영 종료 - 생생비즈플러스",
@@ -587,6 +561,18 @@
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NSlNkaEYtLVJqd0o0OUd4X1lQbHhodlN4OGdMYzB0eHJoT3pzNkVrbWVzQkxBczdDZUsyT3pITlI2SG9DUWZyYmVIcWoyWXFkVHNsWExzM3F6Zw?oc=5",
           "source": "브릿지경제",
           "published": "2026-11-23T14:39:00+09:00"
+        },
+        {
+          "title": "농심, 반려동물 영양제 사업 철수…'반려다움' 운영 종료 - 매일경제 마켓",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mM1Z3YTNaWWd0S05JZ3NWVFBHSE5xRERfd3YtMVJ6NGF5OWRkVjgxVUVPSWZSYkJtRUVXeFFOdmY4bk90VmJtVnIxQTlCRmdpSHc?oc=5",
+          "source": "매일경제 마켓",
+          "published": "2026-11-23T13:40:07+09:00"
+        },
+        {
+          "title": "농심, 반려동물 영양제 사업 철수…'반려다움' 운영 종료 - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lWmI4WGpRSVBLZFpCeUdJZlo1dzF3QmllN1VfbGsyY2hVOUJlcG1LZDhMQnoxUHA2YmsxSThfZG85WHJ4bVVVSUFwb2pyUm5hbE9PTnJrWDlweXV5OFRWbtIBYEFVX3lxTE1lWmI4WGpRSVBLZFpCeUdJZlo1dzF3QmllN1VfbGsyY2hVOUJlcG1LZDhMQnoxUHA2YmsxSThfZG85WHJ4bVVVSUFwb2pyUm5hbE9PTnJrWDlweXV5OFRWbg?oc=5",
+          "source": "연합뉴스",
+          "published": "2026-11-23T13:40:07+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -4993,15 +4979,21 @@
     "preview-50000007-001": {
       "name": "헬스/요가",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000007-002": {
       "name": "러닝",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "기업들이 기획한 러닝의 색다른 변신...달린 뒤엔 사우나, 완주 후엔 에스프레소 - 반론보도닷컴",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0teDgycExYbi1zRGNIWTJhRXJscmRRMjVYYWJPR1hONlRJdTJxZXl5ZGJSZFlmbTJJUWtKcG1Ta3hWeE9QNVFXZE9LUWhINmR0V1ZDYnZiQ2dBVG1CQTVzczdNbWRRQlJOUWZhd9IBcEFVX3lxTE0tUTdMZjFST3JtZUNaSHVPdS1CRkFyN2lFTmxZRE9ReVprREdkbVlEZXg1LTNfRnpPc0ZPcUF4MjAyZ2R0VzdSRHVJejdaZk9zcUNfR3NNOV9SRy1XVHpSV0lKck1Ccm12Rmk1a3Z1dlI?oc=5",
+          "source": "반론보도닷컴",
+          "published": "2026-11-20T15:01:48+09:00"
+        },
         {
           "title": "경마 경주로를 달린다... 렛츠런파크 서울 야간 러닝 모집 - 한스경제",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEaTRodnFuWVR4TXRDdF9QbU42dTZaLUZDemppaG12cWdtbkhwYlJDXzBPLTFqU2NOYV84ZnYzVUJrSENFVzBlRkhPeWNyMEpaS1ljbENvVWZ5ZmF6d2dJbnZNR0RxQjRlb0J30gFvQVVfeXFMT0o5V2hmVFQ5cEd3Y25jVUxicEdsSUZMUWRXVFRwYk1hV0FQV1g1ZUFpX2JvbjNwVDVnaGpURElmb2lHR010M3c5RzVabF92RW5qN0xTSnBmck5yaXVmSWFHWnM2ZGFIVW4zdEJvU2pJ?oc=5",
@@ -5013,12 +5005,6 @@
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05SWdmMjk2Qk1rQnhGRDhtVWNGRUl3ZDg4RzhSMWtGM2NoWU9ITV8wQTEwdUljMXpBYUJENHpZekQzQVlpZXdXVUlDZGJ5TlJEbmJVSC1CMDJ1NGtaeWRSemNrZUpxNVVIbGJsTw?oc=5",
           "source": "뉴스탭",
           "published": "2026-11-02T17:00:00+09:00"
-        },
-        {
-          "title": "순토, 트레일러닝 특화 스마트워치 ‘레이스 3S’ 출시…최대 38시간 사용 - 뉴스탭",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YUFYzcV9obHdlYk1JLUtvandyTklOSkpVSm5OODhGVlJRdzZqLXlVMTJkanJ5MU9vUlNPZHYzdVpNSFNZQ3hkYUJoTHdJQ0hmRzI2dmtPR3dZTDZnOThuWlp3cC1pWENqdDhhdQ?oc=5",
-          "source": "뉴스탭",
-          "published": "2026-10-23T16:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5026,27 +5012,21 @@
     "preview-50000007-003": {
       "name": "등산",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "K-등산 열풍이 매출로... 불꽃 튀는 아웃도어 ‘명동 대전’ - 한스경제",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iTGJ0bDVaSW1kdm9sdTRwT3l0MDF6dnhRTUNGRmViV01Sa3FuN3gwQ1cydUp5ekJwcUdCZW5SY2dKeDMwNFJITWxldFdSeDluWWN0TEhqMHZfN2xNTWVQcHEtVTEwSXJCNzRv0gFvQVVfeXFMTmFRYkZKQ2V5ME5xR0tFXy1EZTZKb2dfVlhmazJDSGNLUWNwalVuYjBnLUlmT2RtNHlTMnV3aWcxTXlPVGtYV0dtZU96dWxDOGNsbU1Od2RIZVVDOE1POE0yT3U0eXdub2FTeVhWRFZz?oc=5",
+          "title": "‘서울하이킹위크:가을’ 성료... 서울 등산관광 매력 확산 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwa05pbGttOFJTSnhGci1oMlFYQXM1UndFenEzQWkxRDZvQ1hQWFEyVmxKRFU2U1FfYi1ZdXJaUVltTnU1Nk9CTG1JX2taVzZUekNybWotZkRXWWF6UG53a0xtVUJtWk5kWmRR0gFvQVVfeXFMTTBLLS1iNEtNeldYZkVPaEpxanFHUVR1Q0N3S3BmVnZITGI4ZGo0aXpvVkxhQjZZTG43ZDlscVIxdlFJenZCY2dVSk91aWVwM0pWWVVEZzdfREVBLTd5X00tWXZvZTV6aWlIQURYcTIw?oc=5",
           "source": "한스경제",
-          "published": "2026-11-01T16:00:00+09:00"
-        },
-        {
-          "title": "트래픽 22% 증가... 외국인 관광객 홀린 'K-등산' - 한스경제",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxanpibjZHYTlWSWFnSFhVV0Nqd0VBT3hCUFR4dVdOM3ZvM2lFMGo2ZU5tVW1pOHNkcjEzcnVzWUR2UmppaW83M2xpYW1Helo4QXluZ3I5a0ZKV0FZbnE3NURaYUF2R2RUYXVB0gFvQVVfeXFMTkhKbmlKQkZnb0FNaUw5dVFMc2VXanNJMXhLdzB6U3MtMDFBOHpfTkdHZWpOc2JQMEwweGtJNkZRNjdjdTh3TjBrb3h1RTJpRElWU1plMWJBWU5CQkhqYnBqM0ZWXzEtZ01PQmF6bDFz?oc=5",
-          "source": "한스경제",
-          "published": "2026-10-18T16:00:00+09:00"
+          "published": "2026-11-22T12:10:41+09:00"
         }
       ],
-      "coverage": "google_news_rss+publisher_rss;retained_previous"
+      "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000007-004": {
       "name": "캠핑",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "롯데온, 아웃도어 할인전…겨울 의류·캠핑용품 판매 - 아이뉴스24",
@@ -5068,26 +5048,20 @@
         },
         {
           "title": "롯데온, 겨울 캠핑 시즌 맞이 '글로벌 아웃도어 브랜드 대전' 개최 - 뉴스드림",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0ZlJxMnhrSGtHWm9iejh2TDFBQW5tOHgzWGw1MmNINXZndmo0Y04tT3BlQzhqNlhlMDdxRHZLRHlfenhFUnR3Xzd2bzRBV0Q3VDBxSW04cW9rT2xsdVdZR1pHRWk3T2lSNjBZ0gFuQVVfeXFMT3o0UHFSZzZwa1BYb1hlb2pITWF1STd1b1pBaWVMMThoc0FlN0JfMzVNWXhyaDQ4VFVjUHVqUVczMUgtT0dDX0NxendKQ3loNjBxa1JXLVF2ODFTbGR5YVZZaFctVlFVNmprd09LUXc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0ZlJxMnhrSGtHWm9iejh2TDFBQW5tOHgzWGw1MmNINXZndmo0Y04tT3BlQzhqNlhlMDdxRHZLRHlfenhFUnR3Xzd2bzRBV0Q3VDBxSW04cW9rT2xsdVdZR1pHRWk3T2lSNjBZ?oc=5",
           "source": "뉴스드림",
           "published": "2026-11-18T08:50:34+09:00"
-        },
-        {
-          "title": "롯데온, 29일까지 아웃도어·캠핑용품 할인 행사 - 연합뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hcVk0UGdnTDB5bWhvRkI2clFiNlVWNVVWTlRULVQxVi1mVWRyYWY2cDZPb0NhZ0gtNHhLMWtSMEZlZEdmcV9zT2xyanhhWXdHZGZJS0hSNW5OY0lUZVBfTNIBYEFVX3lxTE9hcVk0UGdnTDB5bWhvRkI2clFiNlVWNVVWTlRULVQxVi1mVWRyYWY2cDZPb0NhZ0gtNHhLMWtSMEZlZEdmcV9zT2xyanhhWXdHZGZJS0hSNW5OY0lUZVBfTA?oc=5",
-          "source": "연합뉴스",
-          "published": "2026-11-18T06:00:08+09:00"
-        },
-        {
-          "title": "“겨울 캠핑 준비 한 번에”…롯데온, 아웃도어 브랜드 할인 - 전자신문",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzVkUtUDRaMXhVeUFKOXJfMi1ZTGN6cEdZQ05wNjZWYVJqdXhjcmR3X2tFSFRIMUpkYmt1b09BR1pJS1hrWjB1LVlhMDFIQQ?oc=5",
-          "source": "전자신문",
-          "published": "2026-11-18T06:00:00+09:00"
         },
         {
           "title": "롯데온, '글로벌 아웃도어 브랜드 대전' 전개…겨울 캠핑용품 한자리에 - 뉴스1",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHOVhlWU1lVHhlYlo1N2RVUUEwOW5tRjBCNUxCdFhDb3hrVURqM2FVVlV1VWdMa2ZmVG9jR3hxN3hNcGFnM1RGSE8tLVF6YXRFLWFXM1NZU2tWUVhzMlgw?oc=5",
           "source": "뉴스1",
+          "published": "2026-11-18T06:00:00+09:00"
+        },
+        {
+          "title": "롯데온, 29일까지 아웃도어·캠핑용품 할인 행사 - 한국경제TV",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcHVBeS1vZ0k4RW1iM2JaRHN0dnVBQkE5WjZYNDdCQjNWeUpRaF8yeG9Wb21DaDgyb01CdEZQZE5fYzdfUld5cEs5eThSNHVFNGdBVTQ4NVpPcjVKbmVaak1UR3FWTlB1SFY4bTBKSEVleUNtb1VVaUVPdFZsekFIVA?oc=5",
+          "source": "한국경제TV",
           "published": "2026-11-18T06:00:00+09:00"
         },
         {
@@ -5102,44 +5076,44 @@
     "preview-50000007-005": {
       "name": "낚시",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000007-006": {
       "name": "자전거",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "암플로우, 첫 도심형 전기자전거 출시…카본 프레임에 자동 변속까지 - 디지털투데이",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9peEVTVjJSQmpZQkJNc0RkRC1vVExWOWU4bjJNT2g2cHdxLU9mNTEzU1U3UHJOc01IY0hkXzdGNGUtN1NxdHlyanBFZEpDS25ZQUtYNzBlOGxET1hIRkRvTzdNRW1OTHROa2V2cUp2UW1OSG8?oc=5",
-          "source": "디지털투데이",
-          "published": "2026-11-18T10:34:45+09:00"
+          "title": "ADO E-bike는 베트남에서 ADO A30 Air 전기 보조 스포츠 자전거를 출시했습니다. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZXBMNzdqTnRzblZjZExUd3V0bF9WMzBOVXhxenlTWV9KTjZubmYtTGNyOEthM1hYWmItUV93TVJBWWoxNTlyZ0RNc3JLcmprVUg5bXJBU0xOdWhQTzUtWG5EOGJIekZFVmY2d3BGbzdveXlBcW1TOGJ1X2lKbmNyRGdPMGEtZzE4TGNIWlByM3BKN0c4ZHZyQmlGRGFxdw?oc=5",
+          "source": "Vietnam.vn",
+          "published": "2026-11-23T14:50:55+09:00"
         },
         {
-          "title": "삼천리자전거 투자분석 2026. 11. 16 - 주달",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zdjRrdG9zWTdKSTctcGRBaDd6Sldhbk1RY0ZHaWlQRHhzVVdhanZwT1J1TGJuNGsteGNNYVFDSEQySzhVbGlFbjRKSDNHdkNnMVkyU3Q4ZnBXQmdHQkx3bWpYUWtkVWZZWExLbVhQdTkxUGs?oc=5",
-          "source": "주달",
-          "published": "2026-11-16T17:54:37+09:00"
+          "title": "No.1 자전거 전문 매거진:첼로와 함께 보는 우리나라 퍼포먼스 자전거의 역사 - 바이크매거진",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9OaUstTG95T3U4YWh3d0N1cGl4NFUyTGU2UmFSRXZEcmlKNXVaaU1nSmk1cDdmZHo5NTJ2cmllcnhJSEw1RkVLSVZhSUc2cUFBeldzMHo5d3M?oc=5",
+          "source": "바이크매거진",
+          "published": "2026-11-23T11:56:10+09:00"
         },
         {
-          "title": "전기자전거도 USB-C 충전 시대…리비안보다 75% 싼 보급형 등장 - 디지털투데이",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sV2ZYc0hXajFXbzlldEhJQWZjaVF0T0JkLXZuaUxvX0RHSXBxMngtRTJ4N2ZyMGlySEpjRklJZldlU2VZaDhBZUZKVWt5WDRYTUJMSjZEREV4ZWUtaF9tdTNJZTVWT1J5dE5KRVhPSWZsRjA?oc=5",
-          "source": "디지털투데이",
-          "published": "2026-11-16T13:29:00+09:00"
+          "title": "와이크 “자전거 관리도, 여행도 편리하게…자전거 생활 인프라 구축한다” [인천대 x IT동아] - 동아일보",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40b0M3TGZGNk9TWkVTaC1jbzY1WTdMVEdRc2FYVGRVN21DNUNaNjFfbUNCeEdDRUFKc2hVdnRET0didXN5ay1kRm95d1RPdnZsbkNHTkYwbnNiSTFnVUhFQ0FsR0RhdWp4ZjdqTnFab9IBZkFVX3lxTE0zWlUwOC1CVmFrV19fY1FfS3dkcHpOZzUxMDkxM1FOWU05UVBHLVFIaUFXaFlReDk3czBJTnFLYVBNTTNqOEFXcG1ZVHhIM2lqZHctNkJDM0VrRm0xUXdrVVplNWYzZw?oc=5",
+          "source": "동아일보",
+          "published": "2026-11-20T17:51:07+09:00"
         },
         {
-          "title": "민경선 고양특례시장, 일산호수공원 ‘쉼·안전’ 함께 바꾼다…선착장 개방·자전거길 1.6㎞ 정비 - 이투데이",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tOU5JcFMzQzVjeWMtWTFhclFhdlJDVnM5NEx2RjR5NFVnUXJqdnpSNG1kWnh0eGthV3QtdklPMTBiVDlZaHNUU3JwcUpIUlZkTHo4OA?oc=5",
-          "source": "이투데이",
-          "published": "2026-11-12T17:16:00+09:00"
+          "title": "브레이크 없는 ‘픽시 자전거’…유행 뒤에 가려진 안전 공백 - :: 위즈경제 ::",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1hRTlGZTEzU2wteTV4Sm1vYmtHdnFMbkMwX0JnbGxLS3BHSnFBX3ZjcnVhNlAtbktVYlFlaWdEdS1mLXZNa0h3cUNleFlWN0FVY3N0aQ?oc=5",
+          "source": ":: 위즈경제 ::",
+          "published": "2026-11-19T17:00:00+09:00"
         },
         {
           "title": "아베크커스텀·지구자전거·아르테파인 인천, 자전거 전시·시승 업무협약 체결 - 이코노미스트",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CZXdkNjVMNHZwSVFFNGc3eTFwYW45ajFhc1JkVkJUMnlHSUpTQkxUakJSZ1JvZVdITWdBN2U1RVhBanYyMXdhMG94WmtxU1dOcE83YzJjYlJHNG82LVNIWllB?oc=5",
           "source": "이코노미스트",
-          "published": "2026-11-11T14:10:00+09:00"
+          "published": "2026-11-11T17:00:00+09:00"
         },
         {
           "title": "혼다, 고급 전기 산악자전거 시장 진출…'RN0' 공개 - 지디넷코리아",
@@ -5154,9 +5128,9 @@
           "published": "2026-11-10T15:46:18+09:00"
         },
         {
-          "title": "부천 상동 전기자전거 판매점서 화재…인명 피해 없어 - LG헬로비전",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uemNzSXA3N0kwUXZJZy1PeHkySzNydzU0NkFxR193UmNNSkhrWFl3WGdqRFF5QWVCQ00zc0xOUjllbmR6T2xvSWxqWnRuM3g3bWxSTWhUaTlmUWcyb3k0cXdBUElnYUxFWS1nLUJkQUk4QdIBdkFVX3lxTE5sWmdFamNMQzRrYWo3Tmt2Wko0aWYwNlVhdm1TV19nV1ZpS2ItT1BpMGdyaHBIcWtIbHFuYjJqSzQzSTdDeXh3TDMyNUk0VzQza3BTS29DNzh3YUFmaGJLVm1DQzREMkw1UzJiTnZCQ2hUVFJRd3c?oc=5",
-          "source": "LG헬로비전",
+          "title": "경기 부천시 전동킥보드ㆍ전기자전거 판매점서 불… 인명피해 없어 - 소방방재신문",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14dDZHRHR0S0V6eUF5VHdFMHBfa1BVTTByNEhGamxaTkFJQmdaQXRRSmE1TW1fdnRGZ2NRbGo3S3VyYU1PVnc?oc=5",
+          "source": "소방방재신문",
           "published": "2026-11-09T17:00:00+09:00"
         }
       ],
@@ -5165,55 +5139,55 @@
     "preview-50000007-007": {
       "name": "골프",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "브랜드 로고가 디자인 패턴으로…헤지스골프 '로고로고' 컬렉션",
+          "url": "https://www.newsis.com/view/NISX20261125_0003882200",
+          "source": "뉴시스 산업",
+          "published": "2026-11-25T10:21:14+09:00"
+        },
+        {
+          "title": "윤이나, WTGL 출격… 보스턴 커먼 골프 시즌 첫 승 도전 - 매일일보",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JU00tM3VRR1BUMm1LLW54UFEzNUNmZnRfUWlObnBwdnlRQlBBX3ZRd2R6MjRRaFlVNzZTMi1ERFB3TzhPdGZnWk03VXh6MTlXZVlFNHQ0SHBuQVprS1ZrVkxQWUw?oc=5",
+          "source": "매일일보",
+          "published": "2026-11-24T15:31:19+09:00"
+        },
+        {
+          "title": "미즈노 골프, 신형 '제로 토크' 퍼터 2종 출시 - 매일일보",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCODZhLXVyQ2N1YXo0ek1HSVdGbGx3eGloSkxwWXphVmRoQXYxT1JhQ1RDSTY2ZkZENFJHb0FZN21nM2lBUHpyLXl0RURkY21uZjZPcGVFYk55dTBOWE5MbjV1WmE?oc=5",
+          "source": "매일일보",
+          "published": "2026-11-23T16:33:04+09:00"
+        },
+        {
+          "title": "한국골프 톱랭커들, ‘아메리칸 드림’ 향해 출사표 - 매일일보",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sLV9GUlpxREx1VWtnTWotc0lWR0VlY0R6ZmtfRS1LWnVoMUtnVzJTLVFpZFpSQlJFNGo0OFJHcENVWlJBcnVPVnoyMktnMGxVMmtNeG10bHZNbFNmU1l3LVBiMHY?oc=5",
+          "source": "매일일보",
+          "published": "2026-11-22T12:00:00+09:00"
+        },
+        {
+          "title": "최나연, 첫 자선골프대회 열고 기부금 조성·전달 - 매일일보",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HNjJZQUNWQmdLNnkwSHNhZ0wyMmFEMjNhdTVfRFpNTlNWVllUb0JSaUJfcllQWEh2QUxZcVhvZk14UDJsMVJ5dGNYZnVtRTk3N0tMLTFsVlVSZ1hUUllwTzg4SFQ?oc=5",
+          "source": "매일일보",
+          "published": "2026-11-20T13:43:14+09:00"
+        },
+        {
+          "title": "상주스크린골프 삼백휘트니스, 골프와 건강을 아우르는 프리미엄 스포츠 공간으로 주목 - 유스연합",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BTE44VU1ZT1VscFZmMDlvWHVvQnp3WHJyUXBTR0tRME9Sa1hxSVpPUmg0dWdxOHkyWlN4dVZLQTg2d0RyQ1Y3cTY0RFZVYlA3ZUR3?oc=5",
+          "source": "유스연합",
+          "published": "2026-11-19T16:00:42+09:00"
+        },
+        {
+          "title": "캘러웨이골프, ‘워버드 27 패키지 세트’ 국내 공식 출시 - 매일일보",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45RV9VbzU4aGxWSTZkYS0zTWNkV20wbGpHRXp0QnZyUFIwVlhtWE5Bd2pwQXhBUmhOazNkSkxhZk1LeF91S3VHWXJUXzZVREhKYjItaXIyZE1xOUhDaEdpRHRZeVM?oc=5",
+          "source": "매일일보",
+          "published": "2026-11-19T15:42:22+09:00"
+        },
         {
           "title": "미즈노 골프, 신형 드라이버 JPX 원 맥스 선봬 - 매일일보",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xOW9SbnEwWjRHTXpoUVYtdlZTd2s3Y2Q4RzhBMjYtaTlaOWN3MElfNUFMbXB1dEpScElUSnI1dUZINU16MTR5Ym9ETndqdm9JVzVEZk9KWW9SZURBcXgzY29EQV8?oc=5",
           "source": "매일일보",
           "published": "2026-11-18T17:15:34+09:00"
-        },
-        {
-          "title": "3관왕·16억원·다승… 진기록 쏟아진 2026 여자골프 - 매일일보",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ralFvN2lzX2h0Zzdnb2hodVE1U2N4TEo2MW5HdzJpWmZGX3RkNEdvY21BbU90Y0lFc09FcGRsWmhwZWpwRnRGQVJ1YkxCZWdVWDVCaFA2S1c4LXNaTjJHbnEyREw?oc=5",
-          "source": "매일일보",
-          "published": "2026-11-15T12:00:00+09:00"
-        },
-        {
-          "title": "포천시·샴발라 골프클럽, 업무협약 체결 - 포천좋은신문",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1XMGwyX2M5bWVlUUFYVFdHNWpyX2p5Uy1KWnRJYjNvSDFaM1h2b1FBZ1FJSHBMYzktTnRDT2xBNm9kUWd2S28yczhmc0ZjM0hHeE1HTWxGVWFiUWR1QmZyTkJpUk55Zw?oc=5",
-          "source": "포천좋은신문",
-          "published": "2026-11-13T15:33:19+09:00"
-        },
-        {
-          "title": "캘러웨이골프, 오디세이 ‘TRTL 컬러 드랍’ 퍼터 선봬 - 매일일보",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yVGJLWWRoamg2VkZmRVpRN3o2bk42R1FTZmtCOEkwckpyRktaamlubVdMNWNzdTktM1d3eG1XWldQUnlNa1J4TDlyQzJLYmV3SUM3VGFrTGZFWDhPMTBVYW1YU2g?oc=5",
-          "source": "매일일보",
-          "published": "2026-11-11T08:34:22+09:00"
-        },
-        {
-          "title": "골프 중계에서 연습장까지… 탑트레이서, 한국시장 확대 나서 - 매일일보",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZNHIwX1lTNFdfYmZsR2tVRVVwYktuWjlpS19jZmZFX2ZISF9Pb3Y4RmZIUnQ0NmtMZlVoQ3pvN0RWSlN1RkJjQzZ0aE5KZ1dyYXV1TDlwMFRTQm1jaTRqMjB5SjE?oc=5",
-          "source": "매일일보",
-          "published": "2026-11-10T16:13:11+09:00"
-        },
-        {
-          "title": "골프 인구 43만명 줄었는데… 그린피는 ‘요지부동’ - 매일일보",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45UUhDZ2VyU2hkQU5EeVY3ZDI1ekhOcU40NU9YSlhqRnJiRU9TREFrczQ5OUl2ZXlXUzJ3VE1qYkZmN000bTNnNjg4eDk5NWUtMXp0bkJGNGZwcVFGYWZoM0xsalI?oc=5",
-          "source": "매일일보",
-          "published": "2026-11-03T17:00:00+09:00"
-        },
-        {
-          "title": "볼빅, 2027년 ‘붉은 양의 해’ 기념 골프볼 선봬 - 매일일보",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nTFl4enR3QklGVU1GQWpEdk9PMTgyellSdl9pVUN2SzdaemdMNVhlV0JBdmlfU0NQdmZaaEptT0R4RFBkYnNyaUNmb1UtckxVSmdaVnEtN0Z0VWJCd0VnTU5mZjk?oc=5",
-          "source": "매일일보",
-          "published": "2026-11-02T17:00:00+09:00"
-        },
-        {
-          "title": "티엑스 '파크T', 스크린파크골프 가맹사업 본격화 - 매일일보",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qMmJucU9YSGFIREdHUVpZNVV6eTZaWlVjRXlvb3N1aDBKYUhNT1BtelVGRUpwS1h4eXRFQ21NQlRnc0hHb2c3UzhoVExNY0NnTXpMRU5vdVF2Ukp1T2t2bThXVDA?oc=5",
-          "source": "매일일보",
-          "published": "2026-10-28T16:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5221,8 +5195,20 @@
     "preview-50000007-008": {
       "name": "축구",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "프로축구 용인, 성남 원정서 0-5 패 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Cb0hqY01fazdvc2ZxQmxtWGVjeHozOVhDOGVzUk9RLU9sbExCbHB5ZXctb201RXJTbWhnQnFtb3ZCS3I0ZlBBa0JQakE5bS1QekRTVGhtOTRqZjRoOUQ4al9pV0VkN1JtWFlF0gFvQVVfeXFMUGh0MENTbTRYLTJlNU1GUlhvNFBmSEtnYmo5WlNlbHlhTXhuMV9ENW1NTGlJck5NdDZWVEt6VW9Kb3ZMbXNyWHRVRW8wQlVwZWZETXRTaWNTSTJGbXRfOWc2TmJEVDN4M1F4ZExtTW5v?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-21T18:20:41+09:00"
+        },
+        {
+          "title": "'1등 164건' 축구토토 승무패 69회차 적중결과 발표 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zRWFmVkJJMWZnaFgycEsxa0tkRlNxMFllYlNOZllydk1rQ25CdTNzZUxUREx5TnBsVWhpRXNSU3B3dnNqUWprenlqN1M3ZmdNQlM4aW9pNEZ5RkVNMUZCNk9mQUVlN29QNG5zadIBb0FVX3lxTE1FVTZxRE1nNnFQT240bWk3REVQRFVNSVNrUjhXQ20wMWE4TmdzdWNiMVdYMjgyTUN1bmdwQzFpVlI5SzBpYnI1bHdvZlc1OTFIZWJySHFJWVlISWt3elJkR0VxUUpQdGlTODVVQ19oSQ?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-18T15:37:31+09:00"
+        },
         {
           "title": "韓축구, 올해 마지막 평가전서 카타르에 1-0 승 - 매일일보",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xdzJNdVpfQWNyQkwyb1BFTDlJRkNxZjZxYnRtUVBwZXNEM2tyT0I0VE5TZE5TWF9XRXhLTWhWR3FVajFHTjZHR05XcEVHN2piOTRlNXNMOWhaTkhVeEtVcGlQQXU?oc=5",
@@ -5233,37 +5219,25 @@
           "title": "한국 축구대표팀, 17일 카타르와 올해 마지막 A매치 - 매일일보",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNMjZSOWJpa0o2M0FtOERjVzNTeDlCRy1KaVVsbDNVWFV2dzRqQW9UWkktejVLMS1CS0stcjM3QkhxemlzVkI0VmdPaUNIVjlSMDBBWTJOWEhNYnVya3ZrTVJpdkk?oc=5",
           "source": "매일일보",
-          "published": "2026-11-16T18:43:48+09:00"
-        },
-        {
-          "title": "'한국 패' 축구토토 승무패 68회차, 1등 적중 없어 - 한스경제",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KYi1LNVFfNDJzaW8yUjM1RV80NVhRX2hLbDJoYU82ck45dHBMcEhHVlJ6eDFFM1RFZWRFeHhuS0pRbGJDVnRQSDlMVS1kN1RETjkxc2hhTTZ6ZS1YM25sU3UtWThFMEVFSHJYTtIBb0FVX3lxTE43U2pJcHdiT20wSnVfZ1N0cUxlOGRoRlJJZzJteUl3TE1uNFpnWDdnNEVjd3dyZkhPVkl2cWc4TDF3VnNHZVlsaXRMUEN4LTlLcHFINDctckNyU3p1cm9GWVpiYlRydUxtalJFQ0ktYw?oc=5",
-          "source": "한스경제",
-          "published": "2026-11-16T18:08:57+09:00"
+          "published": "2026-11-16T17:00:00+09:00"
         },
         {
           "title": "'한국 패배, 포르투갈도 완패'...축구토토 승무패 68회차 1등 적중자 0명 - 일간스포츠",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DMTd1Nm4yZWlYeE9PcWhFYklNcEI3enJPenl0a2FqSld2X2s0X0RDRXRnTDRCLU9IZEFPSlFBRzBMc05RbGI4d3FHa0hOd05GTlpxWEowNkt1Ukk?oc=5",
           "source": "일간스포츠",
-          "published": "2026-11-16T11:01:00+09:00"
+          "published": "2026-11-16T17:00:00+09:00"
+        },
+        {
+          "title": "한국 축구 발목 잡은 '박지성 혁신위'의 자충수 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0SktUX293elhYcXd5VERtTGNIZGhSQTVaWVBDdzJrNVYxZzNRc2Y1MkhKc3ZYOE96Q0kwNkZ0VjAzQWJlVVVGellBNXljNWEyY1NGdUUwSjV2T2RtNEtOR1VETUFWUjJSOU9N0gFvQVVfeXFMTng4OS1vS1pkOUVnbnFNR19YMmhIMmlPT25SWVFma3A2QU42dlFpX0RSMldWZEwwTDVVVk5fUURjTzR5MDZSRER3YlFIcUJ6aExpZ1U1SXpKQzJRNVpSRHZGS3BFVnVydkJKNmdtQ0lV?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-10T17:00:00+09:00"
         },
         {
           "title": "'포르투갈 축구 레전드' 호날두, 대표팀 은퇴 선언 - 매일일보",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zSzR6VXliLUFsWlZwc3BIbkY5MUJ6ZkQwX1MzT3ZkSjF4YW1MRy11SXBBaUMwc1pOcHlqUVM3bXhSWHB2RFlhcDFnTE5jWm9IUXRzZjcwUXo3TGdGNlJOcTBKdF8?oc=5",
           "source": "매일일보",
           "published": "2026-11-06T17:00:00+09:00"
-        },
-        {
-          "title": "아시안컵 축구, 결국 1년 연기… 중동 정세 불안 탓 - 매일일보",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PYTl4WUlndlhCSjlNSGtXTXV1ekFTRkVNVEhMY0dBbnVOSVU1SVhQSUIyS3h0Z0hwRlBRaGtGY3JNM1lFN004bWpjTTVLV3hrMEQ3QzBDWXFrQy1hcDlldmFmejQ?oc=5",
-          "source": "매일일보",
-          "published": "2026-11-03T17:00:00+09:00"
-        },
-        {
-          "title": "'2026 세계인의 날' 기념 국제축구대회 개최 - 포천좋은신문",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oUTI1UUhGNkJ6MXhPSVUwR0FJUVdDT2xucm1LYmZaN05STkNxV3Izc3JndWpyVV9VenhJTmpTbTkxRFBlaWlWRDNTeVNuMWFPUm45VmMwZ1dMMnRVOS1VWktpX2swQQ?oc=5",
-          "source": "포천좋은신문",
-          "published": "2026-10-23T16:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5271,31 +5245,37 @@
     "preview-50000007-009": {
       "name": "야구",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "밀양시, 각종 야구대회 성황리에 마쳐 - 안동데일리",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpMzlacWxQQnpBUHV2c1hhUE4teFp1alEwS1V3WEFPVC1mQUVkTTRrN3ZMYS1QTDItQUZNVDhGUWlGZ0M5SndJWEQ3TEo4T3Z4UTZ3dUxOcFVsaDc0ZF9VZnpLMUNMVGhTVmpzc1hR?oc=5",
+          "source": "안동데일리",
+          "published": "2026-11-23T11:00:12+09:00"
+        },
         {
           "title": "프로야구 FA 시장 열렸다… 원태인·구자욱 등 28명 공시 - 매일일보",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mX3hEMnYwdEdORHBFNzlpOVl5SVZLM3V4WEIwS28wcGJMV3I4dEJvcjRGSjkwZ0l0RWtfMlV4c3dZR1FiTnY5Y2hKUmQ4THBhd3NOVkkyWlJOWmkzUF9oQTRHZ2Q?oc=5",
           "source": "매일일보",
-          "published": "2026-11-13T16:29:58+09:00"
+          "published": "2026-11-13T17:00:00+09:00"
         },
         {
           "title": "삼성 라이온즈 우승, 결산 2026 프로야구 - 더리포트",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QWElvMElOVlI0UnZaMDlmb290YldycDc5a2l3TnVTdjVUS1QzcFFJOXJ1MTdqdUE4OXVGaVlnLW9EYl93dlB1S2EwQnJyWU9maU9pZlJpMV90bnNVWXBaTVNXNnBLWXh4ZkZ5bmVR?oc=5",
           "source": "더리포트",
-          "published": "2026-11-09T12:23:47+09:00"
+          "published": "2026-11-09T17:00:00+09:00"
+        },
+        {
+          "title": "2026 아시아 프로야구 챔피언십(APBC) 대표팀 엔트리 변경 - 안동데일리",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53UkVYRS05Q3FpeU1MUjlrQllRYk1QWWdLN0dhQnhvSk9LdHRweUZrMVRUaGRmdE53ZVp3enFsbnlQSC1SUUE0V0VjOVZqUUItMmR0bVBmZFdTZk9VaGtDM0tXejNiWlF0cjhDYzZn?oc=5",
+          "source": "안동데일리",
+          "published": "2026-11-02T17:00:00+09:00"
         },
         {
           "title": "프로야구 PO 3차전 선발, 삼성 최원태-기아 시라카와 - 매일일보",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13T2libVhPUzY1TmdSYU1KdlM3dmVqX1hrLUxkOV9sMFZEdk5NdkY0RWpNdUNuMnYxWkE4UnRwdzRDUXcwRUozLWFZRTlTMmpXT0YxaTBuUmpHOC1JbEQ1d1VYeDk?oc=5",
           "source": "매일일보",
           "published": "2026-10-28T16:00:00+09:00"
-        },
-        {
-          "title": "프로야구 포스트시즌 암표 의심자 31명 수사 의뢰 - 한스경제",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BU2JiVkFoNktzSEp3cDRYSGtPSDMwakpuNTNIZ2h5RW1BRzR6NFh4UDFCWl82RFdLTzBWZmFacnRMcWJ4M3hqeno3ZmhEM3gtQ0FpakF0QXRSaUVYa2VzMXpuNHFhdDNydDBB0gFvQVVfeXFMT0QyUVllQ3ZDRE44Yk1WMFY3RFJoQmhhQlZPTEtIdkJOYTlLNG1lNlI0RVhVcEVlQXUtSUtXRzVUcm1FUkl0MncyLVJrOU9qNnRRSk1lMDZncnhWcmJuLTI4TnhVMUdIdS1fQkVrZlNN?oc=5",
-          "source": "한스경제",
-          "published": "2026-10-20T16:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5303,25 +5283,55 @@
     "preview-50000007-010": {
       "name": "농구",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "'사쿠라 22득점' 여자농구 신한은행, 하나은행 잡고 4연승 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40WVpxRkEwb1FsOHFVbnBwZ2ZaWk9YU3FBaHVFZlV6NEFUd2lWLUNzRXlkU09nbWxTNFFMU2NwWVcxbEx0Wl9uU201ZDdyTEJuU19zWGM2c2JzbVpwQkZCWGUweVZvZFhFaDIyTQ?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-23T20:53:19+09:00"
+        },
+        {
+          "title": "여자프로농구 청주 KB, 용인 삼성생명에 26점 차 대승 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13akRROC1OWGJkSk9qenpjNDBoUkJ2d21NOGtyQkJ3SWg3aHhnbmpXaVV1RHZhVEM5aUdPcWt3UktIWDBHckx0T294cjNfTDlsVEg4YmZEaHhYN2E0MzBISXE0dHZXSzdNcFAw0gFvQVVfeXFMTjBBRDRPWXZfRFN5WGU4czVLcGhmbk43N1R0cldYRDBtYVhPNmo0dDA4R2h3MG1TenFiaDByYUJoOXF4VUJGRWtfcVdVXzdQcDhNb3dfZlhhRE9BOWlhV3dsdXhaaFJxZGxTNUQ3dUVV?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-22T19:52:44+09:00"
+        },
+        {
+          "title": "여자농구 신한은행, 3연승으로 공동 1위… BNK도 승리 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZcVNYS0VMUXBHQXJ4V0V1XzZ3UVl1Z1pBYU9sWUhaNDVSZ2dlUTJfWndtUFM4QmRlRDE0RUxkTDlrcVFPZGtJQWdHSklpb1p4VXlUUmNuN2tObFdJcG1zZEpVWlYtNlJSRWxV0gFvQVVfeXFMTjZNZUtFTWpkcmc2amdlZ1cwY0hTNlN4VnRKNWMtbnJpNFl1TEFHVVhNbzdqdkh4bC0tUlRsSVpGemt4Q0lXY1I3dzJPU0ppNUFFM0tBV2JHQ1h6Y3lzc2ptUklxeXVMZ1B1NGRQMDhN?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-22T01:57:46+09:00"
+        },
+        {
+          "title": "'이해란 26득점' 여자농구 삼성생명, 하나은행 잡고 4연승 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EUnRuTkxseXFoRW56NTRSY1NmX1VvUkpwOE1IN1dFS2diX1dBeGJZSlFCcGFMUDRJbzF1QWt2d045ZzZkWFB3VTEyaW9sMkhkMk0wTDRuWVpLbWQ1d3czcEdiLWpOXzRoS19R0gFvQVVfeXFMTkNLMDg1bmNpRF8xX0ZVQmZKemo5QmNmT1JpQmNjTWJPekxoc1phMkFRVGVvbGdNQ01OaTZTTVE4T1FvRUFNWmo4Y1NBUTMzbkdCWkJVSGJrN3VPX3hOcENqTmlYWG5QQmJxcTBzTzFV?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-21T02:33:35+09:00"
+        },
+        {
+          "title": "프로농구 신인 드래프트, 역대 최다 30명 선발… LG·삼성 4명 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBybUM1M2tTamJ2OFBlZ2ZWOXVidFNIMEFvb2U2R3AtS1BHWVVQZ1VoUDVLLXBFVElEV3lKbmxhX1VpeWpfdDlDdkVjSU1xRWU3NUZINF9GWDZpOTdfTHplQWR6TFFNcTd3VVFr0gFvQVVfeXFMTUVuTUpyUmNiVU4xSGZwZ1VSWFpDZWJiWXVuVTFVaUh5Y3NyOU95UHVZRWdjS0Rud3A1dHhLVVFScmpFeUN3N0E1UkRna2U2bjZraEFlNXd5VFREcDZQa0NPN09SdkxmUWg1dkMwcFBV?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-20T17:06:29+09:00"
+        },
+        {
+          "title": "한국스포츠레저 베트맨, ‘농구·배구 개막 벳머니 페스타’ 22일까지 진행 - CNB뉴스",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HTUpzWlRJX3kzQnRuaWR5VXJQZHZjczZRNU5ZRzBKWjd0dDZyTjRLb3pDYzNzMGIyQk9zTE1WeW9PWExQODRraE5OOHNnLUhPdFQxOTdWQXhwdU0zTkNHSjkyakh1UjM1UE5R?oc=5",
+          "source": "CNB뉴스",
+          "published": "2026-11-20T10:02:00+09:00"
+        },
+        {
+          "title": "DB그룹, 프로농구부터 골프 유망주까지…20년 후원의 힘 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwajNmQl9MQU5nMGZVbEtRcTBqVkV0UVpoTzZraFhhUDVON3RsVG50TGNwU3lTMDVveDJubG1rSENZT19Jdk5kRHpOclB2TkllQlV5bUQzZVFkMGV5T3F1U2xuMGtkWjlEc25z0gFvQVVfeXFMTXVHX3hxb2V6aGdrakJXNFBxbEtNV2FDcUVZZ2g4UVdJYzZCSEJsUklmSmpNNGpNc3BRdzVQNHN0RDNGSkkzaGZsQ2V0OFRlQUxROFExejhnY2lhTWdEbEo4UVItMkUxV21YV1JWVEZr?oc=5",
+          "source": "한스경제",
+          "published": "2026-11-18T06:00:00+09:00"
+        },
         {
           "title": "[한국스포츠레저 공동기획] 삼성이 흔든 프로농구 판도…추격자들의 반격 기대되는 2라운드 - 일간스포츠",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jVEhIWjZMay1xenA2VFpVenFYeC1oMEdoT2JfQmRVWTc0akgyN2NKVXdHUExnVFdraGN4dGRJZWg0akZDdEp0QWRjQlVzUEFvQnZtWHJQWmJ3WmM?oc=5",
           "source": "일간스포츠",
-          "published": "2026-11-13T05:55:00+09:00"
-        },
-        {
-          "title": "프로농구 칸터, 라건아 이후 9년 만에 삼성 출신 라운드 MVP - 한스경제",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94cXFFS2M0WkRqUHZDdGtyY3M0VVBjQ2pwNnBicWFDczJtVHZvVzgybHpZejRxaUN5dG1zbkh3WWoxMmhpbDlBNVhhSHAtVGZBalB3ZXFpa2NMM1ZhZkNKSC1lRDRkQVlSQWlz0gFvQVVfeXFMTmNvMzhtVjVyTklSVEE2akJScDFVSDNRdDd4aFZqMWxtdTI4YnN1SkR5SUxQcWU0YXBCaVM1Tjd3VVFWWnVIVEduS1hpRVItNGRLRllhSW1UQW9TQTVhbkhrTi1wNWY3NjNWWllqWGJv?oc=5",
-          "source": "한스경제",
-          "published": "2026-11-03T19:05:06+09:00"
-        },
-        {
-          "title": "[포토] '투샷 멋지죠?' 2026 퓨처스 스타대상 수상자인 야구 하현승과 농구 윤지원 - 머니투데이 - 머니투데이",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PdWI0ajkxQnA3OUphUURLelJvVTBPVFBST2hNTHVRMDg4a1hqSmlDcFZlMWZIMmxocUEwby1wMWhsbVFnSDhQREM2OFpPV0QweURQSC1SdG8wdVJ2blBXbXFoUWtNWWNXN0HSAW9BVV95cUxOUUJZbXR3NmNLc2RvYVdqcTIzRjFlUTJBN3AzRGJaV2M4cW1vb0ZkaENUTmQxMlJGZ0l4elBWS0JxUjFJcmJVSE5YYXB6dkhQYl9rSHEwdXNiejJZQ3F5LUZGaWRwWjNvdkRDZXRkaXM?oc=5",
-          "source": "머니투데이",
-          "published": "2026-10-26T16:00:00+09:00"
+          "published": "2026-11-13T17:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5329,55 +5339,55 @@
     "preview-50000007-011": {
       "name": "배드민턴",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "청학배드민턴클럽, 남양주시 북부희망케어센터에 연탄 1,000장 전달 - 팩트저널",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qcjZmMW5VemQ0aWxEd3dGREwwUjVEdXpfVnAxUW5YdmkzX1dQM2d6enNNcFJYZXpFbmlUc19HOHZnWlpGNUdaQ0tVZzBHMS1WX1FLTVRUT29ZUWh3bXlrSDNR?oc=5",
+          "source": "팩트저널",
+          "published": "2026-11-24T21:33:47+09:00"
+        },
+        {
+          "title": "[과천시·경인일보 배드민턴 인터뷰] 신계용 과천시장 - 경인일보",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5veDM3QnZibHhkTmFzY3E4bVhpczdoalF1dEQzUUV5ZjJzRDgydDE0NXB4Ny1oUFdaelk2NFlMcmxrdmQ3dVR4cDhVYVB2U0pLdFE?oc=5",
+          "source": "경인일보",
+          "published": "2026-11-22T19:46:07+09:00"
+        },
+        {
+          "title": "조정석, 샤이니 최민호와 배드민턴 승부…“최민호 운동으로 이기겠다” - www.famtimes.co.kr",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GZmdEODhaNEVNMEdjU2xxTzc2R0JOYmg3Z3M3ZVFKZmszSEhPQUY4VGFsbk5TQWp1VURrY3l6XzhPOHVadnFLdGpjeTg5YnJWT1RQRzN6bVVNZ0dIXy1nMlFKSF9ueXZyLTJZc3J3?oc=5",
+          "source": "www.famtimes.co.kr",
+          "published": "2026-11-22T10:37:29+09:00"
+        },
+        {
+          "title": "청주시, 청주 배드민턴체육관 개관식 개최, 12월 1일 정식 개장 - 뉴스신",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91clZoVXN4YmlybEhqcEI4eTFPaHdyemR5WWxvNm9fMVVtYmlERG5TQm9BakY5ZTdFOGt4REVnTGRBTE95QzFWRnpnS3B1SGdFN0JNeEhSNWxQcjFmTGNMU0VxdUw0Zmh2UHBvQXdn0gFyQVVfeXFMTW5aQ3RLa2FBVEt4SWEtU0ZkS3BudE9aY0hRbTdfaTVPbDdUdFhKdDRzb3YzSjRMbFVld2RMQ3pFOG9uM01Ub0tQVktZUXlnZ01OT1R3d2gxSEJBbUJEY0tDQVlIallSdHR1T1ZOSS1zUkt3?oc=5",
+          "source": "뉴스신",
+          "published": "2026-11-22T09:28:27+09:00"
+        },
+        {
+          "title": "청주 배드민턴체육관 개관… 내달 1일 정식 운영 - 충청투데이",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3VXBORFprYl9ESjIzdGg4ZUktSVJCR25yQnBzNFFEVGdrNVcyUWx3TUg5ckdOdExaRFl0WXQ3UlZXeHkwLTNOd3prWHJqUG9meWI4RTNtay03b2h0MnlvcEZsTldUY1pvd21kOXZn?oc=5",
+          "source": "충청투데이",
+          "published": "2026-11-19T17:44:44+09:00"
+        },
+        {
+          "title": "서천에 전국 배드민턴 동호인 1500여 명 모인다 - 충청타임즈",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GaGpESHE5OXpWVzQ2TFBDQkRFcWMxaEI5eWpZLTJCN2lkUURFUUVlLXJiVldGU2l0Zm5BR2NYX052Ri0zTDVmcmxSdDFjVUJLSXI1VXgzUUk1bTNPdkhSNDhUdzZlU25L?oc=5",
+          "source": "충청타임즈",
+          "published": "2026-11-17T16:31:00+09:00"
+        },
+        {
+          "title": "서천 서래야배, 배드민턴 1500명 집결 - 투데이충남",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3TlRYaEdoeGd4dW1PUFN0Q3dGVTJTNkZuLTA5UWdZVVVqc3pBblFXbGs1MHNQeU1uYlNJWElma2kwUFpJODFDNWNjQVJkVVk3TmFzRFNDZVQxaFQ4WHNyLWNiN2ZXWnhYa3FqSHpHQkhwdw?oc=5",
+          "source": "투데이충남",
+          "published": "2026-11-17T10:10:00+09:00"
+        },
         {
           "title": "고양시, ‘제8회 고양특례시장배 장애인 배드민턴대회’ 성황리 개최 - 사회적경제뉴스",
           "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1FcDFBLU5DYl9uemJWbldSbjBLcUVPSHlXd1lQVGRVSGw2MUVWbXdZcWQyZTdTWkotNlVmVFplOA?oc=5",
           "source": "사회적경제뉴스",
-          "published": "2026-11-09T08:15:00+09:00"
-        },
-        {
-          "title": "고양시, ‘제8회 고양특례시장배 장애인 배드민턴대회’ 성황리 개최 - 뉴스폼",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LWGZhbDFYT2tLZE9mNWdxYWtqZ0JSUzFXUzNiWnp3MWw2UnFxSWhCS3ZKeXV5UjZwbXNFWEMxODJfdzVhTVdIWmttX0RXVkpQYU5BZ2w0WmYxVG8zM2lMb0JR?oc=5",
-          "source": "뉴스폼",
-          "published": "2026-11-08T22:45:52+09:00"
-        },
-        {
-          "title": "창원특례시, 시장기 배드민턴대회로 화합의 장 열어 - 웹이코노미",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TcjMyVHVCbjlMUllsQktnc0NhV0dBVkgwbVF6d0VxU1BwVGpWLWVES3hLbHpxN0oxODgzSExsYWR2OG1FQ3hGRS1hX0Nka0NjZ1Nobmk3N3UtSDZyaE9RWVduMkt1a1pSa1JiNTZ6Tmt4UQ?oc=5",
-          "source": "웹이코노미",
-          "published": "2026-11-08T19:43:42+09:00"
-        },
-        {
-          "title": "창원특례시, 시장기 배드민턴대회로 화합의 장 열어 - 서프라이즈뉴스",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05TXpNRlgxZWRMY3lobnF4d2xMQXA0ZzNaeWlRVTFlWXR1cjZ1bGhEbUItVFU3N1o5aGgtbkk0RFUtdndoY2ZhbnNJd2duMTdZLWx6cm5ESE1BMUNrSEFJcko5LU5qTXFaVXZkc3dn?oc=5",
-          "source": "서프라이즈뉴스",
-          "published": "2026-11-08T17:00:00+09:00"
-        },
-        {
-          "title": "고양특례시장배 장애인 배드민턴대회 성료…선수·보호자 250여 명 참가 - 월드장애인사랑뉴스",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KRHRsOE1Zb3lpdmdDR0o0T3ZoUnNqRHBWLVFsWlRydW1FTy00TnZ0aVF3emM0dGw1NWtFM2swMXRiSkVLbm10VVFBVl92RE5UeV9uS19MMWlCVC0ydmVkVml3bFN2VVhrcThIbnJqdw?oc=5",
-          "source": "월드장애인사랑뉴스",
-          "published": "2026-11-08T17:00:00+09:00"
-        },
-        {
-          "title": "창원특례시, 시장기 배드민턴대회로 화합의 장 열어 > 뉴스 - 더코리아",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wRTgyaC1xTklHTXUxdk5TYkNrTVFTUW5nUVN3RWNxSnRHT3ROU3hfRWFudGRXMFBmM0ZxUFYtNlVFNnJsYi1LV2JEVQ?oc=5",
-          "source": "더코리아",
-          "published": "2026-11-08T17:00:00+09:00"
-        },
-        {
-          "title": "창원특례시장기 배드민턴대회, 500팀·1,000명 참가해 성황 - 한국사회복지저널",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NUU1WRW8zcDYwWDV4aWd5Z1p4Wlh3dlJURlJZcExtQlJLSS1MdjlQX3lnSDZ3eWI1UEg1NWhoT2tLNG1sbU5WZXp0cEJ2NkJCem90YjRGNTlwUFBiNVB5QlpkUUFuaGZuVUVyMg?oc=5",
-          "source": "한국사회복지저널",
-          "published": "2026-11-08T17:00:00+09:00"
-        },
-        {
-          "title": "창원특례시, 제15회 시장기 배드민턴대회 성황리에 개최 - 코리아투데이뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16QlRwQVB5TmNrTEdXUDIwYXZwM1pjQ0lFV0d6WDYyaE5FdXE4Q2pkTDYwMnFxRUw5c1EzVUl4RWFhd1U0ckZZ?oc=5",
-          "source": "코리아투데이뉴스",
-          "published": "2026-11-08T12:23:00+09:00"
+          "published": "2026-11-09T17:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5385,13 +5395,19 @@
     "preview-50000007-012": {
       "name": "수영",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "“수영 실력 상관없이 모두 만점” 배럴, 수능 시험지 닮은 수모 출시 - 뉴스탭",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iek5IZ00xTzZWSUtSQzBHWnJQdzA2QjRaSDhheGtoWExsMHNHekwtU0k2SnhuMUh3ejRuX1VzUE5ZQWFqZ1VBSlF5VWF5WTREOTFlX3g0dV9NeDB0N2tRM1NhQjBOcHphbV9fdg?oc=5",
           "source": "뉴스탭",
           "published": "2026-11-18T11:43:40+09:00"
+        },
+        {
+          "title": "오산SC, 유소년 수영대회서 金 2개 등 총 11개 메달 획득 - 뉴스폼",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5WEpRby1qNjZMZ1BYVHZwSXZPOW01b1lBUDl5NmRRWFRYRDZpQm50a2JVLTNvUk5EUU5yRUkyZHo1bzZhWjZPTHBndFVwNlRPa0FlWW15TFh5T0MyYWtYRzRn?oc=5",
+          "source": "뉴스폼",
+          "published": "2026-11-16T18:24:44+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5399,33 +5415,27 @@
     "preview-50000007-013": {
       "name": "스키/보드",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000007-014": {
       "name": "스포츠신발",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000007-015": {
       "name": "스포츠의류",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "한세그룹, 스포츠의류 시장 진출 - 한국경제",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oNGpCRERkNEJtZ3R2bDNzTWw3RGdZNGZrRG5HVURNOThmaG5YTGc2MXlGS3R6SVpObzVfR0JxZ25sZy0xRlhOd2lYTWlHNHBKYnpza0ZiSzV0Zw?oc=5",
           "source": "한국경제",
           "published": "2026-10-28T16:00:00+09:00"
-        },
-        {
-          "title": "스포츠 의류 검수에 AI 활용 확대 - 국제섬유신문",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQd3RaVXVnV1dpWnNUMFlWTVJpNURZOWpzWWc1bzNmeUstcERvUzlnb1RoZTl0Q3Z6OEw5bVdIcDBGb2luWEJVZkNMcDZ2RWVqUzFndnZlVHV0QXc3SnJna01LOUtFY2c?oc=5",
-          "source": "국제섬유신문",
-          "published": "2026-10-20T16:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5433,7 +5443,7 @@
     "preview-50000007-016": {
       "name": "스포츠용품",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "학산 비트로 “세계 최대 스포츠용품 전시회로 유럽 공략” - 국제신문",
@@ -5453,14 +5463,14 @@
     "preview-50000007-017": {
       "name": "구기스포츠",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000007-018": {
       "name": "레저용품",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "레저용품 브랜드평판 1위 데카트론…스노우피크·노스페이스 추격 - 핀포인트뉴스",
@@ -5480,55 +5490,55 @@
     "preview-50000007-019": {
       "name": "아웃도어",
       "parent": "스포츠/레저",
-      "checked_at": "2026-11-19T11:48:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "2035년 하이킹 백팩 시장 전망: 프리미엄화와 아웃도어 참여 확대가 성장 견인 - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZWFHUXlZWndrNlNFOTRIZ3ZCSnZnTVZYS3dDRHRYQTRRZ1lWbkxuNm5JYnQwcGdvRms5Tlh4Tk4tVFBLSnYtTklLRkc1LWkwUWZxODhmWWdibE5qTnYybmJzaThyVzNyQW41ODdwZXNxTm5WaXBTaDRQZjkyZGtmdC14Y0lRaEVzVmVVYklmMi1YYkNjTXlIYm8tbTBNNHRKeGhRUzBSTVZrdEt3dDJITWIzdHJvRWpyekZWUlMyc3NMd0lIaExqZjNLUzdZS1h0ZzRR?oc=5",
+          "source": "IndexBox",
+          "published": "2026-11-25T03:11:05+09:00"
+        },
+        {
+          "title": "아웃도어 호황 타고…블랙야크, 시그니처 '히마 다운' 겨울 라인업 확대 - 위키트리",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtU21xQ0EzSzgwSTlMZENkcmVleDM1S0kyVElnY0tDZW1IOWlpTG9uTzZwVW5xNUVLMTFlbFVpYkdoX1hHcFBrbHAzLVlvWWtua1g4SWRn?oc=5",
+          "source": "위키트리",
+          "published": "2026-11-24T10:49:00+09:00"
+        },
+        {
+          "title": "등산복 인기 '뚝'...아웃도어 업체 '1.6조 작업복 시장'으로 눈 돌렸다 - 머니투데이 - 머니투데이",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwa2lQbE04ZzZnVndyOWFtRU9lM2hqY0tpckY2VW45Vm14aENXeVl6YzRCektYck5oYnMtSE1kRGJQRTc3dUJtSzAwRUo2UmdUbWxPOTV4R3dCWVBUUGp5LUxoZlVxM2NMbXfSAW9BVV95cUxNajJ4d1UxQk1SUHAzTGYtbFZzVnVCNlpTZjNkNFQ5LUpCQW9PLXJhNV9pR3V3bEcxZ2hKdmM2VnAyc0RiRElQcUdMZENoU2hFeTJuNUZjMFlOOHdLV1pHOXVlU3RYN3ZPems3U3VZUGM?oc=5",
+          "source": "머니투데이",
+          "published": "2026-11-23T16:02:07+09:00"
+        },
+        {
+          "title": "캠핑 편집숍 품은 지그재그, 동계 아웃도어 시장 공략 - 테넌트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Sc0ZjNUR6bEtITmNNcHJhcktWRWZKcy0wT0JwcTIyYVcyUGt6QWJGeXk3bmEzU3ZYVHpHbk1oR29uMzhCaVV0ZWE1Ykg?oc=5",
+          "source": "테넌트뉴스",
+          "published": "2026-11-23T08:35:13+09:00"
+        },
+        {
+          "title": "K2·아이더와 한솥밥 네파…‘도심형 아웃도어’로 3040 잡는다 [현장+] - 쿠키뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GeUx2em5WWTV0VUt3eC1JOW5nSEpqVzJwQW1USGwwMXUweno5OEJ2MTJYMVlwUXg1UlRSS0V3TzQ2ZDk3Y25JWExGWmVJMnh6S1ZSdEdjZzdlNEx4ejJzSXVvUQ?oc=5",
+          "source": "쿠키뉴스",
+          "published": "2026-11-21T15:28:05+09:00"
+        },
+        {
+          "title": "산으로 간 러닝 열풍…아웃도어 새 먹거리로 - 한국경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBia0IxYlRtaG5WaHdqRmtSbmZjOW5UcFBSQVJMOEk4MXFDS2dWbWtGV0RqN2RMV0xUcGJYOGFBUklkTXhMNFRieVE0aWpLNE9JOVQzckcyaEEyQQ?oc=5",
+          "source": "한국경제",
+          "published": "2026-11-21T07:00:05+09:00"
+        },
+        {
+          "title": "‘드디어 영하!’ 경량패딩 완판 행진 속 아웃도어 중간 성적표는? - 패션비즈",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9YTnJ1NHJLUERaX1phcGR0cXYxQm1FdXhnSDB5a0dvMjlMTXpuM3l6dWRJRl9ya2F2N1EtUzRTdTJMYXRSeVI4c3EwSGsweGV5?oc=5",
+          "source": "패션비즈",
+          "published": "2026-11-19T14:27:16+09:00"
+        },
         {
           "title": "[알리 생활 PICK] 블랙프라이데이, 자동차부터 아웃도어·사이클링까지 실속 있게 - 전자신문",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVak1wa25OQjI2ZDB3bXlFUGtqeU1UVHJkb3BOUzVaOFBtMHlwMU1TVTdzaTR1MmxBLVRqV3dyaHN1a0IzWDU3RWwzS2ViZw?oc=5",
           "source": "전자신문",
           "published": "2026-11-19T11:00:00+09:00"
-        },
-        {
-          "title": "[뜨고 지는 브랜드③ 스포츠·아웃도어] 레트로에 발목 잡힌 나이키…호카·온은 달렸다 - 프라임경제",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43SG5jRWNXeE5pYnNvcndKXzNXLTgxYll4U25jaW44MkpnTnRsbkszeXRSNzhaRnFNZkVKREhweEZteE1QNlZJSDNGV01ETXpsVVlyZ0x6Wi11SkZGN0tqa1c4eVlTUQ?oc=5",
-          "source": "프라임경제",
-          "published": "2026-11-19T09:41:04+09:00"
-        },
-        {
-          "title": "롯데온, 아웃도어 할인전…겨울 의류·캠핑용품 판매 - 아이뉴스24",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5weEFVNFpNWW1EMk9HNElMSTlaZlFjRlpualhVeFdVNGxTWGJqRGJoalBzQjVKb2tvWVBQdlJJMGY3NFh5V2VmWWE1NA?oc=5",
-          "source": "아이뉴스24",
-          "published": "2026-11-18T16:18:16+09:00"
-        },
-        {
-          "title": "[아웃도어 트렌드] K2, 발열 보온 기술에 풍성한 볼륨감 더한 겨울 다운 ‘에어로스피어’ 출시 外 - 베이비뉴스",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5VUtCR3dyRGpRckRYNGo0emxJTmVoeS1OQVlSUkxqMUd0V2pTYmdfVm9xSVJZTXk3eVNRdmJMSFJJMXJXS1NXWWdRdEV0QU9jOGVUd1NwVE9UODh6ZDZ6RUxJcTVXLVFxeGNzYg?oc=5",
-          "source": "베이비뉴스",
-          "published": "2026-11-18T11:26:17+09:00"
-        },
-        {
-          "title": "롯데온, ‘글로벌 아웃도어 브랜드 대전’…“10% 추가 할인” - 오늘경제",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1uODhZd0NOTDAteWNrY3FtOTV1UHFZZVJXNm1MWXJ1NmY0cDNFa3gxTzE2eWhMYzE3Uy1JMmhqS3NSUmNrWEE5MXVFaGE3dlFWeVowOXlwUVBIV29UQUpLLUhLUUlSWE5OZHhkejdZNHRleHM?oc=5",
-          "source": "오늘경제",
-          "published": "2026-11-18T11:05:02+09:00"
-        },
-        {
-          "title": "아웃도어 10월 매출, 소비 위축 직격탄…9곳 모두 감소 - 한국섬유신문",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11c0JPNUQwbW5MUzdxLXJvSGc0eGNJSlFXM2tpSWdFVXNOc3VyOHZaQ0dzdG1aQVFtaXlsZFpEMk1YVTFyaXNsYmpkYUdXR291d25MUDFxU3NlaFB6d1RpWThySEF6ckVS?oc=5",
-          "source": "한국섬유신문",
-          "published": "2026-11-18T10:26:00+09:00"
-        },
-        {
-          "title": "롯데온, ‘글로벌 아웃도어 브랜드 대전’ 진행…10% 추가 할인 - 파이낸셜투데이",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zc2xSNVVjdEZXS3hUbFJpaE5DemFrZE05OXdsMFZKTmNDM3JCYXhqQmNQZk54RFlDMkpHcngxZ2JOcGFMVE55ZHFjV21FZ2o4U2g2bUFNS1ROXzZCMWNyaVF2OFZ1c0hCblHSAW5BVV95cUxPNmtIekFxb09uZElYTU1kcHJQTjZPYWExcFN5QVRpT0pVTDVpN0NFUG03blAyTlFqY2J2TGNMV2lnY2E0M2c0cGYxb1BwU25JQVhQQjlFQmw1TVpPOUh3cEJ3RjBOZVo3OTZVa21nUQ?oc=5",
-          "source": "파이낸셜투데이",
-          "published": "2026-11-18T10:09:33+09:00"
-        },
-        {
-          "title": "롯데온, 글로벌 아웃도어 브랜드 할인전…수입 브랜드 10% 추가 할인 - 인더뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iVGpOWjlnb2ZHMXlSZG5IOHBtMWtDZjJ0eWVxbmV3eE51QXVIS195UU5SMDV4N0ZzbEhDeVlaREstRkNScDE4U1hrb0VKNHVXcDg1X0UzdUFPMW15X0FoY0VSeUc?oc=5",
-          "source": "인더뉴스",
-          "published": "2026-11-18T09:27:04+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5536,13 +5546,13 @@
     "preview-50000008-001": {
       "name": "생활용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "이마트, 참다랑어 뱃살·감귤 등 신선식품 할인…겨울 생활용품 특가전 - 이로운넷",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ENkhFbjA2eE9TZVpMN2pHWm1NSlBuT0hkc1dvdW9OWFYxNjNFdDVkN3VuR3cwUG15TWdMQmRJa0F5clVqYWhXaWJld2JFT0E3VXVMWk5Bb2duM2lEcHZrYnFodXY2Zw?oc=5",
-          "source": "이로운넷",
-          "published": "2026-11-20T08:36:56+09:00"
+          "title": "롯데홈쇼핑 ‘벨리곰’, 연말 도심 점령… 식음료·자동차·생활용품과 전방위 협업 - 팝콘뉴스",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yWC1JUWlqaG9ZdVM1V1VHU0FVdHRnWVVNNlQzTjF6NnlBWWxrb1dBVndJRVRtU0VOa1dXZTVZZTZrbHZ0Y1AyVktoekVzZ093S0hXSXhfcDVpTjJyenh6OElaVTFiVEM0VVNzRTVjRdIBckFVX3lxTE9La29kMGI2M1c3NGs0a0c2dG85TjcxTklIMlgtSWpCWUo0ODB6UEd5ck5lS1kwT2ZUV25VaVRjM2ljOFpxWE5WaG9BUXIyT3RNQ1N4M0hodmpLRnJ6RmhOSV92S0U3N3JFMzl4UWZHOE1VUQ?oc=5",
+          "source": "팝콘뉴스",
+          "published": "2026-11-23T06:50:22+09:00"
         },
         {
           "title": "이마트, 주말 특가행사...신선식품부터 겨울 생활용품 - 싱글리스트",
@@ -5551,15 +5561,9 @@
           "published": "2026-11-20T07:19:55+09:00"
         },
         {
-          "title": "이마트, 참다랑어 뱃살·감귤·겨울 생활용품 할인 행사 - BBS불교방송",
+          "title": "이마트, 참다랑어 뱃살·감귤·겨울 생활용품 할인 행사 - BBS 불교방송",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03bl94aTlma1RUMjNPaEV1VmxQemxFWXozZ1JkYTIzdEJsZlRUUGJVRE1CT2gyVWotcHY0N0lrWlBDYmlBQ0xkNlE4a0lKaXpFSmRKb2t0LVpwVGt1RlZYTnNlT0QySTZhNXo0?oc=5",
-          "source": "BBS불교방송",
-          "published": "2026-11-20T06:00:00+09:00"
-        },
-        {
-          "title": "이마트, 참다랑어 뱃살·감귤 최대 반값 할인 … 겨울 먹거리·생활용품 특가전 - 워크투데이",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GYnk4XzVNYkViN0xYQUdqVnNrWS1Cd1dmUGZzWXVpUEwwX2lValZLRUpMRnpTa0M5enF5MnRWblAwX1h1WlozNDNIYl96WGZjdG9HZ2hORnpob2xpN2FBcHo3Q0VmOEwxOV9pMA?oc=5",
-          "source": "워크투데이",
+          "source": "BBS 불교방송",
           "published": "2026-11-20T06:00:00+09:00"
         },
         {
@@ -5567,6 +5571,12 @@
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRbVZxYXhTaXdua3dsS2tUemc3TFNnTU1Bc1AtczdSbm5jVERObVM0MDFremM2R2JSVzF2OElwT2M5QWNodS10VTdzbUU0R3otaURJUjhWREFUanJjU0hVQkN0SEE1ZktxQnhkMjYzRjhlU05N?oc=5",
           "source": "파이낸셜포스트",
           "published": "2026-11-20T06:00:00+09:00"
+        },
+        {
+          "title": "그립, 2027 라이브 커머스 트렌드 발표… 5060·생활용품 소비 확대 - 패션비즈",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oVWRPdkk2WjFuU09JX0xMT3gzSUR2SXJRM1V3Ujl2Yl9xcVdhOFFlanBQd2JNNjhTaFlNWVBNWXRtZmhsY0RjdVlBVFhZV1k4?oc=5",
+          "source": "패션비즈",
+          "published": "2026-11-18T17:00:00+09:00"
         },
         {
           "title": "이마트, 겨울 맞이 난방·생활용품 할인전 진행 - 뉴스드림",
@@ -5592,21 +5602,14 @@
     "preview-50000008-002": {
       "name": "청소용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
-      "articles": [
-        {
-          "title": "청소 용품 전문 브랜드 라티티 ′나노핏 마이크로 샌더′, 누적 판매 2만 개 돌파 - 피앤피뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52MjZuTEpUaVlyN0NqYks5a3lsUHFMRld1ZXhQVjc1RmFwTGVFeUpUQlkwdHZpNlRobkc0YjVMZWlDb2xkRm1HRXBMWDk2Z0Q4OXdMbjZSVnFSN2FZdVE?oc=5",
-          "source": "피앤피뉴스",
-          "published": "2026-10-20T16:00:00+09:00"
-        }
-      ],
-      "coverage": "google_news_rss+publisher_rss;retained_previous"
+      "checked_at": "2026-11-25T13:34:43+09:00",
+      "articles": [],
+      "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-003": {
       "name": "세탁용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "세탁용품 시장 세분화…세스코, 이염 관리 기능 더해 - 리버티코리아포스트",
@@ -5615,12 +5618,12 @@
           "published": "2026-11-12T17:16:20+09:00"
         }
       ],
-      "coverage": "google_news_rss+publisher_rss"
+      "coverage": "google_news_rss+publisher_rss;retained_previous"
     },
     "preview-50000008-004": {
       "name": "주방용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "SGC솔루션, 공식몰서 연말 행사… 밀폐용기·주방용품 특가 - 매일일보",
@@ -5635,16 +5638,16 @@
           "published": "2026-11-19T10:50:35+09:00"
         },
         {
-          "title": "[1인가구 필수템] 겨울 홈쿡 보석템...논스틱팬·인덕션 등 기능성 주방용품 부상 - 싱글리스트",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qeV9lX1BGbWlSZWswT01UampQQWQ1OWJFNjlwMEg2RlNOblZ1cVEzcEdTNTJYVmlTZ3lFYXNqZWZBNUtTZjN2TEU0ZnFUN2RyMWUteE1FNGl2MFhZQ0JpWE04Z1BYUQ?oc=5",
-          "source": "싱글리스트",
-          "published": "2026-11-18T11:05:41+09:00"
-        },
-        {
           "title": "김장철 남은 배추 활용…주방용품업계, 겨울 홈쿡 수요 공략 - 매일일보",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLa0lYTGtzZlFadXJpeTNvWnBsalBhaTFaQ0VHd0VpQ2dBTzBGSTVmRG5QQkRRdVRQRzZmcTBSVm1laHRiR2xuQ2xjZHNtamY0QXpYbW52RWRDbzhaeEszbmVsdjc?oc=5",
           "source": "매일일보",
           "published": "2026-11-17T16:08:10+09:00"
+        },
+        {
+          "title": "테팔, 프랑스산 프라이팬 2종 공개…주방용품 신제품 라인업 확대 - 로이슈",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yUzFNdUU0aC05SjlreUJXbkl0ckgxSGxlMkF4dVN0YWRnaHJKOHl5UEhqYnM3eHpzQXFVLWMzUW5kcGtqd0FFZWsyYXhWVjh3b0g1bXZfQ2sya1NSdzZVMTlDUjNLZHFQNDhhbWt4c2FVZjdWT3NLcDl3?oc=5",
+          "source": "로이슈",
+          "published": "2026-11-16T15:17:47+09:00"
         },
         {
           "title": "오마미, 7단 프리미엄 코팅 적용 냄비 4종 출시…주방용품 라인업 확대 - 이데일리",
@@ -5657,12 +5660,6 @@
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQa0ZacUJ3UTF6a0x4Q1o1cWpiVXY0ZWJ2eXlESzVsVV9RSVpzWjRKMDV1SnlDemRuWU1TX2RHSDktbnZjWnFUcmR2SU10NlJuLWVNMkNvWFZMS0M1REdJOGVKZHFkaWlmajFQeDVn0gFyQVVfeXFMTUJiVE90SkFfdFBlNDNmYl9KMHBxeXpzdEtkanp1eEdrVXYyT3BrcmRnWDVIeDBkbXJwQzNfSFBjNmRmazBRQ21TR1ZVYWFlak5oMXFCbUx6MEE4UkRKRkM1QkFoeW9OODdJNnE0eFVVbkxB?oc=5",
           "source": "AI포스트",
           "published": "2026-11-08T17:00:00+09:00"
-        },
-        {
-          "title": "PN풍년, 안산 본사서 ‘창고대개방 주방용품 페스티벌’ 진행 - 포브스코리아",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE16QjFDV2tyTnJBYzExaWRnVHlqdnU4MU94NnF4UElvMW53Q09vT2VRd2UwM2FLazlsMVJZVHJxS2M5OFNvVmdaOFBmc1FaME1heHQ4eGpjSnFYbUN1SFhyQWNIUWIxMHhXMUVoZkdjdk91dw?oc=5",
-          "source": "포브스코리아",
-          "published": "2026-10-23T16:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5670,7 +5667,7 @@
     "preview-50000008-005": {
       "name": "욕실용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "호텔 샴푸까지 따지는 시대…투숙객 60%가 욕실용품에 주목한 이유 - 세계일보",
@@ -5684,7 +5681,7 @@
     "preview-50000008-006": {
       "name": "건강관리용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "㈜보이러코리아, 남양주시 남부희망케어센터에 취약계층 위한 건강관리용품 100대 후원 - 경기핫타임뉴스",
@@ -5693,26 +5690,26 @@
           "published": "2026-11-06T17:50:45+09:00"
         }
       ],
-      "coverage": "google_news_rss+publisher_rss"
+      "coverage": "google_news_rss+publisher_rss;retained_previous"
     },
     "preview-50000008-007": {
       "name": "구강위생",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "대한구강위생관리학회, 美 방문치과진료 전문가 초청 학술대회 개최 - 덴탈아리랑",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YZmtFc0NQZnVqUWtiTF9nXzhtTVhfWXQwRUFxTElrZjZKdmdyVW0xUUFRdThMT1VpbEpfbW5UUC1qQlNxUnVmTl9hMWc4eThjaXdVRXltMWJacWMwNHhlcE9lSm80N0U5bVUxQXpGb2g?oc=5",
-          "source": "덴탈아리랑",
-          "published": "2026-10-28T16:00:00+09:00"
+          "title": "영산대 구강위생보건학과, 오스템임플란트 견학 - 경남도민일보",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsZ1lIcnQtbmgyVjNlai1TVzlzYmFULU81RFUwYmVpdHRnSVRyblhILXZsaDVtUVpEYV9YRDBBTHlfY0pDQWdic1FSaHAxaGdGN1RNVkdqdWh0UUlXOUJ3TlBMVjhsUl95ZUE?oc=5",
+          "source": "경남도민일보",
+          "published": "2026-11-01T16:00:00+09:00"
         }
       ],
-      "coverage": "google_news_rss+publisher_rss;retained_previous"
+      "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-008": {
       "name": "위생용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "물티슈 등 생활밀착형 위생용품 제조·유통 불법행위 집중단속 - 시흥신문",
@@ -5721,28 +5718,22 @@
           "published": "2026-11-19T11:52:00+09:00"
         },
         {
-          "title": "2035년 여성 위생용품 시장 전망: 프리미엄화와 전자상거래가 성장 견인 - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeVkxYXVycGMtV3lOcnkwd1BydFRhTnJMbDN6ZU5PMTFBOEZOeUd3a21lWVdEeTFYOUpPSjJiRVAwOXF0Q1d0bVlfLVpoRDkzSDVYQkVqNU8tMk1McXgtZmd4cTJnaGotNnpiUkhPZ0VkczJqdmxLcUVETTJuVVpXdTE5cnpCdm1KcmROOFRsRnVCVG80MFhONEd1QklxSmdQUHdfYWI0Ylh0NHVFZzd5clJUVTZpRzg?oc=5",
-          "source": "IndexBox",
-          "published": "2026-11-19T02:51:06+09:00"
-        },
-        {
           "title": "올레핀 섬유 시장 2035년 전망: 자동차·위생용품 수요가 성장 견인 - 뉴스 및 통계 - IndexBox",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGZXbGNmTEpybG9ISVhTeFNwdFRwc2llTnBzYlJ2REd5ZzVLRWtWX1hSMVNqcUJTZFYzYXVnR1hYa2xTeF9CeGFEZTE5VXo4c0k5alRCRHNLYmF6enRWV0NhSjNQa0x0dW1HakRldnNiNUU3UlRCdU1KZFVUYWY1X3lHTG05c2hZWFZob1FrRlhYbVdPSVVjaXMwT3FWcXlhODI5dzVKMjVQUUZfUDk4?oc=5",
           "source": "IndexBox",
           "published": "2026-11-18T14:26:04+09:00"
         },
         {
-          "title": "전국적으로 여성 위생용품 특정 제품에 대한 긴급 리콜이 실시됩니다. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbDk5bk5Nbm4xNlBLTWVhTGx3NGVsek9ic3ZoZXlBY0tzdzFlbjQ1ZmdCallIbUFTX3hvQm0tT2paTk43OHhZcXBtcVFPZ01jeFpyOU55akVBVk9KRlhhdEpzTHpwS1RiMXFrdGtvMU0xUHNhRF9rbmVrY1FaWWFvVlhZUnJweElxdk44X3Jn?oc=5",
-          "source": "Vietnam.vn",
-          "published": "2026-11-17T18:56:52+09:00"
-        },
-        {
           "title": "동국제약, 반려동물 위생용품 ‘캐니메이트’ 5종 출시 - 주간한국",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54NzgteUlvU2x0eGRrREQ4QTg0WXJ6VWJvcU50b2dIbjJPRkRMYVF0RFc1NVRZNlVfeEZrZm5QeWdJY1QwajJ5ZzM4WkVZRHVkNzl1NmlXeGVvQm9BY0htWGdlT0cwWDV2VmZQX1p3dDPSAXRBVV95cUxOS0xXcE55RE42NG9qTWFmdjVjQmdGUHpEalYxc1Y2cG5Fejl6d2hBLTJwdmNLeFpWSk1yRG1fSUM2anNXVFJDRE1oY2w0RUtJbzhwSzJsMEJENjBHd3hfbi0yYTNtSFQ2eUtjLXh0QVQ5c0U4cg?oc=5",
           "source": "주간한국",
           "published": "2026-11-17T11:31:27+09:00"
+        },
+        {
+          "title": "식약처, 위생용품 소분·리필판매 제 - 이투데이",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GMnBTV1hJQ1h6OU92djl1blBFd2NfNGplbnFQSDVXQUNaX1Fac3BpM1hURkNqSFdZTHBMbVZoZUlpdi03WEhfM3hic1JsN2hKTVQ4UW9fVGYtX1o0YTV3U3JpLXFBVnBx?oc=5",
+          "source": "이투데이",
+          "published": "2026-11-17T10:36:28+09:00"
         },
         {
           "title": "여성 위생용품 시장 규모, 점유율, 성장률 및 2034년까지의 전망 - Straits Research",
@@ -5757,9 +5748,15 @@
           "published": "2026-11-03T17:00:00+09:00"
         },
         {
-          "title": "경기도 특사경, 위생용품 제조·유통업체 불법행위 집중 단속 - 메트로신문",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjZTU5ZVFPSWJIY0FCTloyNUlvOUZ2Q1pibjlOeFVBQnViSXV6WkxMLXhSMlNiUGRYUng1OU5BVVZ5TnRnczlDU1VwSmd0U2t1RHgwX2xiaFRYTWNEUXVUaA?oc=5",
-          "source": "메트로신문",
+          "title": "경기도 특사경,물티슈·일회용품 등 위생용품 제조·유통 불법행위 집중 단속 나선다 - 경인종합일보",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SMkZxMTdxNzV4ZlVFblFWd1RqSklDSC1hTEdrRE1rUTJCMElMUUJWWnVjNi1QRmlobDJpM0dHRVc5NWNpcENCTVRId1drUWpmVm5ZM0VPaFB0QXRnZ3FybUFGSGZ3Rll6Rlk4MkFB0gFyQVVfeXFMT3F1QWZleGVEQWtMajV1UDI3WGpyem9mSkFfN3ZmWVdid0RmOU9OdWktVVp0S2VuZUJvUkhCX3NlLVJlQ2k5RFZmbUtzNjh0QnhFLUlRcE9maDIzb19INEhBRjBlYjUxRllMWl9Dd0R0dlVB?oc=5",
+          "source": "경인종합일보",
+          "published": "2026-11-03T17:00:00+09:00"
+        },
+        {
+          "title": "경기도 특사경, 30일부터 위생용품 제조·처리업체 집중 단속 - 뉴스핌",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04NEdkSFZCMUpqMERINTRoVVYtOHRQUUtxRFFOUFBJLVo3SGc0OC1NM3V3SFlzSmVHTEZfcmgxNzd4VXUyS2pJTk9DNlAxclRzM2liRGpyaHd4Q3N0?oc=5",
+          "source": "뉴스핌",
           "published": "2026-11-03T17:00:00+09:00"
         }
       ],
@@ -5768,69 +5765,69 @@
     "preview-50000008-009": {
       "name": "의료용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "오픈생활건강, 사업자 도매몰 '오픈비투비' 개편…안전·의료용품 강화 - 지디넷코리아",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94M3pqenRNUkQ1c3JBOUxwMmYwTklLVWJzNHlEUUkwUjA2RmQxaFh0UEJTMmx0bDIzTVdLTmN5UjBkdEF0bFY0dmVqblNqdjVKaFI4SFR3?oc=5",
-          "source": "지디넷코리아",
-          "published": "2026-10-21T16:00:00+09:00"
+          "title": "미국 의료용품 유통주 껑충 뛰었다…세운메디칼·신흥으로 매수세 번지나 - 핀포인트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQcFd2eDZGMjh1dnUteEI3X2NnRjJWaktBVHF2YXZGMEgwTUJsZUJ1TkM0cXl1dFBuNVZ1a3VlamQwQ1Q3aVl6UGxRMzQ2N1A3S2xNMDZHclgxd1VmdHBZenRrUUlLN2lzaTZqeko5TlJJajTSAXdBVV95cUxOVktqem9qdm5mZVBxLXZ6YVc3YVpOT0g2VkxDT0VxSS1QRDFBdG52WEVzR2lfM25EQXFTb1Zod3h3bDBSQzdZY0tiOFM5TElwZ1otWHRkWlJGMjE3czVvUXd1cklGdEtnM0FMbXUxTldZN2dwT2d3WQ?oc=5",
+          "source": "핀포인트뉴스",
+          "published": "2026-11-19T08:42:34+09:00"
         }
       ],
-      "coverage": "publisher_rss_only;retained_previous"
+      "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-010": {
       "name": "반려동물",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
-          "title": "[분석-글로벌성공기업] [츄이] 반려동물 시장의 아마존을 꿈꾸다…정기배송·동물의료로 사업 확장 - 비즈니스리포트",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vZXFOcHBLbmhsaXNROFNJQ0JlSXQ3RjZGUWprb2EtVHhyOVp6THN0ZEE2aDIzaHR0Z3daQTlUMndDbVUxTmZXTFg3T2tPOFZFZkN3MFJkUjZmUE1BSm1PeEJ4aWRUdWVLdzhLM3VyVQ?oc=5",
-          "source": "비즈니스리포트",
-          "published": "2026-11-20T09:10:00+09:00"
+          "title": "루이비통 밥그릇에 조말론 샴푸…상상 초월 中 반려동물 시장 - 아주경제",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GQ3lKbHphOHk5bEFTa192QkZaT3VscXNzNmZ4Tk5qLV9BZDBhYW1mVXBmZkZCUHQ5eV9JN0VDLXRxaWc1anVTOUtIdVZSa3ZQWXhMSTBiUE1Od9IBWEFVX3lxTE1WZk50SldUWnVKdHQ2T3pnUTl1WVpTSndVdUxvbF96UF9lYWFoUHYtN2tfNFBvMlNpVUlBS1BoZ2hTV0NjTllWMDhfQVZpNlYyRzhrb09mRWM?oc=5",
+          "source": "아주경제",
+          "published": "2026-11-25T10:18:05+09:00"
         },
         {
-          "title": "울산문화관광재단, 반려동물 친화관광도시 울산 알린다 - 울산종합일보",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4eEV3NWhPN1U0UUs1VlFKalZ2OWp3VHhickhaSWVCTzhrSlJRc251WXc4ZGtvdmVOSHdib0JnUE9ZWTB2Q3F3X2RadS03bk9qV0RaZUVYRVFRcFNBMTRIU0VQalVWN3RmZXZFVjFB?oc=5",
-          "source": "울산종합일보",
-          "published": "2026-11-20T09:00:32+09:00"
+          "title": "우리집 강아지는 윌 대신 ‘왈’… 반려동물 장건강 책임지는 유산균 사료 - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaEVka1JjYzdhSGExLTFPY3lxUU5vOW1vVUdaajFSSk9NckVNZlN4TXg1S3Vta0w2VWV6aGRqOGxsMy1lQk11S1BpUW9lTWVsQjdmdDdLTVY4Qno4VkVpTGdCUXNYOXFvWFk1NVRNS1hCNVFORGRrMUY0VDZ4YWpqS29iSGtzU3VHTExFVUN3?oc=5",
+          "source": "조선일보",
+          "published": "2026-11-25T00:44:08+09:00"
         },
         {
-          "title": "듀먼, 반려동물 박람회 ‘메가주 일산’서 자연화식 특가 판매 - 비욘드포스트",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBfOXdLb1lXOGFiNXQwWGNyT0tUbjBRN2ItZ3k5a0pRV09LQ252YXBsZFpMQ0pYZDJqNnRpU2dISExnczJlRWhjMFN1cU5ieE55NjZLTnZJSmJxSERrSEx2ZXVNUzBTcjFiNE9raHRzd1ltVXdNMHRhWGJ5ZlI?oc=5",
-          "source": "비욘드포스트",
-          "published": "2026-11-20T08:20:20+09:00"
+          "title": "[포토뉴스] 순천시, '제3회 반려동물 문화한마당' 성 - 스트레이트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtcndydFRVV3VBN2hRSzI3MU1wR2U5Nm9qUUdDdk5LX21QTFMydVRycjlwNTZQZy1oQ1Jxck1nczkzcGwzam5ua09CYU5vTDlkTm9pM0RSNUxlZmZyTmFjS2Z5UVd2Yy0zZng5S1VRN1JlMU3SAXdBVV95cUxNTDY0Nnh6QUhEMEV2ZDZjSjVsLTIzM2tlQ3RJZWNLUk5PWWtfRVFwci1BcmRoOXh3UVFiSWIxYWpPNHVHZ1VvemVXVFB3Mk55eF9FUGZCUVY0ZXhkZWI2RjZMbVJJY0E2RmkxVWkwR0ktSHpvWElNMA?oc=5",
+          "source": "스트레이트뉴스",
+          "published": "2026-11-24T23:48:10+09:00"
         },
         {
-          "title": "애드바이오텍, 엠투웬티와 맞손...반려동물·시니어 헬스케어 사업 다각화 박차 - 하이뉴스",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAyRDUtamRULVh4OGt3eTUyT2RQQVpWX3lJQjkzd2phY3k2ZEVPdWxlanJSUzQtdl81LTlyUkllcm5BUzlmVVJ5NUR0YnZzSUQyampKQUhhV2FESUVIQm40VThVSUtZcC1rNGhTYU5YdzRCWnZNT3Nz?oc=5",
-          "source": "하이뉴스",
-          "published": "2026-11-19T17:45:00+09:00"
+          "title": "반려동물연관산업협회, 10개 분야 전문위원장 위촉 - 프라임경제",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzM2RvQzVMdTFVRjlIUlVtWlNRSEswV3BUSlY5STJ4bm5WeUwtZVk0dWFGMjhzRXRPYjMyQzAyVmVpd1lhN3RrUGpsd0hySlBSS3VLdTFBVi05aUthcDg3alVhb0JnSW1RenhrNy1KbExjdw?oc=5",
+          "source": "프라임경제",
+          "published": "2026-11-24T10:37:57+09:00"
         },
         {
-          "title": "식품·반려동물 기업에 배우는 창업 전략…상지대, 지역민·학생 교육 - 서울경제TV",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1panB4WXhKaGxDcmxXNVg2SHlIdU9kcnBBNlNkdDBfR09IQTdRbUlsRGZ0OWx0Tmo1NjNCVkY2ck83SXJZR1poX1pqd0lZR29KYUV1NHEyZGwxRy1vOU9wQS1fQTg?oc=5",
-          "source": "서울경제TV",
-          "published": "2026-11-19T16:01:15+09:00"
+          "title": "슈퍼포우, 간식·장난감 하나로 묶어 미국 반려동물 시장에 도전장 - 동아일보",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vekx3UTh3UW9QeEtNa0thM2ZXSkVlTnRJT1k3cHhacEFpYnUzaW52MTFjN1NWNHNYTWZFNW5CUXRabzBLNGN2ZFBwWXVhc21yN3czWWt2Y01FVlQycC1nbjlyWUk3Q0tNWk5hc3FNQdIBZkFVX3lxTE5vd0R6MnFYWVRYYXBhSUlGN2JDVzZiSldfcy1QOUFfemRtTkpTVkQ5YU5Wb0JTdE5sQy1TXzhZeF9PVnNub3QyNGxoNDRLOEJ1dlUwZ2pvYWxHSHJkRlRXVFpvQjc5dw?oc=5",
+          "source": "동아일보",
+          "published": "2026-11-24T10:17:56+09:00"
         },
         {
-          "title": "중국 반려동물 시장 종합 분석 - 브런치",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iVVItLTBvaEU1VGk0SEpyWThZcWU4U2dLVTFlM0NDOWZ3QVU1bDhWLWhEckxLTEJKby1YNUJqbEtsWDd2OHZkag?oc=5",
-          "source": "브런치",
-          "published": "2026-11-19T15:00:01+09:00"
+          "title": "농심, 반려동물 영양제 ‘반려다움’ 사업 종료…정식 사업화 무산 - 디지털데일리",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42UXp6X3NJRmlZcDFHVlRzS1V6UlN1ank5LVpkaHVidWZfNWo4X1l5WS1FSnY0V2JSUHUzOEt3ZWI2ZFJIajA1b2ZuVzhhcUQzVXlDWWJJcTFyZUZGNUlCX3ljZnA?oc=5",
+          "source": "디지털데일리",
+          "published": "2026-11-23T18:02:36+09:00"
         },
         {
-          "title": "2035년 무향 고양이 사료 시장 전망: 반려동물 가족화와 건강 중심 수요로 성장 가속 - 뉴스 및 통계 - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZk1ELUFfS09fdDVvVGxCdGlRbTRZNkF2RWtSU1pQVDBmQjBXdkhJekotU2lsUTkwX05tZFpva2ZZTlhnR2plQkRkaUVlWGx2U2RxTFVBN1FkZEhkSDFoc2FuVFlyZUpnTW9Pc2FDSTA5cExZM0RGdlJLNDItRDBGU2E0cUFGekE3dkZzc3NPbmtFV1RXcVV0MGpWc0t4MWktSFVwR2xFQTFxUHhqdGRpMlJzdVBoNnpfeDZRbTl2OHJRNVNDdERvYVRuWVBBNElvUC1F?oc=5",
-          "source": "IndexBox",
-          "published": "2026-11-19T14:21:03+09:00"
+          "title": "농심, 반려동물 영양제사업 '반려다움' 접는다…출범 2년 4개월만 - 뉴스핌",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aMkJvMllkcHZNdUtpeU9JVFVDT2RzTXNJYVBvVmY4NXFGU0tOTENoaTF1WW1oR0dqdWxqbmZkYzc0OWg1MGUyYmF5ZHNfTlZuWm1hTDNfOV95NC1y?oc=5",
+          "source": "뉴스핌",
+          "published": "2026-11-23T17:30:00+09:00"
         },
         {
-          "title": "동국제약, 반려동물 시장 공략… 펫케어 제품 5종 추가 - 프레스맨",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FNFI0alhhTUR4QVlHRWI2VXVJUlh4QXBrWTJJaWI2dS1uNnBLc0F1cEpZUGl6QlV1YlU1Zm9sazdScENPOEJvN0JrSHh3aDBGdXZuTzVQUExuRjZVUTExNF84R3NBR0tWaGc?oc=5",
-          "source": "프레스맨",
-          "published": "2026-11-19T11:35:47+09:00"
+          "title": "농심, 반려동물 영양제 사업 2년 4개월 만에 종료 - 주간한국",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jY2sweHVlbWdEZV9nN00wekN2RW5XaWZxdHJ4TTIyckNTLTdKLWY3OEYzVmdQUHRLQ0NNeHl6ZnN2Sm1rZkFCeFB0YlBBZ1hkek5XRk9DS3kzVk1YNXRwUjlNck5TSmd1alJvODA2UlLSAXRBVV95cUxOd2JMTVdIS3g1cnVEMlRYM3VNTFdub2pmQVBRdU5QQS1lS0tPZ2FjMDBDWGhZb2o1V3dnYWNsaURNRlJYSzY5SUJYVTUyWjY0OU1lbTk1LUpKNkd3ZEdtRHd5TlpwZE81amFqRUN4VFUzcUQyQw?oc=5",
+          "source": "주간한국",
+          "published": "2026-11-23T17:00:37+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5838,21 +5835,21 @@
     "preview-50000008-011": {
       "name": "강아지용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
-      "coverage": "publisher_rss_only"
+      "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-012": {
       "name": "고양이용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-013": {
       "name": "자동차용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
         {
           "title": "팅커벨, 편백 오일 담은 ‘더 편백 고체 탈취제’ 출시…8대 악취 제거[재율 아빠 자동차 용품 어계 소식] - Naver Blog",
@@ -5861,10 +5858,28 @@
           "published": "2026-11-17T08:10:28+09:00"
         },
         {
+          "title": "차 안 냄새 10분 만에 99% 제거? 불스원, 신제품 탈취제 출시[재율 아빠 자동차 용품 업계 소식] : 네이버 블로그 - Naver Blog",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95ODJZWjl1RDlIRXBOWDhqeUhVWkV1NzREd1NlQ0gyT3A2dGJLZkh3Qml3RUJ2SkZGa1pmc1VMNnpyZjJBd29XVnZKLXdVcDMyS3g0TUtINjVIaTBpUHRoTW5Mak5icXpLRHpTcWVEQi1SbGd0enlpQUl3?oc=5",
+          "source": "Naver Blog",
+          "published": "2026-11-14T08:26:03+09:00"
+        },
+        {
           "title": "자동차용품 모두 모았다…쿠팡, 14일까지 ‘쿠팡모터스 페어’ 진행 - 더퍼블릭",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5Ym5WTEdsTDJudm5FYkZZR0hNYnZIMlNFRnZYV1Y1RnF0T2x5ZkMxcXlHRDBxT3pocTZaVzRHQTlyQk1OV202MGNJdVRIQzdENUtfSWNOak5kQUZNWEpfVWlqbXJBRWlkNXRB0gFvQVVfeXFMUE5Kd0N0azlmY0t1NXdES3RDQ1FKUGlFTUtsQVUzQ0RnZjM1TnlscTVoYWZndXVxSVVyMUtUcjRyTnREblloTHhjbXIzVE15cVQ0LW1hSDlnZ0tjbnNjZzBrcFZUVWJwUEFSUy0zNHp3?oc=5",
           "source": "더퍼블릭",
           "published": "2026-11-08T17:00:00+09:00"
+        },
+        {
+          "title": "주행부터 주차까지 선명하게…팅크웨어, 초고화질 블랙박스 ‘아이나비 CX3000’ 출시[재율 아빠 자동차 용품 업계 소식] - Naver Blog",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9WTHVGSFRLN2tEZVZGUzc2YVJXeVk1STVKREZ5cldhaUpsVzBIZ2VvQ3ZTc05PUjNDQnh0WnZNNGR5OVV4Y2pDbVR0amV3My0yYlFGaEpMUTltNTNqZFR4VWFRYTgwUklpWXZ3YXNFS0kzTmQ2VEVjc3V3?oc=5",
+          "source": "Naver Blog",
+          "published": "2026-11-08T17:00:00+09:00"
+        },
+        {
+          "title": "쿠팡, 46개 브랜드 참여 자동차용품 기획전…11월 14일까지 - 전자신문",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGcjN4bnpuaEdKSnB4aXNLWXhvMk8wWndWV0VlcFlKQTBzeEpjazZLVWI3RG84YTkzREFXUTgwY195RnZab3dQOVFOZ2dZUQ?oc=5",
+          "source": "전자신문",
+          "published": "2026-11-06T17:00:00+09:00"
         },
         {
           "title": "쿠팡, 자동차용품 온라인 시장 공략…1만5000종 할인전으로 수요 잡기 - 이지경제",
@@ -5883,24 +5898,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JNkVUSnYtVTNaaHlhYmIyM3lCdEtpN2FtZDRmWjN4b3o3ZUtXLTJmaVJqLXNxajhZeGVKSnhHRm5FZjMyZUladmtqNlRKNmRPbFBZaXluaTcyREhYNEk2Yll6OHhRMG9zUXc?oc=5",
           "source": "뉴스포스트",
           "published": "2026-11-06T17:00:00+09:00"
-        },
-        {
-          "title": "쿠팡, 1만5000여 개 자동차용품 총망라 ‘쿠팡모터스 페어’ 진행 - 파이낸셜투데이",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fMWR6SFVOWGg5MGxqVjBjcFctSFM1aDZjWG1zRE1ub3llT0xyVzRCdGVoZGxYZ29tUk15czZFWjNrakZIcFRaNE1ZM2V3aFdKcDlDaHpXSFdHdFdWVzRwZkM1bE9Ca1BRM1HSAW5BVV95cUxQdmJBUDNHa2pZbXg0Z3pZQXVsczlYQlcyYjlzR19fYk5FZk5uN1pldGxVRG54ZjI2SzI1VTBVSXd0R3RIbW1JMnJpY3Y0SURGYVJqLUhzckpqLWFIN0FXWlFPSFJFckJKQ1RhWUxsQQ?oc=5",
-          "source": "파이낸셜투데이",
-          "published": "2026-11-06T17:00:00+09:00"
-        },
-        {
-          "title": "쿠팡, 자동차용품 총망라 ‘쿠팡모터스 페어’ 개최…와우회원 혜택 강화 - 데일리포스트",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85OTIxNVhWc2d5dTFVSmcxa0ZOZEJXOHpxT25XX3VBV2hwcWVHZ3RxV01fQVFvUDFBX2lWQ0xhVm1FWk14NEJ6TXY5WUtJZUREQzJ4NjgyQmREcVdFcmUxLUZRX3Z3YkUyWFlZZnNNNNIBc0FVX3lxTE5vYkJZNHFGeUVDa1FVblB0dHM3ZjhENWlSUWgxVWVJekRTd2RjUXlxNUU5WFdkRGhZMHM3MTB3WXRjM0JaWG4zblNCa2VuekVTR0JNeDB2Mlc3T3VQSXZ3NHAzUlRld1Q2V3VVeVA0RkJSWTA?oc=5",
-          "source": "데일리포스트",
-          "published": "2026-11-06T17:00:00+09:00"
-        },
-        {
-          "title": "쿠팡, 1만5000여개 자동차용품 총망라 ‘쿠팡모터스 페어’ - 싱글리스트",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PM3FzRkJPOEMwcy12NTd5RVJZbVhNZkJKRHU5bXd1U2pEakVKRHFiQWQ1eExyYXE5RFlZTktLb3FRQVBoWGplOFcxWm1IdTN1OGNnaW5BeG1DZGYyM2F1b1B4cmpRZw?oc=5",
-          "source": "싱글리스트",
-          "published": "2026-11-06T17:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5908,15 +5905,39 @@
     "preview-50000008-014": {
       "name": "공구",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-015": {
       "name": "안전용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [
+        {
+          "title": "안양시, ‘안심온(ON)! 생활안전 홈케어’ 통해 주거취약계층 198가구에 안전용품 지원 - NSP통신",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqY1F5MzRYRGpJczZSNzhyejdWZmZaUzc2M1NVUkRYanRzOU9nREo4UmxSMHludGsyUi1BV3dFVFhpQjdQWHBFRGIxSEtReFJ6SlpHbEFEd1J0ZG1mWWJ3Yw?oc=5",
+          "source": "NSP통신",
+          "published": "2026-11-25T12:14:14+09:00"
+        },
+        {
+          "title": "안양시, 주거취약계층에 안전용품·방문교육 지원 - 신아일보",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tNEN4cjBQaDgyMG1LNkY4aXlqc1czLWhKalhuQXVvcFRJT1VaUnpwWjZNbzBYdGI0SG9WOTZsVk12S05RM05UbW9JVjJaZ2Nta0g2S2pvTU41UFcweEZwRFFJNS1QalA4Z3pPR1lCWV8?oc=5",
+          "source": "신아일보",
+          "published": "2026-11-25T11:59:16+09:00"
+        },
+        {
+          "title": "안양시, 주거취약계층 198가구에 생활안전용품 지원 - 경기헤럴드",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xVnNlakNTcEh6dFVtc3JtVUY3WW1wZjd4RkM5dkQ3WE5JX3dMRGFuVlBuSWo2Y3hfOHJkUUVoQk5teENnX1dqYzFMNHV3TXdVeU5Yb0doNUUzazJ5anpieS14MC1VSV9ydlZteDBQR1pJZ3hvdndPdGNIS28?oc=5",
+          "source": "경기헤럴드",
+          "published": "2026-11-25T10:24:31+09:00"
+        },
+        {
+          "title": "상생마케팅 기부금 전달·쌀 무료급식소 전달·미혼모 가정 분유 기부·안전용품 무상지원 사회공헌 실천 - 여성소비자신문",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04UUtLWGRFWXEwSGRSZDlZelY3MlI2WWo0allfZDkxOE5GZWJsLUctLXY5MlVhWTkyNmx4X1JMQjRJZWVSS1JFSm5YTmhmYUtlZm96NVk1WlMxb2FCRUpyNGVMRzlqUQ?oc=5",
+          "source": "여성소비자신문",
+          "published": "2026-11-20T09:18:52+09:00"
+        },
         {
           "title": "아이들 통학로 지키는 어르신 방한·안전용품 지원해 - 경남매일",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TVFUzbzltM0lqbUpVM2VQM2ZFeV9LdWRYd0ZOSndwYm5RY2ZfUF9fY24yWnk4eFFfVnRibmJCNDVobHVHVmFQT05PbXBxVFl4QlQ0cElOb3FoSVlNenNuY01yUURiclFzNWc?oc=5",
@@ -5924,22 +5945,22 @@
           "published": "2026-11-18T21:09:58+09:00"
         },
         {
-          "title": "배민, 라이더 500명에 1억 원 규모 안전용품 지원 - 문화일보",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lZVR3bEZzcmVpemJIcnhXdU1Rczc4R1ZFQmFKX0JjLWpkSTlvVVlOYWtSYXk1TWZub19uYzNpcTFvNFFFNTBxa0EwMk5qVGtU?oc=5",
-          "source": "문화일보",
-          "published": "2026-11-13T15:47:28+09:00"
-        },
-        {
-          "title": "[채널 커머스 Pick] 식품 판매·라이더 안전용품 지급·수험생 지원 - 라이센스뉴스",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jOHlzMUNOc1NKTnJsU1RpbFpMa1pVdnNqNTh6UUluOE5kRThpRl9Bd3RCbFM2bDhlNkZjT19ndzByX3lUOHJsYUF5MDJlU2JuM19kNkRmSGppX29iLUM1bzVKMTFzekpOX3Jj?oc=5",
-          "source": "라이센스뉴스",
-          "published": "2026-11-13T10:46:55+09:00"
-        },
-        {
           "title": "배민, 1억원 규모 라이더 안전용품 지원한다 - 전자신문",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1RMlZ2WlVHN1RhUFNneTU1OFBaYm1fam16dkJkYzRPNmI3akxUSWVNLWJoZm93ck5TUWJ6SHVjaDZQUmcyNHZueERUanF3Zw?oc=5",
           "source": "전자신문",
-          "published": "2026-11-13T09:50:39+09:00"
+          "published": "2026-11-13T17:00:00+09:00"
+        },
+        {
+          "title": "배민, 라이더 500명에 1억 원 규모 안전용품 지원 - 문화일보",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lZVR3bEZzcmVpemJIcnhXdU1Rczc4R1ZFQmFKX0JjLWpkSTlvVVlOYWtSYXk1TWZub19uYzNpcTFvNFFFNTBxa0EwMk5qVGtU?oc=5",
+          "source": "문화일보",
+          "published": "2026-11-13T17:00:00+09:00"
+        },
+        {
+          "title": "배민, 라이더 500명에 1억원 규모 안전용품 지원 - 뉴스1",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4ySTEyMFQwMk5YbEh1OEpzZk9NNk5ONjlJb2hkOVVSY2NqLVRYcE5McnhYajB3Yko3WVpyaEpRVGZhbWJ4MFhkWldSNWVKWkU2NXlfWUd5MTdHM1BEZTFB?oc=5",
+          "source": "뉴스1",
+          "published": "2026-11-13T17:00:00+09:00"
         }
       ],
       "coverage": "google_news_rss+publisher_rss"
@@ -5947,28 +5968,35 @@
     "preview-50000008-016": {
       "name": "문구/사무용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-017": {
       "name": "취미용품",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
-      "articles": [],
+      "checked_at": "2026-11-25T13:34:43+09:00",
+      "articles": [
+        {
+          "title": "번개장터, 日 대형 중고 취미용품점 '스루가야' 연동 - 전자신문",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ERE1PMlJablBUaENPdFpNdFhUdnZkWUJpUTg0ZlBLNzlZQXkxZjhwS2hkdVBqRHhFb2pwb3BZXzUxTmhDY1VUWGV1aUN2UQ?oc=5",
+          "source": "전자신문",
+          "published": "2026-11-20T15:16:00+09:00"
+        }
+      ],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-018": {
       "name": "식물/원예",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
     "preview-50000008-019": {
       "name": "디퓨저/방향제",
       "parent": "생활/건강",
-      "checked_at": "2026-11-20T11:35:35+09:00",
+      "checked_at": "2026-11-25T13:34:43+09:00",
       "articles": [],
       "coverage": "google_news_rss+publisher_rss"
     },
